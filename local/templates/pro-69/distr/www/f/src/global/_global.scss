@@ -51,6 +51,7 @@ input {
     //max-width: 1441px;
     margin: 0 auto;
 
+
     @media only screen and (max-width: 1024px) {
         min-width: 460px;
     }
@@ -73,7 +74,6 @@ input {
     left: 0;
     margin: rem(25) auto 0;
     @extend %inline-block;
-    @include sprite($logo);
     border: none;
     text-decoration: none;
 }
@@ -84,7 +84,6 @@ input {
     left: 0;
     margin: rem(25) auto 0;
     @extend %inline-block;
-    @include sprite($logo_large);
     border: none;
     text-decoration: none;
 }
@@ -106,10 +105,7 @@ input {
             }
 
             a {
-                @extend %dark-link;
-
                 &.highlight {
-                    @extend %inverse-link;
                 }
             }
 

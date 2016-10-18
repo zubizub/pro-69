@@ -51,7 +51,6 @@
       &_phone {
 
         .header-link:before {
-          @include sprite($user-icon);
         }
       }
 
@@ -61,38 +60,18 @@
           font-family: 'arial';
       }
 
-      &_cards {
-        padding: 0 0 0 rem($cards-icon-width + 10);
-
-        .header-link:before {
-          @include sprite($cards-icon);
-        }
-      }
-
       &_logout {
-        padding: 0 0 0 rem($logout-icon-width + 10);
 
         .header-link:before {
-          @include sprite($logout-icon);
         }
       }
 
       &_online {
-        padding: 0 0 0 rem($online-icon-width + 10);
 
         .header-link:before {
-          @include sprite($online-icon);
         }
       }
 
-      &_terminals {
-        padding: 0 0 0 rem(22);
-
-        .header-link:before {
-          content: 'u';
-          top: rem(-3);
-        }
-      }
     }
   }
 
@@ -109,7 +88,7 @@
       border: 1px solid rgba(255, 255, 255, 0.3);
 
       &:hover:not(.no_hover) {
-        @extend %inverse-button-basic;
+
         font-family: 'als_schlange_sans_regular';
       }
 
@@ -128,12 +107,10 @@
         }
 
         &:before {
-          @include sprite($btn_active_before);
           top: rem(-35);
         }
 
         &:after {
-          @include sprite($btn_active_after);
           bottom: rem(-35);
         }
 
