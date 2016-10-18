@@ -1,0 +1,387 @@
+/* 
+  Global styles
+  Created on : 17.10.2016
+  Author     : Akado
+ */
+
+$block: 100% / 3;
+
+$half-block: 100% / 2;
+
+$slider-width: 66.62%;
+
+html, body {
+    z-index: 1;
+    width: 100%;
+    height: 100%;
+    background-color: #fff;
+    color: #4972b4;
+    font-family: 'Helvetica_Neue_CE_55_Roman';
+}
+
+label {
+    @extend %inline-block;
+}
+
+body {
+    position: relative;
+    font-size: 16px;
+    font-family: 'als_schlange_sans_regular', Arial, sans-serif;
+
+    @media only screen and (max-width: 991px) {
+        font-size: 14px;
+    }
+
+    @media only screen and (max-width: 850px) {
+        font-size: 12px;
+    }
+}
+
+input {
+
+    &:focus, &:active {
+        @include prefixer(outline, none, moz spec);
+    }
+}
+
+.wrapper {
+    min-width: 1024px;
+    min-height: 100%;
+    overflow: hidden;
+    //max-width: 1441px;
+    margin: 0 auto;
+
+    @media only screen and (max-width: 1024px) {
+        min-width: 460px;
+    }
+
+    &-background {
+        @include background(radial-gradient(circle at 50% 50%, #e9574f, #d13446));
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        min-width: 1024px;
+        height: 100%;
+        z-index: -1;
+    }
+}
+
+#logo {
+    position: absolute;
+    right: 0;
+    left: 0;
+    margin: rem(25) auto 0;
+    @extend %inline-block;
+    @include sprite($logo);
+    border: none;
+    text-decoration: none;
+}
+
+#logo_large {
+    position: absolute;
+    right: 0;
+    left: 0;
+    margin: rem(25) auto 0;
+    @extend %inline-block;
+    @include sprite($logo_large);
+    border: none;
+    text-decoration: none;
+}
+
+.content {
+    letter-spacing: -5px;
+    width: 100%;
+
+    &-block {
+
+        &__content {
+            @include prefixer(border-radius, rem(10), webkit moz spec);
+            padding: rem(25) rem(35) rem(40) rem(35);
+            background-color: #fff;
+            color: #000;
+
+            h2 {
+                font-family: 'als_schlange_sans_regular';
+            }
+
+            a {
+                @extend %dark-link;
+
+                &.highlight {
+                    @extend %inverse-link;
+                }
+            }
+
+            &-inline {
+                .inline-block {
+                    width: 25%;
+                    margin: 0 0 0 rem(-4);
+
+                    &:first-child {
+                        margin-left: 0;
+                    }
+                }
+
+                .inline-block__personal-data-parameters h4 {
+                    font-family: 'als_schlange_sans_regular';
+                    padding: rem(3) 0;
+                }
+
+                .inline-block__personal-data-values {
+                    width: 50%;
+
+                    h4 {
+                        font-family: 'als_schlange_sans_bold';
+                        padding: rem(3) 0;
+                    }
+                }
+
+                &.counts {
+                    overflow: hidden;
+
+                    .inline-block {
+                        width: 14.90%;
+                        margin: 0 0 0 2%;
+                        float: left;
+
+                        &:first-child {
+                            margin-left: 0;
+                        }
+                    }
+                }
+            }
+
+            .switcher {
+                letter-spacing: rem(25);
+
+                &__item {
+                    padding: 0;
+                    border: none;
+
+                    &:hover {
+
+                        a {
+                            border-bottom: 1px dashed;
+                        }
+                    }
+
+                    a {
+                        border-bottom-style: dashed;
+                    }
+
+                    &_selected {
+                        @include prefixer(box-shadow, none, webkit moz spec);
+                        color: $link-color;
+                    }
+                }
+            }
+
+            &.bank-card {
+                h2 {
+                    margin-bottom: rem(10);
+                }
+
+                .bank-card-field__item {
+                    margin: rem(18) 0 rem(22);
+
+                    &_last {
+                        margin: rem(18) 0 0;
+                    }
+                }
+            }
+
+            & .module {
+                &__item {
+                    overflow: hidden;
+
+                    margin div {
+                        display: inline-block;
+                    }
+
+                    &-text {
+                        width: 75%;
+                        padding-right: 9.5%;
+                        margin: 0;
+                    }
+
+                    &-button {
+                        width: 15%;
+                        text-align: center;
+                    }
+                }
+            }
+        }
+
+        &__col {
+
+            &_left {
+                width: 100% - $block;
+                display: inline-block;
+
+                @media only screen and (max-width: 991px) {
+                    width: 100%;
+                }
+            }
+
+            &_right {
+                width: $block;
+                display: inline-block;
+                vertical-align: top;
+
+                @media only screen and (max-width: 991px) {
+                    display: none;
+                }
+            }
+        }
+    }
+
+    .slick-dotted.slick-slider {
+        margin-bottom: 0;
+    }
+}
+
+.inline-block {
+    @extend %inline-block;
+}
+
+
+#navigation {
+    text-align: center;
+    letter-spacing: rem(10);
+    padding: 0 0 rem(16) 0;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+
+    a {
+        letter-spacing: normal;
+    }
+}
+
+header {
+    height: rem(21);
+    padding: rem(20);
+    font-family: 'Helvetica_Neue_CE_55_Roman';
+}
+
+.content__item {
+    display: inline-block;
+    width: $block;
+    height: rem(481);
+    vertical-align: top;
+    letter-spacing: normal;
+
+    .block-double & {
+        height: $half-block;
+        width: 100%;
+
+        &:first-child {
+            background-color: #ffffff;
+        }
+
+        &:last-child {
+            background-color: #345385;
+        }
+    }
+
+    .content-block & {
+        width: 100%;
+    }
+
+    .content-block__col_left & {
+        height: rem(481) * 1.5;
+    }
+
+    .block-double__inline & {
+        @media only screen and (max-width: 991px) {
+            width: 50%;
+
+            &:first-child {
+                float: left;
+                background-color: #ffffff;
+            }
+
+            &:last-child {
+                float: right;
+                background-color: #345385;
+            }
+        }
+    }
+
+    @media only screen and (max-width: 991px) {
+        width: 50%;
+    }
+
+    @media only screen and (max-width: 460px) {
+        width: 100%;
+    }
+}
+
+.slider {
+    width: 100% - $block;
+    height: rem(481);
+    background: #ccc;
+
+    @media only screen and (max-width: 991px) {
+        width: 50%;
+    }
+
+    @media only screen and (max-width: 460px) {
+        width: 100%;
+    }
+
+    &_large {
+        height: rem(481) * 1.5;
+        width: 100% - $block;
+        background: #eee;
+    }
+}
+
+
+.block {
+    background-color: #4972b4;
+    color: #fff;
+
+    &_large {
+        height: rem(481) * 1.5;
+        width: 100% - $block;
+        background-color: #b4b4b4;
+    }
+}
+
+.block_white {
+    background-color: #ffffff;
+}
+
+.block_grey {
+    background-color: #ccc;
+}
+
+.studios {
+    .slick-dots {
+        bottom: 0;
+    }
+
+    &.slick-dotted.slick-slider {
+        margin-bottom: 0;
+    }
+}
+
+.ready {
+    @media only screen and (max-width: 991px) {
+        display: none;
+    }
+}
+
+
+.block-double__inline {
+    @media only screen and (max-width: 991px) {
+        width: 100%;
+        height: 50%;
+    }
+}
+
+.mobile{
+    @media only screen and (max-width: 460px) {
+        display: none;
+    }
+}

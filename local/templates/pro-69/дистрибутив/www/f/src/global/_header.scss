@@ -1,0 +1,225 @@
+/*
+  Header styles
+
+*/
+
+.header {
+  position: relative;
+ 
+  &-column {
+    @extend %inline-block;
+    @include prefixer(box-sizing, border-box, webkit moz spec);
+    width: 100%;
+  }
+
+  &-link {
+	color: #ff5400;
+	text-decoration: none;
+	
+    &:before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      font-family: 'web_symbols_liga_regular';
+      font-size: 150%;
+	  
+    }
+
+    &__list {
+		  letter-spacing: -4px;
+		  display: inline-block;
+			  
+			  &_left{
+					width: rem(350);
+			  }
+			  
+			  &_central{
+					width: 80%;
+			  }
+    }
+
+    &__item {
+      @extend %inline-block;
+      position: relative;
+	  text-transform: uppercase;
+	  font-size: 145%;
+      font-weight: bold;
+      font-family: 'arial';
+	  margin: 0 2%;
+
+      &_phone {
+
+        .header-link:before {
+          @include sprite($user-icon);
+        }
+      }
+
+      &_address{
+          font-size: 145%;
+          font-weight: bold;
+          font-family: 'arial';
+      }
+
+      &_cards {
+        padding: 0 0 0 rem($cards-icon-width + 10);
+
+        .header-link:before {
+          @include sprite($cards-icon);
+        }
+      }
+
+      &_logout {
+        padding: 0 0 0 rem($logout-icon-width + 10);
+
+        .header-link:before {
+          @include sprite($logout-icon);
+        }
+      }
+
+      &_online {
+        padding: 0 0 0 rem($online-icon-width + 10);
+
+        .header-link:before {
+          @include sprite($online-icon);
+        }
+      }
+
+      &_terminals {
+        padding: 0 0 0 rem(22);
+
+        .header-link:before {
+          content: 'u';
+          top: rem(-3);
+        }
+      }
+    }
+  }
+
+  &-balance {
+    padding: rem(35) 0 0 0;
+
+    &__content {
+      @extend %inline-block;
+      @include prefixer(border-radius, rem(30), webkit moz spec);
+      @include transition(color 0s, border-color 0s);
+      position: relative;
+      padding: rem(6) rem(30);
+      border: 1px solid #fff;
+      border: 1px solid rgba(255, 255, 255, 0.3);
+
+      &:hover:not(.no_hover) {
+        @extend %inverse-button-basic;
+        font-family: 'als_schlange_sans_regular';
+      }
+
+      &:active {
+        margin-top: rem(6);
+        margin-left: rem(27.5);
+
+        &:before,
+        &:after {
+          content: '';
+          display: block;
+          position: absolute;
+          right: 0;
+          left: 0;
+          margin: 0 auto;
+        }
+
+        &:before {
+          @include sprite($btn_active_before);
+          top: rem(-35);
+        }
+
+        &:after {
+          @include sprite($btn_active_after);
+          bottom: rem(-35);
+        }
+
+        .header-balance {
+
+          &__label {
+            font-size: 110%;
+          }
+
+          &__value {
+            font-size: 120%
+          }
+
+          &__hint {
+            bottom: rem(-80);
+          }
+        }
+      }
+    }
+
+    &__label {
+      font-size: 150%;
+    }
+
+    &__value {
+      font-family: 'als_schlange_sans_bold';
+      font-size: 185%;
+    }
+
+    &__hint {
+      position: absolute;
+      bottom: rem(-75);
+      left: 0;
+      margin: 0;
+      line-height: 1.2;
+      text-align: center;
+
+      &:before {
+        content: 'È';
+        font-family: 'web_symbols_liga_regular';
+        font-size: 180%;
+        position: absolute;
+        top: rem(-25);
+        right: 0;
+        left: 0;
+        margin: 0 auto;
+      }
+    }
+  }
+
+   &-search {
+    padding: rem(35) 0 0 0;
+
+    input[type="search"] {
+      width: 50%;
+      padding: rem(7) rem(15);
+      font-size: 140%;
+
+      &::-webkit-search-cancel-button:before {
+        top: rem(-13);
+        right: rem(-8);
+      }
+    }
+  }
+
+  &-phone {
+    padding: rem(30) 0 0 0;
+
+    p {
+      margin-top: 0;
+
+      &:first-child {
+        margin-top: 0;
+        font-size: 120%;
+      }
+    }
+  }
+
+  &-switcher {
+    text-align: center;
+	
+	    .switcher__item {
+
+      a {
+        @include transition(color 0.5s ease, border-color 0s);
+      }
+    }
+  }
+}
