@@ -51,7 +51,6 @@ padding: 35px 0 0 40px;
 
 .fs36 { font-size: 36px;}
 .fs29 { font-size: 29px; }
-.fs53 { font-size: 53px; }
 
 
 .studioText {
@@ -68,14 +67,6 @@ span.blockIcon1 {
     font-size: 151px;
 }
 
-
-
-.studioPrice {font-size: 170px;}
-.studioPrice span {font-size: 200px; display: inline !important;}
-.compact .slide {padding: 20px 10px 0 35px;}
-.compact .slide span {display: block;}
-.compact .slide span:nth-of-type(2) {margin: 20px 0 -35px;}
-=======
 .lots__inner {
 /*padding: 0 1.25rem;*/
   background: #41526d;
@@ -101,7 +92,7 @@ padding: 1.25rem;
 .lots__list {
   /*padding: 0 1.25rem;*/
 }
-.lots__list *{
+.lots__list *, #ajaxPopup{
   letter-spacing: normal
 }
 @media screen and (max-width: 1000px) {
@@ -366,22 +357,6 @@ padding: 1.25rem;
   margin-bottom: 1.875rem;
 }
 
-
-.lot.lot--header > div {
-
-font-family: 'posterizerkgrough';
-font-size: 21px;
-
-
-}
-
-.lotItems a div {
-
-font-family: 'posterizerkgrough';
-font-size: 15px;
-
-
-}
 
 .lot.lot--header > div {
 
