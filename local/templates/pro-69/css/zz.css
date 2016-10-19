@@ -163,7 +163,7 @@ padding: 1.25rem;
   color: #ffffff;
   padding: 0.9375rem 0;
   line-height: 1;
-  border-bottom: 1px solid #383838;
+  /*border-bottom: 1px solid #383838;*/
 }
 .lot:after {
   content: "";
@@ -224,7 +224,8 @@ padding: 1.25rem;
   }
 }
 .lot--header {
-  color: #ffe500;
+  color: #fff;
+  text-decoration: underline;
 }
 @media screen and (max-width: 767px) {
   .lot--header {

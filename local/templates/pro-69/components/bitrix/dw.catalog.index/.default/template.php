@@ -6,7 +6,7 @@ if (is_array($arResult['ITEMS']) && count($arResult['ITEMS']) > 0):
 ?>
 
 <div class="section section--lofts is-colored">
- 
+ <img src="/local/templates/pro-69/distr/www/f/media/reserve.jpg" style="width:100%;">
                     <div class="lots__list">
                       <div class="lots__inner">
                         <div class="lot lot--header">
