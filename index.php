@@ -4,7 +4,57 @@ $APPLICATION->SetTitle("Studio12");
 ?>
 
  
-              <div id="wrapper" class="wrapper" style="max-width: 1441px;">
+<!DOCTYPE html>
+<html lang="ru-RU">
+<head>
+    <title>Заглавная страница</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes, maximum-scale=3.0">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta http-equiv="cleartype" content="on">
+    <!-- IE -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!--[if IE]><meta http-equiv="imagetoolbar" content="no"/><meta http-equiv="MSThemeCompatible" content="no"/><![endif]-->
+    <!-- End IE -->
+    <!-- Windows Phone -->
+    <meta name="application-name" content="Заглавная страница">
+    <!-- End Windows Phone -->
+    <title>Заглавная страница — </title>
+    <meta name="author" content="Akado">
+    <!--<link href="/favicon.ico" rel="shortcut icon" type="image/x-icon">-->
+    <link rel="stylesheet" type="text/css" href="f/min/global.css" media="all">
+    <link rel="start" href="/">
+	<script type="text/javascript">
+    (function() {
+        var path = '//easy.myfonts.net/v2/js?sid=226782(font-family=Posterizer+KG)&key=hqoRyOJZ7N',
+            protocol = ('https:' == document.location.protocol ? 'https:' : 'http:'),
+            trial = document.createElement('script');
+        trial.type = 'text/javascript';
+        trial.async = true;
+        trial.src = protocol + path;
+        var head = document.getElementsByTagName("head")[0];
+        head.appendChild(trial);
+    })();
+</script>
+<script type="text/javascript">
+    (function() {
+        var path = '//easy.myfonts.net/v2/js?sid=250898(font-family=Posterizer+KG+Rough)&key=SCwIbJNpxn',
+            protocol = ('https:' == document.location.protocol ? 'https:' : 'http:'),
+            trial = document.createElement('script');
+        trial.type = 'text/javascript';
+        trial.async = true;
+        trial.src = protocol + path;
+        var head = document.getElementsByTagName("head")[0];
+        head.appendChild(trial);
+    })();
+</script>
+<style>
+#mfPreviewBar{
+	display: none;
+}
+</style>
+</head>
+<body id="home_page">
+    <div id="wrapper" class="wrapper" style="max-width: 1441px;">
         <header id="header" class="header">
             <div class="header-column">
                 <ul class="header-link__list">
@@ -12,14 +62,15 @@ $APPLICATION->SetTitle("Studio12");
 						Дом на профсоюзной, 69
                     </li>
 					<li class="header-link__item">+7 495 780-40-40</li>
-                    <li class="header-link__item call" style="font-family: 'Posterizer KG';"><a class="header-link" href="#">Перезвонить</a></li>
+                    <li class="header-link__item call"><a class="header-link" href="#">Перезвонить</a></li>
 					<li class="header-link__item write"><a class="header-link" href="#">Написать</a></li>
 					<li class="header-link__item drive"><a class="header-link" href="#">Приехать</a></li>
-					<li class="header-link__item choose" style=""><a class="header-link" href="#">Выбрать<br/>студию</a></li>
+					<li class="header-link__item choose" style=""><a class="header-link" href="#">Выбрать<br/><span class="graffiti">студию</span></a></li>
                 </ul>
             </div>
         </header>
         <div role="main" id="content" class="content">
+            <div class="logo"><img class="" src="f/media/logo.jpg" alt="#"></div>
             <div class="slider content__item">
                 <div class=""><img class="metro-place__img" src="f/media/slide1.png" alt="#"></div>
                 <div class=""><img class="metro-place__img" src="f/media/slide1.png" alt="#"></div>
@@ -44,7 +95,7 @@ $APPLICATION->SetTitle("Studio12");
 			<div class="content__item block_white ready">
                 <img class="metro-place__img" src="f/media/slide5_1.jpg" alt="#">
             </div>
-			<div class="content__item block metro">
+			<div class="content__item block metro block_white">
                 <div class=""><img class="metro-place__img" src="f/media/slide6_1.jpg" alt="#"></div>
                 <div class=""><img class="metro-place__img" src="f/media/slide6_2.jpg" alt="#"></div>
             </div>
@@ -58,8 +109,11 @@ $APPLICATION->SetTitle("Studio12");
 			<div class="content-block">
 				<div class="content-block__col_left">
 					<div class="content__item block">
-						<div class=""><img class="metro-place__img" src="f/media/slide7_1.jpg" alt="#"></div>
+						<div class=""><img class="" src="f/media/slide7_1.jpg" alt="#"></div>
 					</div>
+                    <div class="content__item block building">
+                        <div class=""><img class="" src="f/media/building.jpg" alt="#"></div>
+                    </div>
 					<div class="content__item block_white">
 						<div class="" style="display: inline;"><img style="height: 100%;
     display: inline-block;" class="metro-place__img" src="f/media/table.jpg" alt="#"></div>
@@ -125,6 +179,9 @@ $('.metro').slick({
     arrows: false
 });
 </script>
+</body>
+</html>
+
       
                
 
