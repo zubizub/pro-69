@@ -5,4 +5,12 @@
  */
 
 
-var comepay = comepay ? comepay : {};
+var pro69 = pro69 ? pro69 : {};
+
+$('.slider').slick({
+    dots: false,
+    infinite: true,
+    speed: 500,
+    fade: true,
+    cssEase: 'linear'
+});

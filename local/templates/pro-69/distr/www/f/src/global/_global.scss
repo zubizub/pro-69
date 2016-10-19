@@ -386,3 +386,40 @@ header {
         display: none;
     }
 }
+
+.slick-prev {
+    left: rem(30);
+	z-index: 1;
+	//background: url('../media/arrow-prev.png');
+	width: 73px;
+	height: 49px;
+	top: 90%;
+	
+	
+	&:hover{
+		//background: url('../media/arrow-prev.png');
+	}
+	
+	&:before{
+		//content: '';
+	}
+}
+.slick-next {
+    right: rem(30);
+	//background: url('../media/arrow-next.png');
+	width: 100px;
+	height: 50px;
+	top: 90%;
+    letter-spacing: -25px;
+	
+	&:hover{
+		//background: url('../media/arrow-next.png');
+		width: 100px;
+		height: 50px;
+	}
+	
+	&:before{
+            font-size: 150px;
+            line-height: 0.33;
+	}
+}
