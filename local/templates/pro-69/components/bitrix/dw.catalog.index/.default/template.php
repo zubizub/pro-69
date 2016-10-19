@@ -70,10 +70,50 @@ if (is_array($arResult['ITEMS']) && count($arResult['ITEMS']) > 0):
     </div>
 </div>
 
+<div class="overlay">
+
 <div id="ajaxPopup">
 
+  <div class="popup card">
+
+    <div class="pColLeft block">
+
+      <div class="blue sblock">
+                     <span class="fp fs29 white studioText">Компактная<br/>и светлая</span>
+                      <span class="fg upper studioText white">студия</span>
+
+      
+        <div class="pLoftInfo">
+          <span class="fp fs23 black">Площадь</span>
+          <span class="fp fs23 white">33 м2</span>
+        </div>
+
+        <div class="pLoftInfo">
+          <span class="fp fs23 black">Площадь</span>
+          <span class="fp fs23 white">33 м2</span>
+        </div>
+                        
+
+        <div class="pLoftInfo">
+          <span class="fp fs23 black">Площадь</span>
+          <span class="fp fs23 white">33 м2</span>
+        </div>
+               
+      </div>
+      
+    </div>
+
+    <div class="pColRight close">
+      
+      <img src="/local/templates/pro-69/distr/www/f/media/popupPlan.jpg">
+     
+
+    </div>
+
+ </div>
+
      <div class="popup popup--loft"></div>
-     <div class="popup popup--email">
+     <!-- <div class="popup popup--email">
 
                 <div class="popup__inner">
                   <div class="popup__title">Отправить письмо</div>
@@ -180,8 +220,9 @@ if (is_array($arResult['ITEMS']) && count($arResult['ITEMS']) > 0):
                   </div>
                   <button class="popup__close"></button></div>
 
-                  </div>
-</div>
+                  </div> -->
+        </div>
+    </div>
 
 	</div>
 	
@@ -189,3 +230,25 @@ if (is_array($arResult['ITEMS']) && count($arResult['ITEMS']) > 0):
 <?
 endif;
 ?>
+
+
+<script type="text/javascript">
+
+$('.ajaxLotItem').click(function(){
+
+  $('.overlay').show();
+
+  return false;
+
+});
+
+$('.pColRight.close').click(function(){
+
+  $('.overlay').hide();
+
+  return false;
+
+});
+
+
+</script>

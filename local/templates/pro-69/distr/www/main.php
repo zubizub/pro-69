@@ -26,6 +26,7 @@
     <link rel="stylesheet" type="text/css" href="/local/templates/pro-69/fonts/font4.css" media="all">
     <link rel="stylesheet" type="text/css" href="/local/templates/pro-69/css/zz.css" media="all">
     <link rel="start" href="/">
+    <script src="<?=SITE_TEMPLATE_PATH?>/js/jquery-3.1.1.min.js" type="text/javascript"></script>
 	
 <style>
 #mfPreviewBar{
@@ -85,7 +86,7 @@
             </div>
 			
 			<div class="content-block">
-				<div class="content-block__col_left">
+				<div class="content-block__col_left rel">
 					
 					<!--./ DYNAMIC LOF TABLE WITH POPUP -->
 
