@@ -77,12 +77,15 @@ span.blockIcon1 {
 .compact .slide span, .content__item.ready .slide span {display: block;}
 .compact .slide span:nth-of-type(2) {margin: 20px 0 -35px;}
 
+<<<<<<< HEAD
 .content__item.ready {background: url(../distr/www/f/media/bg-ready.jpg); background-size: contain;}
 .content__item.ready .slide {padding: 20px 0 0 15px;}
 .content__item.ready .fontIcon {font-size: 500px; line-height: 100px; margin: 90px 0 -145px;}
 .content__item.ready .cardColorWhite {padding-left: 110px;}
 .content__item.ready .studioPrice {font-size: 200px; margin-top: 30px;}
 =======
+=======
+>>>>>>> 76eb076af63e01a6667ac9728b1b5a927fc527ab
 .lots__inner {
 /*padding: 0 1.25rem;*/
   background: #41526d;
