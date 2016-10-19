@@ -91,6 +91,7 @@ input {
 .content {
     letter-spacing: -5px;
     width: 100%;
+    position: relative;
 
     &-block {
 
@@ -237,6 +238,13 @@ input {
     }
 }
 
+.logo{
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+
 .inline-block {
     @extend %inline-block;
 }
@@ -353,9 +361,6 @@ header {
 }
 
 .studios {
-    .slick-dots {
-        bottom: 0;
-    }
 
     &.slick-dotted.slick-slider {
         margin-bottom: 0;
