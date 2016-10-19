@@ -33,6 +33,7 @@
 	display: none;
 }
 </style>
+
 </head>
 <body id="home_page">
     <div id="wrapper" class="wrapper" style="max-width: 1441px;">
