@@ -1,3 +1,5 @@
+.fl { float: left;}
+
 .fp {
 
 	font-family: 'posterizerkgrough';
@@ -470,3 +472,71 @@ font-size: 20px;
 }
 
 .pColRight.close { cursor: pointer;}
+
+
+.fs26 {font-size: 26px;}
+
+.blockSelect {
+    position: absolute;
+    background: url(/local/templates/pro-69/distr/www/f/media/block-selectBg.png) no-repeat;
+    display: block;
+    top: 30%;
+    right: -30%;
+    width: 58%;
+    height: 42%;
+    margin: 0;
+    padding: 8% 0% 0% 15%;
+}
+.fs250 {font-size: 250px;}
+.fs200 {font-size: 200px;}
+
+.lhCond {line-height: 70%;}
+
+.mTopMarg10 { margin-top: -10%; }
+
+
+.autoHeight {
+
+  height: auto;
+}
+
+.clear, .clearfix {
+
+  clear: both; width: 100%;
+}
+
+
+.area a { color: #fff; }
+
+.area .rel img { width: 100%; }
+
+.area .studioText {
+    font-size: 100px;
+   
+}
+
+.block.area .sblock {
+
+  padding-right: 20%;
+
+}
+
+.tBlue {
+
+  color: #4972b4;
+}
+
+.studioText.area2 {
+
+    position: absolute;
+    top: 17%;
+    left: 25%;
+
+
+}
+
+
+.fs40 {font-size: 40px;}
+.fs100 {font-size: 100px;}
+.fs50 {font-size: 50px;}
+
