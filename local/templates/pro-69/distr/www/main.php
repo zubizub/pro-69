@@ -21,6 +21,7 @@
     <link rel="stylesheet" type="text/css" href="/local/templates/pro-69/fonts/font3.css" media="all">
     <link rel="stylesheet" type="text/css" href="/local/templates/pro-69/fonts/font4.css" media="all">
     <link rel="stylesheet" type="text/css" href="/local/templates/pro-69/css/zz.css" media="all">
+    <link rel="stylesheet" type="text/css" href="/local/templates/pro-69/css/vlad.css" media="all">
     <link rel="start" href="/">
 	
 <style>
@@ -48,7 +49,7 @@
         <div role="main" id="content" class="content">
             <div class="logo"><img class="" src="/local/templates/pro-69/distr/www/f/media/logo.jpg" alt="#"></div>
             <!-- <div class="slider__ content__item"> -->
-            <div class="slider sliderider--large content__item__">
+            <div class="slider slider--large content__item__">
                 <div class=""><img class="metro-place__img" src="/local/templates/pro-69/distr/www/f/media/slide1.png" alt="#"></div>
                 <div class=""><img class="metro-place__img" src="/local/templates/pro-69/distr/www/f/media/slide1.png" alt="#"></div>
             </div>
@@ -79,7 +80,7 @@
                     </div>
                 </div>
 				<div class="content__item">
-                    
+                    <img class="metro-place__img" src="/local/templates/pro-69/distr/www/f/media/life.jpg" alt="#" style="width:100%;">
                 </div>
             </div>
 			<div class="content__item block_white ready">
@@ -91,6 +92,45 @@
                 </div>
             </div>
 			
+  <div class="content__item block_white metro">
+                <div class="slide">
+                    <span class="fp fs53">7 минут<br>пешком!</span>
+                    <span class="fp fs29">В пешей доступности <br>м.Калужская и м.Беляево</span>
+                    <span class="fg upper">метро</span>
+                </div>
+            </div>
+            <div class="content__item map">
+                <div class="slide">
+                    <img src="/local/templates/pro-69/distr/www/f/media/69_map.jpg" alt="#">
+                </div>
+            </div>
+            <div class="content__item west">
+                <div class="block">
+                    <div>
+                        <span class="fp fs29">Жить в престижном районе.</span>
+                        <p class="fg upper">юго-запад <span>москвы</span></p>
+                    </div>
+                </div>
+                <div class="block_white">
+                    <div>
+                        <span class="fp fs29">Вблизи Дома на Профсоюзной<br>находится: </span>
+                        <div>
+                            <ul class="fp fs20">
+                                <li>Супермаркеты</li>
+                                <li>Торговые центры</li>
+                                <li>Спортивные клубы</li>
+                                <li>Аптеки, школы, дет. сады</li>
+                            </ul>
+                            <ul class="fp fs20">
+                                <li>Институты МФЮА,РГАИС</li>
+                                <li>Отделения банков</li>
+                                <li>Кафе и рестораны</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
 			<div class="content-block">
 				<div class="content-block__col_left">
 					

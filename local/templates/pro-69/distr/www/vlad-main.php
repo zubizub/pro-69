@@ -76,7 +76,7 @@
                     <div class=""><img class="metro-place__img" src="/local/templates/pro-69/distr/www/f/media/slide4_2.jpg" alt="#"></div>
                 </div>
 				<div class="content__item">
-                    
+                    <img class="metro-place__img" src="/local/templates/pro-69/distr/www/f/media/podpis.jpg" alt="#" style="width:100%;">
                 </div>
             </div>
 			<div class="content__item block_white ready">
