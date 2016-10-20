@@ -22,3 +22,12 @@ $('.slider_large').slick({
   fade: true,
   cssEase: 'linear'
 });
+
+$(document).ready(function() {
+    $('.flip-container').addClass('flippp');
+});
+
+$(function(){                // сработает, когда документ загрузится
+    $('.logo').delay(1000) // пауза в 3 сек.
+                .show(1000); // появление элемента в течении 1 сек.
+});
