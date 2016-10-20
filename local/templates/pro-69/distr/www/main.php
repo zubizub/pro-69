@@ -1,8 +1,4 @@
-﻿
-<? require_once($_SERVER["DOCUMENT_ROOT"]."/bitrix/modules/main/include/prolog_before.php"); ?>
-<? if(!defined("B_PROLOG_INCLUDED") || B_PROLOG_INCLUDED!==true) die(); ?>
-
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="ru-RU">
 <head>
     <title>Заглавная страница</title>
@@ -51,7 +47,8 @@
         </header>
         <div role="main" id="content" class="content">
             <div class="logo"><img class="" src="/local/templates/pro-69/distr/www/f/media/logo.jpg" alt="#"></div>
-            <div class="slider content__item">
+            <!-- <div class="slider__ content__item"> -->
+            <div class="slider slider--large content__item__">
                 <div class=""><img class="metro-place__img" src="/local/templates/pro-69/distr/www/f/media/slide1.png" alt="#"></div>
                 <div class=""><img class="metro-place__img" src="/local/templates/pro-69/distr/www/f/media/slide1.png" alt="#"></div>
             </div>
@@ -68,20 +65,30 @@
                 
             </div>
 			<div class="content__item block compact">
-                <div class=""><img class="metro-place__img" src="/local/templates/pro-69/distr/www/f/media/slide3_1.jpg" alt="#"></div>
-                <div class=""><img class="metro-place__img" src="/local/templates/pro-69/distr/www/f/media/slide3_2.jpg" alt="#"></div>
+                <div class="slide">
+                    <span class="fp fs53">Компактные<br> и светлые студии</span>
+                    <span class="fg upper studioPrice">от<span>2,9</span></span>
+                    <span class="fg upper fs36">миллионов рублей</span>
+                </div>
             </div>
 			<div class="content__item block block-double mobile">
                 <div class="content__item five-persent">
                     <div class=""><img class="metro-place__img" src="/local/templates/pro-69/distr/www/f/media/slide4_1.jpg" alt="#"></div>
-                    <div class=""><img class="metro-place__img" src="/local/templates/pro-69/distr/www/f/media/slide4_2.jpg" alt="#"></div>
+                    <div class="">
+                        <img class="metro-place__img" src="/local/templates/pro-69/distr/www/f/media/slide4_2.jpg" alt="#">
+                    </div>
                 </div>
 				<div class="content__item">
                     
                 </div>
             </div>
 			<div class="content__item block_white ready">
-                <img class="metro-place__img" src="/local/templates/pro-69/distr/www/f/media/slide5_1.jpg" alt="#">
+                <div class="slide">
+                    <span class="fp fs53">Готовность — <br> 80%</span>
+                    <span class="fontIcon">b</span>
+                    <span class="fp fs29 cardColorWhite">Сдача проекта — <br>уже в начале года:</span>
+                    <span class="fg upper studioPrice">2017</span>
+                </div>
             </div>
 			
 			<div class="content-block">
@@ -89,27 +96,43 @@
 					
 					<!--./ DYNAMIC LOF TABLE WITH POPUP -->
 
+                      <img class="metro-place__img" src="/local/templates/pro-69/distr/www/f/media/69_build_2.jpg" alt="#" style="width:100%;">
 
-  <?$APPLICATION->IncludeComponent(
-  "bitrix:dw.catalog.index", 
-  ".default", 
-  array(
-    "CACHE_GROUPS" => "Y",
-    "CACHE_TIME" => "36000",
-    "CACHE_TYPE" => "A",
-    "IBLOCK_BINDING" => "element",
-    "IBLOCK_ID" => "5",
-    "LIMIT" => "50",
-    "IBLOCK_TYPE" => "quarters",
-    "COMPONENT_TEMPLATE" => ".default"
-  ),
-  false
-);?>
                     <!--./ END ^-->
 
 				</div>
 				<div class="content-block__col_right">
-					
+
+                    <!--- ИДИ ТЫ НА ХУЙ СО СВОИМ content__item с фиксированной высотой -->
+					<div class="content__item block area autoHeight">
+                         <div class="slide blue sblock">
+                            <span class="fp fs53">Компактные<br> и светлые студии</span>
+                            <span class="fg upper studioText area">
+                                <span class="fl lhCond">от<br/>м2</span>
+                                <span class="fl fs200 mTopMarg10">17</span></span>
+                            <div class="clear clearfix"></div>
+                            <div class="rel">
+                                <a href="javascript:void(0);" class=""><img src="/local/templates/pro-69/distr/www/f/media/plans/plan1.png"/>
+                                <span class="fp fs26 blockSelect">Выбрать</span></a>
+                            </div>
+                        </div>
+
+                        <div class="content__item block_white area2 autoHeight">
+                         <div class="slide blue sblock">
+                            <span class="fp fs40 tBlue">Просторные<br>двухкомнатные<br>студии</span>
+                            <div class="clear clearfix"></div>
+                            <div class="rel area2">
+                                <a href="javascript:void(0);" class="">
+                                    <img src="/local/templates/pro-69/distr/www/f/media/plans/plan2.png"/>
+                                 <span class="fg upper studioText area2">
+                                <span class="fl fs50 lhCond tBlue" >от<br/>м2</span>
+                                <span class="fl fs100 mTopMarg10 tBlue">17</span>
+                            </span>
+                            </div>
+                        </div>
+            </div>
+
+
 				</div>
 			</div>
         </div>

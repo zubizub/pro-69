@@ -20,14 +20,8 @@
     <link rel="stylesheet" type="text/css" href="/local/templates/pro-69/fonts/font2.css" media="all">
     <link rel="stylesheet" type="text/css" href="/local/templates/pro-69/fonts/font3.css" media="all">
     <link rel="stylesheet" type="text/css" href="/local/templates/pro-69/fonts/font4.css" media="all">
-    <link rel="stylesheet" type="text/css" href="/local/templates/pro-69/css/vlad.css" media="all">
+    <link rel="stylesheet" type="text/css" href="/local/templates/pro-69/css/zz.css" media="all">
     <link rel="start" href="/">
-	
-<style>
-#mfPreviewBar{
-	display: none;
-}
-</style>
 </head>
 <body id="home_page">
     <div id="wrapper" class="wrapper" style="max-width: 1441px;">
@@ -46,89 +40,85 @@
             </div>
         </header>
         <div role="main" id="content" class="content">
-            <div class="logo"><img class="" src="/local/templates/pro-69/distr/www/f/media/logo.jpg" alt="#"></div>
-            <div class="slider content__item">
-                <div class=""><img class="metro-place__img" src="/local/templates/pro-69/distr/www/f/media/slide1.png" alt="#"></div>
-                <div class=""><img class="metro-place__img" src="/local/templates/pro-69/distr/www/f/media/slide1.png" alt="#"></div>
-            </div>
-			<div class="content__item block studios mobile">
-                <div class="slide blue sblock">
+            <div class="logo" style="display: none;"><img class="" src="/local/templates/pro-69/distr/www/f/media/logo.jpg" alt="#"></div>
+            <div class="flip-container slider_wrapper content__item">
+				<div class="flipper">
+					<div class="front" style="background: orange;">
+			
+					</div>
+					<div class="back slider">
+			                <div class=""><img class="metro-place__img" src="/local/templates/pro-69/distr/www/f/media/slide1.png" alt="#"></div>
+							<div class=""><img class="metro-place__img" src="/local/templates/pro-69/distr/www/f/media/slide1.png" alt="#"></div>
+					</div>
+				</div>
+			</div>
+			<div class="content__item studios mobile flip-container">
+				<div class="flipper">
+					<div class="front" style="background: orange;">
+			
+					</div>
+					<div class="back slider block">
+			        <div class="slide blue sblock">
                     <span class="fp fs36">Дом<br/>на Профсоюзной<br/>ждет вас!</span>
                     <span class="fp fs29">Профсоюзная, 69 -<br/>это светлые, удобные<br/>студии</span>
                     <div class="rel">
                         <span class="fg upper studioText">студии</span>
                         <span class="blockIcon1 fontIcon orange">e</span>
                     </div>
-
                 </div>
-                
+					</div>
+				</div>
             </div>
-			<div class="content__item block compact">
-                <div class="slide">
-                    <span class="fp fs53">Компактные<br> и светлые студии</span>
-                    <span class="fg upper studioPrice">от<span>2,9</span></span>
-                    <span class="fg upper fs36">миллионов рублей</span>
-                </div>
+			<div class="content__item compact flip-container">
+				<div class="flipper">
+					<div class="front" style="background: orange;">
+					</div>
+					<div class="back block">
+					<div class=""><img class="metro-place__img" src="/local/templates/pro-69/distr/www/f/media/slide3_1.jpg" alt="#"></div>
+                <div class=""><img class="metro-place__img" src="/local/templates/pro-69/distr/www/f/media/slide3_2.jpg" alt="#"></div>
+					</div>
+				</div>
             </div>
-			<div class="content__item block block-double mobile">
-                <div class="content__item five-persent">
-                    <div class=""><img class="metro-place__img" src="/local/templates/pro-69/distr/www/f/media/slide4_1.jpg" alt="#"></div>
+			<div class="content__item mobile flip-container">
+				<div class="flipper">
+					<div class="front" style="background: orange;">
+					</div>
+					<div class="back block content__item block-double">
+					<div class="content__item  five-persent">
+						<div class=""><img class="metro-place__img" src="/local/templates/pro-69/distr/www/f/media/slide4_1.jpg" alt="#"></div>
                     <div class=""><img class="metro-place__img" src="/local/templates/pro-69/distr/www/f/media/slide4_2.jpg" alt="#"></div>
-                </div>
-				<div class="content__item">
+					</div>
+					<div class="content__item">
                     
-                </div>
+					</div>
+					</div>
+				</div>
             </div>
-			<div class="content__item block_white ready">
-                <div class="slide">
-                    <span class="fp fs53">Готовность — <br> 80%</span>
-                    <span class="fontIcon">b</span>
-                    <span class="fp fs29 cardColorWhite">Сдача проекта — <br>уже в начале года:</span>
-                    <span class="fg upper studioPrice">2017</span>
-                </div>
+			<div class="content__item block_white ready flip-container">
+				<div class="flipper">
+					<div class="front" style="background: orange;">
+					</div>
+					<div class="back block">
+						<img class="metro-place__img" src="/local/templates/pro-69/distr/www/f/media/slide5_1.jpg" alt="#">
+					</div>
+				</div>
             </div>
-            <div class="content__item block_white metro">
-                <div class="slide">
-                    <span class="fp fs53">7 минут<br>пешком!</span>
-                    <span class="fp fs29">В пешей доступности <br>м.Калужская и м.Беляево</span>
-                    <span class="fg upper">метро</span>
-                </div>
-            </div>
-            <div class="content__item map">
-                <div class="slide">
-                    <img src="/local/templates/pro-69/distr/www/f/media/69_map.jpg" alt="#">
-                </div>
-            </div>
-            <div class="content__item west">
-                <div class="block">
-                    <div>
-                        <span class="fp fs29">Жить в престижном районе.</span>
-                        <p class="fg upper">юго-запад <span>москвы</span></p>
-                    </div>
-                </div>
-                <div class="block_white">
-                    <div>
-                        <span class="fp fs29">Вблизи Дома на Профсоюзной<br>находится: </span>
-                        <div>
-                            <ul class="fp fs20">
-                                <li>Супермаркеты</li>
-                                <li>Торговые центры</li>
-                                <li>Спортивные клубы</li>
-                                <li>Аптеки, школы, дет. сады</li>
-                            </ul>
-                            <ul class="fp fs20">
-                                <li>Институты МФЮА,РГАИС</li>
-                                <li>Отделения банков</li>
-                                <li>Кафе и рестораны</li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </div>
+			
 			
 			<div class="content-block">
 				<div class="content-block__col_left">
 					
+					            <div class="flip-container slider_wrapper content__item">
+				<div class="flipper">
+					<div class="front" style="background: orange;">
+			
+					</div>
+					<div class="back slider_large">
+			                <div class=""><img class="" src="f/media/slide_large1.jpg" alt="#"></div>
+						<div class=""><img class="" src="f/media/slide_large1.jpg" alt="#"></div>
+					</div>
+				</div>
+			</div>
 					<!--./ DYNAMIC LOF TABLE WITH POPUP -->
 
                     <!--./ END ^-->
@@ -138,6 +128,10 @@
 					
 				</div>
 			</div>
+			
+
+			
+			
         </div>
     </div>
     <script type="text/javascript" charset="UTF-8" src="/local/templates/pro-69/distr/www/f/min/libs.min.js"></script>

@@ -1,4 +1,8 @@
-﻿<!DOCTYPE html>
+﻿
+<? require_once($_SERVER["DOCUMENT_ROOT"]."/bitrix/modules/main/include/prolog_before.php"); ?>
+<? if(!defined("B_PROLOG_INCLUDED") || B_PROLOG_INCLUDED!==true) die(); ?>
+
+<!DOCTYPE html>
 <html lang="ru-RU">
 <head>
     <title>Заглавная страница</title>
@@ -20,14 +24,16 @@
     <link rel="stylesheet" type="text/css" href="/local/templates/pro-69/fonts/font2.css" media="all">
     <link rel="stylesheet" type="text/css" href="/local/templates/pro-69/fonts/font3.css" media="all">
     <link rel="stylesheet" type="text/css" href="/local/templates/pro-69/fonts/font4.css" media="all">
-    <link rel="stylesheet" type="text/css" href="/local/templates/pro-69/css/vlad.css" media="all">
+    <link rel="stylesheet" type="text/css" href="/local/templates/pro-69/css/zz.css" media="all">
     <link rel="start" href="/">
+    <script src="<?=SITE_TEMPLATE_PATH?>/js/jquery-3.1.1.min.js" type="text/javascript"></script>
 	
 <style>
 #mfPreviewBar{
 	display: none;
 }
 </style>
+
 </head>
 <body id="home_page">
     <div id="wrapper" class="wrapper" style="max-width: 1441px;">
@@ -64,11 +70,8 @@
                 
             </div>
 			<div class="content__item block compact">
-                <div class="slide">
-                    <span class="fp fs53">Компактные<br> и светлые студии</span>
-                    <span class="fg upper studioPrice">от<span>2,9</span></span>
-                    <span class="fg upper fs36">миллионов рублей</span>
-                </div>
+                <div class=""><img class="metro-place__img" src="/local/templates/pro-69/distr/www/f/media/slide3_1.jpg" alt="#"></div>
+                <div class=""><img class="metro-place__img" src="/local/templates/pro-69/distr/www/f/media/slide3_2.jpg" alt="#"></div>
             </div>
 			<div class="content__item block block-double mobile">
                 <div class="content__item five-persent">
@@ -80,57 +83,30 @@
                 </div>
             </div>
 			<div class="content__item block_white ready">
-                <div class="slide">
-                    <span class="fp fs53">Готовность — <br> 80%</span>
-                    <span class="fontIcon">b</span>
-                    <span class="fp fs29 cardColorWhite">Сдача проекта — <br>уже в начале года:</span>
-                    <span class="fg upper studioPrice">2017</span>
-                </div>
-            </div>
-            <div class="content__item block_white metro">
-                <div class="slide">
-                    <span class="fp fs53">7 минут<br>пешком!</span>
-                    <span class="fp fs29">В пешей доступности <br>м.Калужская и м.Беляево</span>
-                    <span class="fg upper">метро</span>
-                </div>
-            </div>
-            <div class="content__item map">
-                <div class="slide">
-                    <img src="/local/templates/pro-69/distr/www/f/media/69_map.jpg" alt="#">
-                </div>
-            </div>
-            <div class="content__item west">
-                <div class="block">
-                    <div>
-                        <span class="fp fs29">Жить в престижном районе.</span>
-                        <p class="fg upper">юго-запад <span>москвы</span></p>
-                    </div>
-                </div>
-                <div class="block_white">
-                    <div>
-                        <span class="fp fs29">Вблизи Дома на Профсоюзной<br>находится: </span>
-                        <div>
-                            <ul class="fp fs20">
-                                <li>Супермаркеты</li>
-                                <li>Торговые центры</li>
-                                <li>Спортивные клубы</li>
-                                <li>Аптеки, школы, дет. сады</li>
-                            </ul>
-                            <ul class="fp fs20">
-                                <li>Институты МФЮА,РГАИС</li>
-                                <li>Отделения банков</li>
-                                <li>Кафе и рестораны</li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
+                <img class="metro-place__img" src="/local/templates/pro-69/distr/www/f/media/slide5_1.jpg" alt="#">
             </div>
 			
 			<div class="content-block">
-				<div class="content-block__col_left">
+				<div class="content-block__col_left rel">
 					
 					<!--./ DYNAMIC LOF TABLE WITH POPUP -->
 
+
+  <?$APPLICATION->IncludeComponent(
+  "bitrix:dw.catalog.index", 
+  ".default", 
+  array(
+    "CACHE_GROUPS" => "Y",
+    "CACHE_TIME" => "36000",
+    "CACHE_TYPE" => "A",
+    "IBLOCK_BINDING" => "element",
+    "IBLOCK_ID" => "5",
+    "LIMIT" => "50",
+    "IBLOCK_TYPE" => "quarters",
+    "COMPONENT_TEMPLATE" => ".default"
+  ),
+  false
+);?>
                     <!--./ END ^-->
 
 				</div>

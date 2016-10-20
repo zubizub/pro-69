@@ -238,7 +238,7 @@ input {
     }
 }
 
-.logo{
+.logo {
     position: absolute;
     top: 0;
     left: 0;
@@ -320,10 +320,11 @@ header {
     }
 }
 
-.slider {
+.slider{
+	&_wrapper {
     width: 100% - $block;
     height: rem(481);
-    background: #ccc;
+    //background: #ccc;
 
     @media only screen and (max-width: 991px) {
         width: 50%;
@@ -334,12 +335,40 @@ header {
     }
 
     &_large {
-        height: rem(481) * 1.5;
-        width: 100% - $block;
-        background: #eee;
+		
+		&_wrapper{
+			        height: rem(481) * 1.5;
+					width: 100% - $block;
+		}
+    }
+
+    .slick-prev {
+        left: rem(30);
+        z-index: 1;
+        width: 100px;
+        height: 50px;
+    }
+
+
+    .slick-next {
+        right: rem(30);
+        width: 100px;
+        height: 50px;
+        top: 90%;
+        letter-spacing: -25px;
+
+        &:hover {
+            width: 100px;
+            height: 50px;
+        }
+
+        &:before {
+            font-size: 150px;
+            line-height: 0.33;
+        }
     }
 }
-
+}
 
 .block {
     background-color: #4972b4;
@@ -381,8 +410,59 @@ header {
     }
 }
 
-.mobile{
+.mobile {
     @media only screen and (max-width: 460px) {
         display: none;
     }
+}
+
+#mfPreviewBar{
+	display: none;
+}
+
+
+/* entire container, keeps perspective */
+.flip-container {
+	perspective: 1000px;
+}
+	/* flip the pane when hovered */
+	.flippp .flipper {
+		transform: rotateY(180deg);
+	}
+ .front, .back {
+	width: 100%;
+	height: 30.0625rem;
+}
+
+.front{
+	background: #ccc;
+}
+
+/* flip speed goes here */
+.flipper {
+	transition: 0.6s;
+	transform-style: preserve-3d;
+
+	position: relative;
+}
+
+/* hide back of pane during swap */
+.front, .back {
+	backface-visibility: hidden;
+
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+/* front pane, placed above back */
+.front {
+	z-index: 2;
+	/* for firefox 31 */
+	transform: rotateY(0deg);
+}
+
+/* back, initially hidden pane */
+.back {
+	transform: rotateY(180deg);
 }
