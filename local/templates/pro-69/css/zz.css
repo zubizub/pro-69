@@ -49,6 +49,7 @@ padding: 35px 0 0 40px;
     margin: 0 1.5%;
 }
 
+.fs20 { font-size: 20px;}
 .fs36 { font-size: 36px;}
 .fs29 { font-size: 29px; }
 .fs53 { font-size: 53px; }
@@ -74,7 +75,7 @@ span.blockIcon1 {
 .studioPrice {font-size: 170px;}
 .studioPrice span {font-size: 200px; display: inline !important;}
 .compact .slide {padding: 20px 10px 0 35px;}
-.compact .slide span, .content__item.ready .slide span {display: block;}
+.compact .slide span, .content__item.ready .slide span, .content__item.metro span {display: block;}
 .compact .slide span:nth-of-type(2) {margin: 20px 0 -35px;}
 
 
@@ -83,6 +84,18 @@ span.blockIcon1 {
 .content__item.ready .fontIcon {font-size: 500px; line-height: 100px; margin: 90px 0 -145px;}
 .content__item.ready .cardColorWhite {padding-left: 110px;}
 .content__item.ready .studioPrice {font-size: 200px; margin-top: 30px;}
+
+.content__item.metro {padding: 30px 0 0 35px; box-sizing: border-box;}
+.content__item.metro .slide span:nth-child(2) {margin: 30px 0 50px;}
+.content__item.metro .fg {font-size: 180px;}
+.content__item.map img {width: 100%;}
+.content__item.west .block, .content__item.west .block_white {height: 50%; overflow: hidden;}
+.content__item.west .block > div, .content__item.west .block_white > div {padding: 35px 0 0 35px;}
+.content__item.west .fg {font-size: 90px; line-height: 75px; margin-top: 40px;}
+.content__item.west .fg span {font-size: 120px;}
+.content__item.west ul {float: left; width: 50%;margin-top: 15px;}
+.content__item.west li {width: 50%;position: relative;padding-left: 25px; box-sizing: border-box; padding-bottom: 5px;}
+.content__item.west li::before {content: '—'; position: absolute;top: 0;left: 0;}
 =======
 
 .lots__inner {
