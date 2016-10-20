@@ -47,7 +47,7 @@
         </header>
         <div role="main" id="content" class="content">
             <div class="logo"><img class="" src="/local/templates/pro-69/distr/www/f/media/logo.jpg" alt="#"></div>
-            <div class="slider content__item">
+            <div class="slider slider--large content__item__">
                 <div class=""><img class="metro-place__img" src="/local/templates/pro-69/distr/www/f/media/slide1.png" alt="#"></div>
                 <div class=""><img class="metro-place__img" src="/local/templates/pro-69/distr/www/f/media/slide1.png" alt="#"></div>
             </div>
