@@ -14,3 +14,11 @@ $('.slider').slick({
     fade: true,
     cssEase: 'linear'
 });
+
+$('.slider_large').slick({
+  dots: false,
+  infinite: true,
+  speed: 500,
+  fade: true,
+  cssEase: 'linear'
+});

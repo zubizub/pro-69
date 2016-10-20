@@ -238,7 +238,7 @@ input {
     }
 }
 
-.logo{
+.logo {
     position: absolute;
     top: 0;
     left: 0;
@@ -320,10 +320,11 @@ header {
     }
 }
 
-.slider {
+.slider{
+	&_wrapper {
     width: 100% - $block;
     height: rem(481);
-    background: #ccc;
+    //background: #ccc;
 
     @media only screen and (max-width: 991px) {
         width: 50%;
@@ -334,12 +335,40 @@ header {
     }
 
     &_large {
-        height: rem(481) * 1.5;
-        width: 100% - $block;
-        background: #eee;
+		
+		&_wrapper{
+			        height: rem(481) * 1.5;
+					width: 100% - $block;
+		}
+    }
+
+    .slick-prev {
+        left: rem(30);
+        z-index: 1;
+        width: 100px;
+        height: 50px;
+    }
+
+
+    .slick-next {
+        right: rem(30);
+        width: 100px;
+        height: 50px;
+        top: 90%;
+        letter-spacing: -25px;
+
+        &:hover {
+            width: 100px;
+            height: 50px;
+        }
+
+        &:before {
+            font-size: 150px;
+            line-height: 0.33;
+        }
     }
 }
-
+}
 
 .block {
     background-color: #4972b4;
@@ -381,45 +410,8 @@ header {
     }
 }
 
-.mobile{
+.mobile {
     @media only screen and (max-width: 460px) {
         display: none;
     }
-}
-
-.slick-prev {
-    left: rem(30);
-	z-index: 1;
-	//background: url('../media/arrow-prev.png');
-	width: 73px;
-	height: 49px;
-	top: 90%;
-	
-	
-	&:hover{
-		//background: url('../media/arrow-prev.png');
-	}
-	
-	&:before{
-		//content: '';
-	}
-}
-.slick-next {
-    right: rem(30);
-	//background: url('../media/arrow-next.png');
-	width: 100px;
-	height: 50px;
-	top: 90%;
-    letter-spacing: -25px;
-	
-	&:hover{
-		//background: url('../media/arrow-next.png');
-		width: 100px;
-		height: 50px;
-	}
-	
-	&:before{
-            font-size: 150px;
-            line-height: 0.33;
-	}
 }
