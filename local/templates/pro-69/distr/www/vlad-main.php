@@ -29,6 +29,23 @@
 	display: none;
 }
 </style>
+    <link rel="stylesheet" type="text/css" href="/local/templates/pro-69/distr/www/vlad/slick.css" media="all">
+    <script src="/local/templates/pro-69/distr/www/vlad/jquery-1.12.4.min.js"></script>
+    <script src="/local/templates/pro-69/distr/www/vlad/jquery-1.12.4.min.js"></script>
+    <script src="/local/templates/pro-69/distr/www/vlad/slick.min.js"></script>
+    <script>
+        jQuery(document).ready(function($) {
+            $('.slider-house').slick({
+              dots: true,
+              infinite: true,
+              speed: 300,
+              slidesToShow: 1,
+              adaptiveHeight: true,
+              prevArrow: '<button type="button" class="slick-prev"></button>'
+            });           
+        });
+    </script>
+
 </head>
 <body id="home_page">
     <div id="wrapper" class="wrapper" style="max-width: 1441px;">
@@ -71,15 +88,31 @@
                     <span class="fg upper fs36">миллионов рублей</span>
                 </div>
             </div>
-			<div class="content__item block block-double mobile">
+<!-- 			<div class="content__item five-persent">
+                <div class="block_white">
+                    <div class="slide">
+                        <p>
+                            <span>В Октябре скидка на покупку студии!</span>
+                            Прочное готовое здание реновируется и переформатируется с помощью. строительных технологий последнего поколения в уникальный жилой комплекс европейского 
+                        </p>
+                        <p>-5%</p>
+                    </div>
+                </div>
+                <div class="block">
+                    
+                </div>
+            </div> -->
+            <div class="content__item block block-double mobile">
                 <div class="content__item five-persent">
                     <div class=""><img class="metro-place__img" src="/local/templates/pro-69/distr/www/f/media/slide4_1.jpg" alt="#"></div>
-                    <div class=""><img class="metro-place__img" src="/local/templates/pro-69/distr/www/f/media/slide4_2.jpg" alt="#"></div>
+                    <div class="">
+                        <img class="metro-place__img" src="/local/templates/pro-69/distr/www/f/media/slide4_2.jpg" alt="#">
+                    </div>
                 </div>
-				<div class="content__item">
-                    <img class="metro-place__img" src="/local/templates/pro-69/distr/www/f/media/podpis.jpg" alt="#" style="width:100%;">
+                <div class="content__item">
+                    <img class="metro-place__img" src="/local/templates/pro-69/distr/www/f/media/life.jpg" alt="#" style="width:100%;">
                 </div>
-            </div>
+            </div>            
 			<div class="content__item block_white ready">
                 <div class="slide">
                     <span class="fp fs53">Готовность — <br>80%</span>
@@ -124,6 +157,14 @@
                             </ul>
                         </div>
                     </div>
+                </div>
+            </div>
+
+            <div class="slider-tabs">
+                <div class="slider-house">
+                    <img src="/local/templates/pro-69/distr/www/vlad/slide.jpg" alt="">
+                    <img src="/local/templates/pro-69/distr/www/vlad/slide.jpg" alt="">
+                    <img src="/local/templates/pro-69/distr/www/vlad/slide.jpg" alt="">
                 </div>
             </div>
 			
