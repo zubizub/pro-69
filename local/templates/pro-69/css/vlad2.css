@@ -87,8 +87,8 @@ span.blockIcon1 {
 .content__item.ready .cardColorWhite {padding-left: 110px;}
 .content__item.ready .studioPrice {font-size: 200px; margin-top: 30px;}
 
-
-.content__item.metro .slide {padding: 30px 0 0 35px;}
+<<<<<<< HEAD
+.content__item.metro {padding: 30px 0 0 35px; box-sizing: border-box;}
 .content__item.metro .slide span:nth-child(2) {margin: 30px 0 50px;}
 .content__item.metro .fg {font-size: 180px;}
 .content__item.map img {width: 100%;}
@@ -97,11 +97,13 @@ span.blockIcon1 {
 .content__item.west .fg {font-size: 90px; line-height: 75px; margin-top: 40px;}
 .content__item.west .fg span {font-size: 120px;}
 .content__item.west ul {float: left; width: 50%;margin-top: 15px;}
-.content__item.west li {position: relative;padding-left: 25px; box-sizing: border-box; padding-bottom: 5px;}
+.content__item.west li {width: 50%;position: relative;padding-left: 25px; box-sizing: border-box; padding-bottom: 5px;}
 .content__item.west li::before {content: '—'; position: absolute;top: 0;left: 0;}
+=======
+=======
+>>>>>>> 45ac702abd816a71539b71478639c136651d2345
 
-
-.lots__inner { 
+.lots__inner {
 /*padding: 0 1.25rem;*/
   background: #41526d;
 }
