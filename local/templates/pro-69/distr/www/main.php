@@ -51,7 +51,7 @@
             <!-- <div class="slider__ content__item"> -->
             <div class="slider slider--large content__item__">
                 <div class=""><img class="metro-place__img" src="/local/templates/pro-69/distr/www/f/media/slide1.png" alt="#"></div>
-                <div class=""><img class="metro-place__img" src="/local/templates/pro-69/distr/www/f/media/slide1.png" alt="#"></div>
+                 <div class=""><img class="metro-place__img" src="/local/templates/pro-69/distr/www/f/media/slide1.png" alt="#"></div>
             </div>
 			<div class="content__item block studios mobile">
                 <div class="slide blue sblock">
@@ -146,14 +146,14 @@
                     <!--- ИДИ ТЫ НА ХУЙ СО СВОИМ content__item с фиксированной высотой -->
 					<div class="content__item block area autoHeight">
                          <div class="slide blue sblock">
-                            <span class="fp fs53">Компактные<br> и светлые студии</span>
+                            <span class="fp fs38">Компактные<br> и светлые студии</span>
                             <span class="fg upper studioText area">
-                                <span class="fl lhCond">от<br/>м2</span>
-                                <span class="fl fs200 mTopMarg10">17</span></span>
+                                <span class="fl lhCond fs77">от<br/>м2</span>
+                                <span class="fl fs177 mTopMarg10">17</span></span>
                             <div class="clear clearfix"></div>
                             <div class="rel">
                                 <a href="javascript:void(0);" class=""><img src="/local/templates/pro-69/distr/www/f/media/plans/plan1.png"/>
-                                <span class="fp fs26 blockSelect">Выбрать</span></a>
+                                <span class="fp fs26 blockSelect"></span></a>
                             </div>
                         </div>
                     </div>

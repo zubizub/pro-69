@@ -508,7 +508,7 @@ font-size: 20px;
 
 .area a { color: #fff; }
 
-.area .rel img { width: 100%; }
+.area .rel img { width: 90%; }
 
 .area .studioText {
     font-size: 100px;
@@ -518,7 +518,7 @@ font-size: 20px;
 .block.area .sblock {
 
   padding-right: 20%;
-      padding-bottom: 20%;
+      padding-bottom: 9%;
 
 }
 
@@ -548,4 +548,7 @@ font-size: 20px;
 .fs40 {font-size: 40px;}
 .fs100 {font-size: 100px;}
 .fs50 {font-size: 50px;}
+.fs38 {font-size: 38px;}
+.fs77 {font-size: 77px;}
+.fs177 {font-size: 177px;}
 
