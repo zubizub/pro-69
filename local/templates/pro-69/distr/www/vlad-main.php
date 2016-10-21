@@ -81,7 +81,7 @@
             </div>
 			<div class="content__item block_white ready">
                 <div class="slide">
-                    <span class="fp fs53">Готовность — <br> 80%</span>
+                    <span class="fp fs53">Готовность — <br>80%</span>
                     <span class="fontIcon">b</span>
                     <span class="fp fs29 cardColorWhite">Сдача проекта — <br>уже в начале года:</span>
                     <span class="fg upper studioPrice">2017</span>
