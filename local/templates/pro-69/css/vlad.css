@@ -87,8 +87,8 @@ span.blockIcon1 {
 .content__item.ready .cardColorWhite {padding-left: 110px;}
 .content__item.ready .studioPrice {font-size: 200px; margin-top: 30px;}
 
-<<<<<<< HEAD
-.content__item.metro {padding: 30px 0 0 35px; box-sizing: border-box;}
+
+.content__item.metro .slide {padding: 30px 0 0 35px;}
 .content__item.metro .slide span:nth-child(2) {margin: 30px 0 50px;}
 .content__item.metro .fg {font-size: 180px;}
 .content__item.map img {width: 100%;}
