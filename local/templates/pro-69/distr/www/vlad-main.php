@@ -20,6 +20,7 @@
     <link rel="stylesheet" type="text/css" href="/local/templates/pro-69/fonts/font2.css" media="all">
     <link rel="stylesheet" type="text/css" href="/local/templates/pro-69/fonts/font3.css" media="all">
     <link rel="stylesheet" type="text/css" href="/local/templates/pro-69/fonts/font4.css" media="all">
+    <link rel="stylesheet" type="text/css" href="/local/templates/pro-69/css/zz.css" media="all">
     <link rel="stylesheet" type="text/css" href="/local/templates/pro-69/css/vlad.css" media="all">
     <link rel="start" href="/">
 	
