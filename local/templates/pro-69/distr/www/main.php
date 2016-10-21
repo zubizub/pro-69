@@ -158,7 +158,7 @@
                         </div>
                     </div>
 
-                    <!--     <div class="content__item block_white area2 autoHeight">
+                        <div class="content__item block_white area2 autoHeight">
                          <div class="slide blue sblock">
                             <span class="fp fs40 tBlue">Просторные<br>двухкомнатные<br>студии</span>
                             <div class="clear clearfix"></div>
@@ -171,7 +171,7 @@
                             </span>
                             </div>
                         </div>
-                     </div> -->
+                     </div>
 
 
 				</div>
