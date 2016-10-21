@@ -52,10 +52,10 @@
             <div class="slider slider--large content__item__">
                 <div class=""><img class="metro-place__img" src="/local/templates/pro-69/distr/www/f/media/slide1.png" alt="#"></div>
                  <!-- <div class=""><img class="metro-place__img" src="/local/templates/pro-69/distr/www/f/media/slide1.png" alt="#"></div> -->
-
+<!-- 
                  <div class=""><img class="metro-place__img" src="/local/templates/pro-69/distr/www/f/media/slider1/1-1.jpg" alt="#"></div>
                  <div class=""><img class="metro-place__img" src="/local/templates/pro-69/distr/www/f/media/slider1/1-2.jpg" alt="#"></div>
-                 <div class=""><img class="metro-place__img" src="/local/templates/pro-69/distr/www/f/media/slider1/1-3.jpg" alt="#"></div>
+                 <div class=""><img class="metro-place__img" src="/local/templates/pro-69/distr/www/f/media/slider1/1-3.jpg" alt="#"></div> -->
             </div>
 			<div class="content__item block studios mobile">
                 <div class="slide blue sblock">
