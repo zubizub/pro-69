@@ -87,23 +87,31 @@ span.blockIcon1 {
 .content__item.ready .cardColorWhite {padding-left: 110px;}
 .content__item.ready .studioPrice {font-size: 200px; margin-top: 30px;}
 
-<<<<<<< HEAD
-.content__item.metro {padding: 30px 0 0 35px; box-sizing: border-box;}
+
+.content__item.metro .slide {padding: 30px 0 0 35px;}
 .content__item.metro .slide span:nth-child(2) {margin: 30px 0 50px;}
 .content__item.metro .fg {font-size: 180px;}
 .content__item.map img {width: 100%;}
 .content__item.west .block, .content__item.west .block_white {height: 50%; overflow: hidden;}
-.content__item.west .block > div, .content__item.west .block_white > div {padding: 35px 0 0 35px;}
+.content__item.west .block > div, .content__item.west .block_white > div, .content__item.five-persent .block > div, .content__item.five-persent .block_white > div {padding: 35px 0 0 35px;}
 .content__item.west .fg {font-size: 90px; line-height: 75px; margin-top: 40px;}
 .content__item.west .fg span {font-size: 120px;}
 .content__item.west ul {float: left; width: 50%;margin-top: 15px;}
-.content__item.west li {width: 50%;position: relative;padding-left: 25px; box-sizing: border-box; padding-bottom: 5px;}
+.content__item.west li {position: relative;padding-left: 25px; box-sizing: border-box; padding-bottom: 5px;}
 .content__item.west li::before {content: '—'; position: absolute;top: 0;left: 0;}
-=======
-=======
->>>>>>> 45ac702abd816a71539b71478639c136651d2345
+.content__item.five-persent {}
+.content__item.five-persent .block, .content__item.five-persent .block_white {height: 50%; overflow: hidden;}
+.content__item.five-persent p {float: left;}
+.content__item.five-persent p:first-of-type {width: 45%;}
+.content__item.five-persent p:last-of-type {width: 55%;}
 
-.lots__inner {
+.slider-tabs {display: inline-block;width: 66.6%;}
+.slider-tabs .slick-next, .slider-tabs .slick-prev {width: 161px;height: 67px; top: 50%;margin-top: -33px; z-index: 5;}
+.slider-tabs .slick-prev {left: 50px;background: url(../distr/www/vlad/prev.png);}
+.slider-tabs .slick-next {right: 50px;background: url(../distr/www/vlad/next.png);}
+.slider-tabs .slick-next::before, .slider-tabs .slick-prev::before {display: none;}
+
+.lots__inner { 
 /*padding: 0 1.25rem;*/
   background: #41526d;
 }
@@ -481,6 +489,7 @@ div#ajaxPopup {
 
   font-size: 24px;
   margin-bottom: 10px;
+
 }
 
 .pLoftInfo span { 
