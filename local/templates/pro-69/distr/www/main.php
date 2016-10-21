@@ -51,7 +51,11 @@
             <!-- <div class="slider__ content__item"> -->
             <div class="slider slider--large content__item__">
                 <div class=""><img class="metro-place__img" src="/local/templates/pro-69/distr/www/f/media/slide1.png" alt="#"></div>
-                 <div class=""><img class="metro-place__img" src="/local/templates/pro-69/distr/www/f/media/slide1.png" alt="#"></div>
+                 <!-- <div class=""><img class="metro-place__img" src="/local/templates/pro-69/distr/www/f/media/slide1.png" alt="#"></div> -->
+
+                 <div class=""><img class="metro-place__img" src="/local/templates/pro-69/distr/www/f/media/slider1/1-1.jpg" alt="#"></div>
+                 <div class=""><img class="metro-place__img" src="/local/templates/pro-69/distr/www/f/media/slider1/1-2.jpg" alt="#"></div>
+                 <div class=""><img class="metro-place__img" src="/local/templates/pro-69/distr/www/f/media/slider1/1-3.jpg" alt="#"></div>
             </div>
 			<div class="content__item block studios mobile">
                 <div class="slide blue sblock">
@@ -136,7 +140,12 @@
 					
 					<!--./ DYNAMIC LOF TABLE WITH POPUP -->
 
-                      <img class="metro-place__img" src="/local/templates/pro-69/distr/www/f/media/69_build_2.jpg" alt="#" style="width:100%;">
+                      
+                    <div class="rel loftSelect">
+                      <img class="metro-place__img" src="/local/templates/pro-69/distr/www/f/media/69_build_3.jpg" alt="#" style="width:100%;">
+                      <a href="javascript:void(0);"><span class="fp fs26 pdfLoad"></span></a>
+                    </div>
+
 
                     <!--./ END ^-->
 
@@ -152,7 +161,7 @@
                                 <span class="fl fs177 mTopMarg10">17</span></span>
                             <div class="clear clearfix"></div>
                             <div class="rel">
-                                <a href="javascript:void(0);" class=""><img src="/local/templates/pro-69/distr/www/f/media/plans/plan1.png"/>
+                                <a href="javascript:void(0);" class=""><img src="/local/templates/pro-69/distr/www/f/media/plans/plan1.png">
                                 <span class="fp fs26 blockSelect"></span></a>
                             </div>
                         </div>
