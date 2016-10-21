@@ -160,7 +160,7 @@
 
                         <div class="content__item block_white area2 autoHeight">
                          <div class="slide blue sblock">
-                            <span class="fp fs40 tBlue">Просторные<br>двухкомнатные<br>студии</span>
+                            <span class="fp fs38 tBlue">Просторные<br>двухкомнатные<br>студии</span>
                             <div class="clear clearfix"></div>
                             <div class="rel area2">
                                 <a href="javascript:void(0);" class="">

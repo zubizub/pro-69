@@ -508,10 +508,19 @@ font-size: 20px;
 
 .area a { color: #fff; }
 
-.area .rel img { 
+.area .rel img
+ { 
 
   /*width: 90%;*/
   width: 72%;
+
+   }
+
+.area2 .rel img
+ { 
+
+  /*width: 90%;*/
+  width: 67%;
 
    }
 
@@ -535,8 +544,9 @@ font-size: 20px;
 .studioText.area2 {
 
     position: absolute;
-    top: 17%;
-    left: 25%;
+    top: 15%;
+    /*left: 25%;*/
+    left: 10%;
 
 
 }
