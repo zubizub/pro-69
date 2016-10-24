@@ -11,3 +11,21 @@
 @import "_header";
 @import "_global";
 
+
+// 1. Utilities
+//@import "compass/utilities/sprites";
+@import "utils/_variables";
+@import "utils/_functions";
+@import "utils/_mixins";
+
+// 5. Modules
+//@import "modules/*";
+@import "modules/_popup";
+@import "modules/_heading";
+@import "modules/_lofts";
+@import "modules/_loft-types";
+@import "modules/_lot-page";
+@import "modules/_nav-toggle";
+@import "modules/_offer";
+@import "modules/_photo-gallery";
+@import "modules/_popup";
