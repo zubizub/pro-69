@@ -288,6 +288,21 @@
     <div class="lots__hidden">
   <?endif;?>
   
+
+<a class="lot ajaxLotItem " href="/quarters/110/" el="110" lot="1" object-id="1842">
+                          <div class="lot__value-0" data-lot-value="Лот">1</div>
+                          <!-- <div class="lot__value-1" data-lot-value="Кр" >1</div> -->
+                          <div class="lot__value-1" data-lot-value="Кр">Бол.</div>
+                          <!-- <div class="lot__value-2" data-lot-value="Тип">Двухуровневые</div> -->
+                          <div class="lot__value-2" data-lot-value="Тип">1-комн.</div>
+                          <div class="lot__value-3" data-lot-value="Этаж">1</div>
+                          <div class="lot__value-4" data-lot-value="Площадь, М2">128,50</div>
+                          <div class="lot__value-5" data-lot-value="Цена за&nbsp;М2">170 000,00 ₽</div>
+                          <div class="lot__value-6" data-lot-value="Стоимость">21 967 400,00 ₽</div>
+                          <div class="lot__value-7" data-lot-value="Статус">Свободно</div>
+                          <div class="lot__value-8" data-lot-value="Отд.">Свободно</div>
+                    </a>
+  
                     <a 
           class="lot ajaxLotItem <?=$additionClass;?>" 
           href="<?=$arItem['DETAIL_URL']?>" 
