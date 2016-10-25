@@ -29,6 +29,23 @@
 	display: none;
 }
 </style>
+    <link rel="stylesheet" type="text/css" href="/local/templates/pro-69/distr/www/vlad/slick.css" media="all">
+    <script src="/local/templates/pro-69/distr/www/vlad/jquery-1.12.4.min.js"></script>
+    <script src="/local/templates/pro-69/distr/www/vlad/jquery-1.12.4.min.js"></script>
+    <script src="/local/templates/pro-69/distr/www/vlad/slick.min.js"></script>
+    <script>
+        jQuery(document).ready(function($) {
+            $('.slider-house').slick({
+              dots: true,
+              infinite: true,
+              speed: 300,
+              slidesToShow: 1,
+              adaptiveHeight: true,
+              prevArrow: '<button type="button" class="slick-prev"></button>'
+            });           
+        });
+    </script>
+
 </head>
 <body id="home_page">
     <div id="wrapper" class="wrapper" style="max-width: 1441px;">
@@ -38,23 +55,16 @@
                     <li class="header-link__item header-link__item_address header_link__item_first">
 						Дом на профсоюзной, 69
                     </li>
-					<li class="header-link__item">+7 495 780-40-40</li>
-                    <li class="header-link__item call"><a class="header-link" href="#">Перезвонить</a></li>
-					<li class="header-link__item write"><a class="header-link" href="#">Написать</a></li>
-					<li class="header-link__item drive"><a class="header-link" href="#">Приехать</a></li>
-					<li class="header-link__item choose" style=""><a class="header-link" href="#">Выбрать<br/>студию</a></li>
+					<li class="header-link__item header-link">+7 495 780-40-40</li>
+                    <li class="header-link__item call"><a class="header-link" href="mailto:INFO@PRO-69.RU">INFO@PRO-69.RU</a></li>
                 </ul>
             </div>
         </header>
         <div role="main" id="content" class="content">
             <div class="logo"><img class="" src="/local/templates/pro-69/distr/www/f/media/logo.jpg" alt="#"></div>
-            <!-- <div class="slider__ content__item"> -->
             <div class="slider slider--large content__item__">
-                <!-- <div class=""><img class="metro-place__img" src="/local/templates/pro-69/distr/www/f/media/slide1.png" alt="#"></div> -->
-                <div class=""><img class="metro-place__img" src="/local/templates/pro-69/distr/www/f/media/quaters/Pro-69_studio_1.jpg" alt="#"></div>
-                <div class=""><img class="metro-place__img" src="/local/templates/pro-69/distr/www/f/media/quaters/Pro-69_studio_2.jpg" alt="#"></div>
-                <div class=""><img class="metro-place__img" src="/local/templates/pro-69/distr/www/f/media/quaters/Pro-69_studio_3.jpg" alt="#"></div>
-                <div class=""><img class="metro-place__img" src="/local/templates/pro-69/distr/www/f/media/quaters/Pro-69_studio_4.jpg" alt="#"></div>
+                <div class=""><img class="metro-place__img" src="/local/templates/pro-69/distr/www/f/media/slide1.png" alt="#"></div>
+                <div class=""><img class="metro-place__img" src="/local/templates/pro-69/distr/www/f/media/slide1.png" alt="#"></div>
             </div>
 			<div class="content__item block studios mobile">
                 <div class="slide blue sblock">
@@ -75,27 +85,40 @@
                     <span class="fg upper fs36">миллионов рублей</span>
                 </div>
             </div>
-			<div class="content__item block block-double mobile">
+<!-- 			<div class="content__item five-persent">
+                <div class="block_white">
+                    <div class="slide">
+                        <p>
+                            <span>В Октябре скидка на покупку студии!</span>
+                            Прочное готовое здание реновируется и переформатируется с помощью. строительных технологий последнего поколения в уникальный жилой комплекс европейского 
+                        </p>
+                        <p>-5%</p>
+                    </div>
+                </div>
+                <div class="block">
+                    
+                </div>
+            </div> -->
+            <div class="content__item block block-double mobile">
                 <div class="content__item five-persent">
                     <div class=""><img class="metro-place__img" src="/local/templates/pro-69/distr/www/f/media/slide4_1.jpg" alt="#"></div>
                     <div class="">
                         <img class="metro-place__img" src="/local/templates/pro-69/distr/www/f/media/slide4_2.jpg" alt="#">
                     </div>
                 </div>
-				<div class="content__item">
+                <div class="content__item">
                     <img class="metro-place__img" src="/local/templates/pro-69/distr/www/f/media/life.jpg" alt="#" style="width:100%;">
                 </div>
-            </div>
+            </div>            
 			<div class="content__item block_white ready">
                 <div class="slide">
-                    <span class="fp fs53">Готовность — <br> 80%</span>
+                    <span class="fp fs53">Готовность — <br>80%</span>
                     <span class="fontIcon">b</span>
                     <span class="fp fs29 cardColorWhite">Сдача проекта — <br>уже в начале года:</span>
                     <span class="fg upper studioPrice">2017</span>
                 </div>
             </div>
-			
-  <div class="content__item block_white metro">
+            <div class="content__item block_white metro">
                 <div class="slide">
                     <span class="fp fs53">7 минут<br>пешком!</span>
                     <span class="fp fs29">В пешей доступности <br>м.Калужская и м.Беляево</span>
@@ -134,36 +157,53 @@
                 </div>
             </div>
 
+          <!--   <div class="slider-tabs">
+                <div class="slider-house">
+                    <img src="/local/templates/pro-69/distr/www/vlad/slide.jpg" alt="">
+                    <img src="/local/templates/pro-69/distr/www/vlad/slide.jpg" alt="">
+                    <img src="/local/templates/pro-69/distr/www/vlad/slide.jpg" alt="">
+                </div>
+            </div> -->
+
+
+			
 			<div class="content-block">
 				<div class="content-block__col_left">
 					
 					<!--./ DYNAMIC LOF TABLE WITH POPUP -->
 
-                      <img class="metro-place__img" src="/local/templates/pro-69/distr/www/f/media/69_build_2.jpg" alt="#" style="width:100%;">
+                    <!--./ DYNAMIC LOF TABLE WITH POPUP -->
+
+                      
+                    <div class="rel loftSelect">
+                      <img class="metro-place__img" src="/local/templates/pro-69/distr/www/f/media/69_build_3.jpg" alt="#" style="width:100%;">
+                      <a href="javascript:void(0);"><span class="fp fs26 pdfLoad"></span></a>
+                    </div>
+
+
+                    <!--./ END ^-->
 
                     <!--./ END ^-->
 
 				</div>
 				<div class="content-block__col_right">
-
-                    <!--- ИДИ ТЫ НА ХУЙ СО СВОИМ content__item с фиксированной высотой -->
-					<div class="content__item block area autoHeight">
+					           <div class="content__item block area autoHeight">
                          <div class="slide blue sblock">
-                            <span class="fp fs53">Компактные<br> и светлые студии</span>
+                            <span class="fp fs38">Компактные<br> и светлые студии</span>
                             <span class="fg upper studioText area">
-                                <span class="fl lhCond">от<br/>м2</span>
-                                <span class="fl fs200 mTopMarg10">17</span></span>
+                                <span class="fl lhCond fs77">от<br/>м2</span>
+                                <span class="fl fs177 mTopMarg10">17</span></span>
                             <div class="clear clearfix"></div>
                             <div class="rel">
-                                <a href="javascript:void(0);" class=""><img src="/local/templates/pro-69/distr/www/f/media/plans/plan1.png"/>
-                                <span class="fp fs26 blockSelect">Выбрать</span></a>
+                                <a href="javascript:void(0);" class=""><img src="/local/templates/pro-69/distr/www/f/media/plans/plan1.png">
+                                <span class="fp fs26 blockSelect"></span></a>
                             </div>
                         </div>
                     </div>
 
-                    <!--     <div class="content__item block_white area2 autoHeight">
+                        <div class="content__item block_white area2 autoHeight">
                          <div class="slide blue sblock">
-                            <span class="fp fs40 tBlue">Просторные<br>двухкомнатные<br>студии</span>
+                            <span class="fp fs38 tBlue">Просторные<br>двухкомнатные<br>студии</span>
                             <div class="clear clearfix"></div>
                             <div class="rel area2">
                                 <a href="javascript:void(0);" class="">
@@ -174,8 +214,7 @@
                             </span>
                             </div>
                         </div>
-                     </div> -->
-
+                     </div>
 
 				</div>
 			</div>
