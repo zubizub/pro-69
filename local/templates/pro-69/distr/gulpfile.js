@@ -59,6 +59,23 @@ gulp.task('css-dev', function () {
   gulp.start('css');
 });
 
+var bulkSass = require('gulp-sass-bulk-import');
+ 
+gulp.task('css', function() {
+    return gulp
+            .src(base.src + 'main.scss')
+            .pipe(bulkSass())
+            .pipe(sass({
+              includePaths: bourbon.includePaths,
+              outputStyle: 'compressed'
+            }))
+             .pipe(rename(function (path) {
+      var dirname = path.dirname.split('/').reverse();
+      path.dirname = '.';
+      path.basename = dirname[0]
+    }))
+             .pipe(gulp.dest(base.min));
+});
 
 gulp.task('clean-js', function() {
   del([paths.js_min, '!' + base.min + 'libs.min.js']);

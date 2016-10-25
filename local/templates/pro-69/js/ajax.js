@@ -71,6 +71,7 @@ $(document).ready(function () {
         var el = $(this).attr('el');
         var lot = $(this).attr('lot');
         //console.log(el);
+       
         var action = 'elementPopup';
         $('.popup--loft').bPopup({
             closeClass: 'popup__close',
