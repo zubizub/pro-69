@@ -1,4 +1,0 @@
-AuthType Basic   
-AuthName "Private zone. Only for administrator!" 
-AuthUserFile  /var/www/www-root/data/.pro69_htpasswd   
-require valid-user

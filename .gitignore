@@ -7,5 +7,6 @@ bower_components
 log.txt
 license_key.php
 /lib
+/local/templates/pro-69/distr/www/.htaccess
 
 /nbproject
