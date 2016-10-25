@@ -30,12 +30,14 @@
   <!-- <link rel="stylesheet" type="text/css" href="/local/templates/pro-69/css/vlad.css" media="all"> -->
   <link rel="stylesheet" type="text/css" href="/local/templates/pro-69/css/ser.css" media="all">
   <link rel="start" href="/">
-
+  <?$APPLICATION->ShowHead()?>
 </head>
 
 <body id="home_page">
+<?$APPLICATION->ShowPanel();?>
+    
 
-         <?$APPLICATION->IncludeComponent(
+         <?/*$APPLICATION->IncludeComponent(
   "bitrix:dw.catalog.index", 
   ".default", 
   array(
@@ -49,6 +51,6 @@
     "COMPONENT_TEMPLATE" => ".default"
   ),
   false
-);?>
+);*/?>
     </body>
   </html>
