@@ -50,7 +50,7 @@ $APPLICATION->SetTitle("Заглавная страница"); ?>
 </style>
 </head>
 <body id="home_page">
-    <div id="popupBg"></div>
+    <div id="popupBg" style="z-index: 400; display: none;"></div>
     <div id="ajaxPopupCallBack" style="display:none;">
 
          <div class="popup popup--callback">
@@ -145,9 +145,10 @@ $APPLICATION->SetTitle("Заглавная страница"); ?>
                   <button class="popup__close"></button></div>
 
               </div>
-    <div id="ajaxPopups">
+    <div id="ajaxPopups" style="position:fixed; z-index: 400000; display: none;">
         <div id="popupClose">X</div>
-        <div style="width:40%;position:relatative;display:inline-block;float:left;">
+        <!--- СЕРЕЖА Я ЖЕ ПРОСИЛ ДЕЛАТЬ КОНТЕЙНЕРЫ ИМЕНОВАННЫЕ ДЛЯ АЯКС --> 
+        <div style="width:40%;position:relatative;display:inline-block;float:left;" id="cardLoft">
             <div class="popupContent">
             
                 <h2>Компактная и светлая <p>студия</p></h2>
@@ -379,7 +380,9 @@ $APPLICATION->SetTitle("Заглавная страница"); ?>
 				<div class="content-block__col_left">
 					
 <!--                                 <div class="flip-container slider_wrapper content__item"> -->
-					            <div class="content__item rel">
+					            
+<!-- ВТОРОЙ РАЗ ИДИ НАХУЙ СО СВОИМ CONTENT_ITEM -->
+                                <div class="content__item_ rel">
 
                                   
                     <ul class="gallery2Switch">
@@ -397,17 +400,17 @@ $APPLICATION->SetTitle("Заглавная страница"); ?>
             
                    
                     <div class="group1 galleryGroup">
-                            <div class=""><img class="" src="/local/templates/pro-69/distr/www/f/media/slider2/Pro-69_House_1.jpg" alt="#">1</div>
+                            <div class=""><img class="" src="/local/templates/pro-69/distr/www/f/media/slider2/Pro-69_House_1.jpg" alt="#"></div>
                         
                     </div>
                       
                        <div class="group2 galleryGroup">
-                            <div class=""><img class="" src="/local/templates/pro-69/distr/www/f/media/slider2/Pro-69_entrance_1.jpg" alt="#">2</div>
+                            <div class=""><img class="" src="/local/templates/pro-69/distr/www/f/media/slider2/Pro-69_entrance_1.jpg" alt="#"></div>
                         
                     </div>
                         
                         <div class="group3 galleryGroup">
-                            <div class=""><img class="" src="/local/templates/pro-69/distr/www/f/media/slider2/Pro-69_floor_1.jpg" alt="#">3</div>
+                            <div class=""><img class="" src="/local/templates/pro-69/distr/www/f/media/slider2/Pro-69_floor_1.jpg" alt="#"></div>
                         
                     </div>
 
@@ -515,7 +518,9 @@ $APPLICATION->SetTitle("Заглавная страница"); ?>
     <script type="text/javascript" charset="UTF-8" src="/local/templates/pro-69/distr/www/f/min/libs.min.js"></script>
     <script type="text/javascript" charset="UTF-8" src="/local/templates/pro-69/distr/www/f/min/global.min.js"></script>
     <script type="text/javascript" charset="UTF-8" src="vivus.js"></script>
-	<script type="text/javascript" charset="UTF-8" src="/local/templates/pro-69/distr/www/f/src/global/gallery2.js"></script>
+  <script type="text/javascript" charset="UTF-8" src="/local/templates/pro-69/distr/www/f/src/global/gallery2.js"></script>
+  <script type="text/javascript" charset="UTF-8" src="/local/templates/pro-69/distr/www/f/src/global/popupLoft.js"></script>
+	<script type="text/javascript" charset="UTF-8" src="/local/templates/pro-69/js/ajax.js"></script>
 <script>
 $(document).ready(function() {
     $('.flip-container').addClass('flippp');
@@ -526,57 +531,7 @@ $(function(){                // сработает, когда документ 
                 .show(1000); // появление элемента в течении 1 сек.
 });
 		;
-/*$('.slider').slick({
-  dots: false,
-  infinite: true,
-  speed: 500,
-  fade: true,
-  cssEase: 'linear'
-});
 
-$('.studios').slick({
-    dots: true,
-    infinite: true,
-    speed: 500,
-    fade: true,
-    cssEase: 'linear',
-    arrows: false
-});
-
-$('.compact').slick({
-    dots: true,
-    infinite: true,
-    speed: 500,
-    fade: true,
-    cssEase: 'linear',
-    arrows: false
-});
-$('.five-persent').slick({
-    dots: true,
-    infinite: true,
-    speed: 500,
-    fade: true,
-    cssEase: 'linear',
-    arrows: false
-});
-
-$('.metro').slick({
-    dots: true,
-    infinite: true,
-    speed: 500,
-    fade: true,
-    cssEase: 'linear',
-    arrows: false
-});*/
-
-/* new Vivus('svg', {
-  type: 'oneByOne',
-  duration: 200,
-  animTimingFunction: Vivus.EASE
-}, function (obj) {
-  obj.el.classList.add('finished');
-});
-*/
 </script>
 </body>
 </html>

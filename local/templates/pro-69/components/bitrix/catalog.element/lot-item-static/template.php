@@ -14,71 +14,52 @@ $this->setFrameMode(true);?>
 <!-- <pre>
 <?// print_r($arResult);?>
 </pre> -->
-<div class="popup__inner">
-  <div class="detail">
-    <div class="detail__inner">
-      <div class="detail__head">
-        <h2>Studio #12</h2>
-      </div>
-      <div class="infograph">
-        <div class="item">
-          <h4><span class="num"><?=$arResult['PROPERTIES']['AREA']['VALUE'];?></span> м<sup>2</sup></h4>
-          <p class="text">Площадь</p>
-        </div>
-        <div class="item">
-          <h4><span class="num"><?=$arResult['PROPERTIES']['SQUARE_COST']['VALUE'];?></span></h4>
-            <p class="text">Цена за м2</p>
-        </div>
-        <div class="item">
-          <h4><span class="num"><?=$arResult['PROPERTIES']['PRICE']['VALUE'];?></span></h4>
-          <p class="text">Стоимость</p>
-        </div>
-        
-        <div class="item">
-          <h4><span class="num"><?=$arResult['PROPERTIES']['STAGE']['VALUE'];?></span></h4>
-          <p class="text">Этаж</p>
-        </div>
-      </div>
-      <div class="detail__message">Информационное сообщение</div>
-    </div>
-    <? if (!empty($arResult['PROPERTIES']['PHOTOS']['VALUE'])) { ?>
-    <div class="photo-gallery">
-      <div class="photo-gallery__content">
-        <div class="photo-gallery__item">
-          <div class="image" style="background-image: url(<?=SITE_TEMPLATE_PATH?>/dist/img/loft-slide-1.jpg)"></div>
-        </div>
-        <div class="photo-gallery__item">
-          <div class="image" style="background-image: url(<?=SITE_TEMPLATE_PATH?>/dist/img/loft-slide-2.jpg)"></div>
-        </div>
-        <div class="photo-gallery__item">
-          <div class="image" style="background-image: url(<?=SITE_TEMPLATE_PATH?>/dist/img/loft-slide-3.jpg)"></div>
-        </div>
-      </div>
-      <button class="photo-gallery__prev"></button>
-      <button class="photo-gallery__next"></button>
-    </div>
-  <? } ?>
-    <div class="detail__inner">
-      <div class="detail__text">лофт с отдельным входом/двухуровневый</div>
-      <!-- <div class="detail__about"><a class="detail__more" href="#"><span>Подробнее о предложении</span></a> -->
-        <div class="detail__hidden">
-          <div class="detail__info">
-            <div class="detail__label">Площадь</div>
-            <div class="detail__value">179,70 м2</div>
-          </div>
-          <div class="detail__info">
-            <div class="detail__label">Подпись</div>
-            <div class="detail__value">Значение</div>
+
+
+
+       <div class="popupContent">
+      
+        <h2>Компактная и светлая <p>студия</p></h2>
+        <div class="popupInfo">
+          <p>площадь</p>
+          <p class="item"><?=$arResult['PROPERTIES']['AREA']['VALUE'];?> м²</p>
+          <div class="kostyl"></div>
+          <p>за м²</p>
+          <p class="item"><?=$arResult['PROPERTIES']['RATE']['VALUE'];?> &#8381;</p>
+          <div class="kostyl"></div>
+          <p>общая цена</p>
+          <p class="item"><?=$arResult['PROPERTIES']['PRICE']['VALUE'];?> &#8381;</p>
+          <div class="kostyl"></div>
+          <table>
+            <thead>
+              <tr>
+                <td><p>этаж</p></td>
+                <td><p>крыло</p></td>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><p class="item"><?=$arResult['PROPERTIES']['STAGE']['VALUE'];?></p></td>
+                <td><p class="item">бол.</p></td>
+              </tr>
+            </tbody>
+          </table>
+          <div class="kostyl"></div>
+          <p>статус</p>
+          <p style="color: white;">свободно</p>
+          <button type="button" class="btn-def">Забронировать</button>
+          <div class="popupFooterLeft">
+            <p class="phone">+7 (495) 780-40-40</p>
+            <div class="kostyl"></div>
+            <ul>
+              <li><a href="#">заказать звонок</a></li>
+              <li><a href="#">отправить на почту</a></li>
+              <li><a href="#">скачать</a></li>
+            </ul>
+            <div class="kostyl"></div>
+            <p class="adress">дом на профсоюзной, 69</p>
           </div>
         </div>
-        <a class="detail__link" href="/object/<?=$arResult['ID'];?>" target="_blank">Открыть в новом окне</a>
       </div>
-    </div>
-  </div>
-<div class="popup__footer">
-  <div class="popup__cell"><span><a href="#">Распечатать</a></span><span><a class="send_me_email" href="#">Выслать на почту</a></span></div>
-  <div class="popup__cell popup__cell--callback"><a class="popup__number" href="tel:7(495)7804040">7 (495) 780-40-40</a>
-    <p><a class="callback-me" href="#">Обратный звонок</a></p>
-  </div>
-</div>
-<button class="popup__close"></button>
+
+

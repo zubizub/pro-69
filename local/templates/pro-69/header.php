@@ -18,14 +18,14 @@ IncludeTemplateLangFile(__FILE__);
     <link rel="stylesheet" type="text/css" href="/local/templates/pro-69/css/zz.css" media="all">
     <link rel="stylesheet" type="text/css" href="/local/templates/pro-69/css/vlad.css" media="all">
     <link rel="start" href="/">
-  
+  <?$APPLICATION->ShowHead()?>
 
 
 
 
 </head> 
   <body class="home-page">
-      
+        <?$APPLICATION->ShowPanel();?>
     
 
 

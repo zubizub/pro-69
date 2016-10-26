@@ -6,7 +6,7 @@ if (is_array($arResult['ITEMS']) && count($arResult['ITEMS']) > 0):
 ?>
 
 <div class="section section--lofts is-colored">
- <img src="/local/templates/pro-69/distr/www/f/media/reserve.jpg" style="width:100%;">
+ <!-- <img src="/local/templates/pro-69/distr/www/f/media/reserve.jpg" style="width:100%;"> -->
                     <div class="lots__list">
                       <div class="lots__inner">
                         <div class="lot lot--header">
@@ -25,13 +25,14 @@ if (is_array($arResult['ITEMS']) && count($arResult['ITEMS']) > 0):
 <?
   $i = 0;
   $count = 0;
+  $limit =20;
   foreach ($arResult['ITEMS'] as $arItem):
 ?>
 	<? //print_r('<pre>'); print_r($arItem['PROPS']); print_r('</pre>'); ?>
   <? unset ($additionClass);  if ($arItem['PROPS']['STATUS']['VALUE'] == 'Продано') { $additionClass = 'lot--disabled'; } ?>
-  <? if ($i >= 6) :?>
+  <? if ($i >= $limit) :?>
 
-    <div class="lots__hidden__">
+    <div class="lots__hidden">
   <?endif;?>
   
 					<a 
@@ -53,7 +54,7 @@ if (is_array($arResult['ITEMS']) && count($arResult['ITEMS']) > 0):
                           <div class="lot__value-8" data-lot-value="Статус"><?=$arItem['PROPS']['STATUS']['VALUE'];?></div>
                           
 					</a>
-<? if ($i >= 6) :?>
+<? if ($i >= $limit) :?>
 
     </div>
   <?endif;$i++;$count++;?>
