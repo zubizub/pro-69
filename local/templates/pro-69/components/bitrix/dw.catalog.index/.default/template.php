@@ -17,8 +17,8 @@ if (is_array($arResult['ITEMS']) && count($arResult['ITEMS']) > 0):
                           <div class="lot__value-4">Пл., М2</div>
                           <div class="lot__value-5">Цена за М2</div>
                           <div class="lot__value-6">Стоимость</div>
-                          <div class="lot__value-7">Статус</div>
-                          <div class="lot__value-8">Отд.</div>
+                          <div class="lot__value-7">Отд.</div>
+                          <div class="lot__value-8">Статус</div>
                         </div>
 <div class="lotItems">
 
@@ -27,11 +27,11 @@ if (is_array($arResult['ITEMS']) && count($arResult['ITEMS']) > 0):
   $count = 0;
   foreach ($arResult['ITEMS'] as $arItem):
 ?>
-	<!-- <pre><?//print_r($arItem['PROPS']);?></pre>  -->
+	<? //print_r('<pre>'); print_r($arItem['PROPS']); print_r('</pre>'); ?>
   <? unset ($additionClass);  if ($arItem['PROPS']['STATUS']['VALUE'] == 'Продано') { $additionClass = 'lot--disabled'; } ?>
   <? if ($i >= 6) :?>
 
-    <div class="lots__hidden">
+    <div class="lots__hidden__">
   <?endif;?>
   
 					<a 
@@ -47,10 +47,11 @@ if (is_array($arResult['ITEMS']) && count($arResult['ITEMS']) > 0):
                           <div class="lot__value-2" data-lot-value="Тип">1-комн.</div>
                           <div class="lot__value-3" data-lot-value="Этаж"><?=$arItem['PROPS']['STAGE']['VALUE'];?></div>
                           <div class="lot__value-4" data-lot-value="Площадь, М2"><?=$arItem['PROPS']['AREA']['VALUE'];?></div>
-                          <div class="lot__value-5" data-lot-value="Цена за М2"><?=$arItem['PROPS']['SQUARE_COST']['VALUE'];?></div>
+                          <div class="lot__value-5" data-lot-value="Цена за М2"><?=$arItem['PROPS']['RATE']['VALUE'];?></div>
                           <div class="lot__value-6" data-lot-value="Стоимость"><?=$arItem['PROPS']['PRICE']['VALUE'];?></div>
-                          <div class="lot__value-7" data-lot-value="Статус"><?=$arItem['PROPS']['STATUS']['VALUE'];?></div>
-                          <div class="lot__value-8" data-lot-value="Отд."><?=$arItem['PROPS']['STATUS']['VALUE'];?></div>
+                          <div class="lot__value-7" data-lot-value="Отд."><?=$arItem['PROPS']['DECORATION']['VALUE'];?></div>
+                          <div class="lot__value-8" data-lot-value="Статус"><?=$arItem['PROPS']['STATUS']['VALUE'];?></div>
+                          
 					</a>
 <? if ($i >= 6) :?>
 
