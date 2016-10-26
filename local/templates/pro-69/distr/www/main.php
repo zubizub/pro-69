@@ -269,7 +269,7 @@
                         </div>
                      </div>
 
-    <div class="content__item block readyBlock mobile overflowBlock">
+          <div class="content__item block readyBlock mobile overflowBlock">
                 <div class="slide blue sblock ">
                     <span class="fp fs36">Готовая<br/>квартира<br/> с отделкой!</span>
                     <span class="fp fs20">
@@ -280,6 +280,26 @@
                     <div class="rel ">
                         <span class="fg upper studioText--ready">готово</span>
                         <span class="blockIcon2 fontIcon orange">f</span>
+                    </div>
+
+                </div>
+                
+            </div>
+
+         <div class="content__item block_white mobile overflowBlock">
+                <div class="slide blue sblock ">
+                    <span class="fp fs36 tBlue">
+                    Офис-продаж<br>
+                    на Профсоюзной,<br>
+                    69
+                    </span>
+                    <span class="fp fs20 tBlue mb50i">
+                        10:00—19:00<br/>
+                        2 этаж, офис 201
+                    </span>
+                    <div class="rel overflowBlock">
+                        <span class="fg upper studioText--showroom">Show-<br>room</span>
+                        
                     </div>
 
                 </div>

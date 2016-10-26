@@ -599,3 +599,18 @@ span.blockIcon2 {
     font-size: 109px;
 
 }
+.studioText--showroom {
+    font-size: 155px;
+    /* margin: 0; */
+    transform: scale(1,1.2);
+    line-height: 80px;
+    /* padding-top: 53px; */
+    /* position: absolute; */
+    /* top: 24px; */
+    margin-bottom: -18px !important;
+    margin-top: 45px;
+}
+
+
+.mb50 { margin-bottom: 50px;}
+.mb50i { margin-bottom: 50px !important;}
