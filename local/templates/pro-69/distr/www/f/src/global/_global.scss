@@ -495,5 +495,8 @@ header {
 }
 
 .five-persent{
-	padding: rem(30);
+	/*padding: rem(30);*/
 }
+
+
+#content > .content__item {min-height: 450px;}
