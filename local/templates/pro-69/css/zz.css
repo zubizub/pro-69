@@ -631,6 +631,12 @@ ul.gallery2Switch li.switch {
   background-size: 100% 100%;
   padding: 3%;
   float: left;
+  /*display: none;*/
+
+}
+ul.gallery2Switch li.switch.active {
+    display: block;
+
 
 }
 ul.gallery2Switch li.switch a{
@@ -654,6 +660,19 @@ ul.gallery2Switch li.switch.active {
 ul.gallery2Switch li.switch.active a{
     
       color: #4972b4;
+
+}
+
+
+div.galleryGroup{
+    
+display: none
+
+}
+
+div.group2.galleryGroup{
+    
+      display: block;
 
 }
 

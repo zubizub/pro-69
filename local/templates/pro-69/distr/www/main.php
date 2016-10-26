@@ -1,4 +1,10 @@
-﻿<!DOCTYPE html>
+﻿<? require_once($_SERVER["DOCUMENT_ROOT"]."/bitrix/modules/main/include/prolog_before.php");
+$APPLICATION->SetTitle("Заглавная страница"); ?>
+<? if(!defined("B_PROLOG_INCLUDED") || B_PROLOG_INCLUDED!==true) die(); ?>
+
+<!DOCTYPE html>
+
+<!DOCTYPE html>
 <html lang="ru-RU">
 <head>
     <title>Заглавная страница</title>
@@ -239,7 +245,7 @@
             
                    
                     <div class="group1 galleryGroup">
-                            <div class=""><img class="" src="/local/templates/pro-69/distr/www/f/media/slider2/Pro-69_studio_1.jpg" alt="#">1</div>
+                            <div class=""><img class="" src="/local/templates/pro-69/distr/www/f/media/slider2/Pro-69_House_1.jpg" alt="#">1</div>
                         
                     </div>
                       
@@ -255,6 +261,23 @@
 
                 
                 </div>
+
+
+
+ <?$APPLICATION->IncludeComponent(
+    "bitrix:dw.catalog.index",
+    "",
+    Array(
+        "CACHE_GROUPS" => "Y",
+        "CACHE_TIME" => "36000",
+        "CACHE_TYPE" => "N",
+        "IBLOCK_BINDING" => "element",
+        "IBLOCK_ID" => "5",
+        "IBLOCK_TYPE" => "quarters",
+        "LIMIT" => "100"
+    )
+);?><br>
+
 				</div>
 				<div class="content-block__col_right">
 
@@ -326,6 +349,7 @@
                 
             </div>
 
+        </div>
         </div>
 
 </div>

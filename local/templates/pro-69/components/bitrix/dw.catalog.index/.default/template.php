@@ -69,7 +69,7 @@ if (is_array($arResult['ITEMS']) && count($arResult['ITEMS']) > 0):
 			</div> -->
     </div>
 </div>
-
+<? /*
 <div class="overlay">
 
 <div id="ajaxPopup">
@@ -113,7 +113,7 @@ if (is_array($arResult['ITEMS']) && count($arResult['ITEMS']) > 0):
  </div>
 
      <div class="popup popup--loft"></div>
-     <!-- <div class="popup popup--email">
+     <div class="popup popup--email">
 
                 <div class="popup__inner">
                   <div class="popup__title">Отправить письмо</div>
@@ -220,7 +220,7 @@ if (is_array($arResult['ITEMS']) && count($arResult['ITEMS']) > 0):
                   </div>
                   <button class="popup__close"></button></div>
 
-                  </div> -->
+                  </div>
         </div>
     </div>
 
@@ -228,7 +228,7 @@ if (is_array($arResult['ITEMS']) && count($arResult['ITEMS']) > 0):
 	
 <div>
 <?
-endif;
+
 ?>
 
 
@@ -251,4 +251,5 @@ $('.pColRight.close').click(function(){
 });
 
 
-</script>
+</script> */
+endif;?>
