@@ -614,3 +614,47 @@ span.blockIcon2 {
 
 .mb50 { margin-bottom: 50px;}
 .mb50i { margin-bottom: 50px !important;}
+
+
+ul.gallery2Switch {
+    position: absolute;
+    left: 5%;
+    width: 60%;
+    height: 10%;
+    top: 5%;
+}
+
+ul.gallery2Switch li.switch {
+    width: 27%;
+    height: 80%;
+    background: url(/local/templates/pro-69/distr/www/f/media/gSwitchBg.png) no-repeat;
+  background-size: 100% 100%;
+  padding: 3%;
+  float: left;
+
+}
+ul.gallery2Switch li.switch a{
+    
+  padding: 10%;
+  display: block;
+  text-align: center;
+  text-decoration: none;
+  color: #fff;
+
+}
+
+ul.gallery2Switch li.switch.active {
+    
+    background: url(/local/templates/pro-69/distr/www/f/media/gSwitchBgActive.png) no-repeat;
+    background-size: 100% 100%;
+  
+  
+
+}
+ul.gallery2Switch li.switch.active a{
+    
+      color: #4972b4;
+
+}
+
+

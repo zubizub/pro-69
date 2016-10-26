@@ -220,21 +220,41 @@
 			<div class="content-block">
 				<div class="content-block__col_left">
 					
-					            <div class="flip-container slider_wrapper content__item">
-				<div class="flipper">
-					<div class="front" style="background: orange;">
-			
-					</div>
-					<div class="back slider_large">
-			                <div class=""><img class="" src="f/media/slide_large1.jpg" alt="#"></div>
-						<div class=""><img class="" src="f/media/slide_large1.jpg" alt="#"></div>
-					</div>
-				</div>
-			</div>
-					<!--./ DYNAMIC LOF TABLE WITH POPUP -->
+<!--                                 <div class="flip-container slider_wrapper content__item"> -->
+					            <div class="content__item rel">
 
-                    <!--./ END ^-->
+                                  
+                    <ul class="gallery2Switch">
+                        <li class="switch">  
+                            <a href="javascript:void(0);" data-switch="group1" class="fp fs20">Дом</a>
+                        </li>
+                        <li class="switch active">
+                            <a href="javascript:void(0);" data-switch="group2" class="fp fs20">Вход</a>
+                        </li>
+                        <li class="switch">
+                            <a href="javascript:void(0);" data-switch="group3" class="fp fs20">Студии</a>
+                        </li>
 
+                    </ul>
+            
+                   
+                    <div class="group1 galleryGroup">
+                            <div class=""><img class="" src="/local/templates/pro-69/distr/www/f/media/slider2/Pro-69_studio_1.jpg" alt="#">1</div>
+                        
+                    </div>
+                      
+                       <div class="group2 galleryGroup">
+                            <div class=""><img class="" src="/local/templates/pro-69/distr/www/f/media/slider2/Pro-69_entrance_1.jpg" alt="#">2</div>
+                        
+                    </div>
+                        
+                        <div class="group3 galleryGroup">
+                            <div class=""><img class="" src="/local/templates/pro-69/distr/www/f/media/slider2/Pro-69_floor_1.jpg" alt="#">3</div>
+                        
+                    </div>
+
+                
+                </div>
 				</div>
 				<div class="content-block__col_right">
 
@@ -318,7 +338,8 @@
 	<script type="text/javascript" charset="UTF-8" src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
     <script type="text/javascript" charset="UTF-8" src="/local/templates/pro-69/distr/www/f/min/libs.min.js"></script>
     <script type="text/javascript" charset="UTF-8" src="/local/templates/pro-69/distr/www/f/min/global.min.js"></script>
-	<script type="text/javascript" charset="UTF-8" src="vivus.js"></script>
+    <script type="text/javascript" charset="UTF-8" src="vivus.js"></script>
+	<script type="text/javascript" charset="UTF-8" src="/local/templates/pro-69/distr/www/f/src/global/gallery2.js"></script>
 <script>
 $(document).ready(function() {
     $('.flip-container').addClass('flippp');

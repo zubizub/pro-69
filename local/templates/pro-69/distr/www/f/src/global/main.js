@@ -4,7 +4,7 @@
  * Author     : Akado
  */
 
-
+/* jshint esversion: 6 */
 var pro69 = pro69 ? pro69 : {};
 
 $('.slider').slick({
@@ -31,3 +31,11 @@ $(function(){                // сработает, когда документ 
     $('.logo').delay(1000) // пауза в 3 сек.
                 .show(1000); // появление элемента в течении 1 сек.
 });
+
+$(document).ready(function() {
+    $('.flip-container').addClass('flippp');
+}); 
+
+
+//require('f/src/global/gallery2.js');
+//import ("gallery2.js");
