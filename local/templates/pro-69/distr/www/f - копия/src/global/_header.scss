@@ -37,9 +37,10 @@
       @extend %inline-block;
       position: relative;
 	  text-transform: uppercase;
-	  /*font-size: 145%;*/
-	  font-size: 1.6vw;
-	  font-family: 'posterizerkgrough';
+	  font-size: 145%;
+      //font-weight: bold;
+      //font-family: 'arial';
+	  font-family: 'Posterizer KG Rough';
 	  margin: 0 1.5%;
 	  
 	  @media only screen and (max-width: 1400px) {
@@ -48,16 +49,16 @@
 	  
 	  @media only screen and (max-width: 1300px) {
 			margin: 0 1%;
-			//font-size: 135%;
+			font-size: 135%;
 	}
 	
 	@media only screen and (max-width: 1200px) {
 			margin: 0 0.8%;
-			//font-size: 125%;
+			font-size: 125%;
 	}
 	
 	@media only screen and (max-width: 1100px) {
-			//margin: 0 0.4%;
+			margin: 0 0.4%;
 	}
 	
 				@media only screen and (max-width: 991px) {
@@ -71,7 +72,7 @@
       }
 
       &_address{
-          //font-size: 145%;
+          font-size: 145%;
       }
 
       &_logout {

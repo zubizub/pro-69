@@ -43,19 +43,6 @@ padding: 35px 0 0 40px;
 
 }
 
-.header-link__item {
-    position: relative;
-    text-transform: uppercase;
-    font-size: 145%;
-    font-family: 'posterizerkgrough';
-    margin: 0 1.5%;
-}
-
-.fs36 { font-size: 36px;}
-.fs29 { font-size: 29px; }
-.fs53 { font-size: 53px; }
-
-
 .studioText {
 
     font-size: 130px;
@@ -82,7 +69,6 @@ span.blockIcon1 {
 
 .content__item.ready {background: url(../distr/www/f/media/bg-ready.jpg); background-size: contain;}
 .content__item.ready .slide {padding: 20px 0 0 15px;}
-.content__item.ready .fontIcon {font-size: 500px; line-height: 100px; margin: 90px 0 -145px;}
 .content__item.ready .cardColorWhite {padding-left: 110px;}
 .content__item.ready .studioPrice {font-size: 200px; margin-top: 30px;}
 
@@ -476,8 +462,7 @@ font-size: 20px;
 
 .fs26 {font-size: 26px;}
 
-.blockSelect,
-.pdfLoad {
+.blockSelect {
     position: absolute;
     background: url(/local/templates/pro-69/distr/www/f/media/block-selectBg.png) no-repeat;
     display: block;
@@ -577,13 +562,6 @@ font-size: 20px;
 .area .sblock {
 
   padding: 30px;
-}
-
-.loftSelect .pdfLoad {
-
-  top:56%;
-  left:2%;
-  transform: scale(1.5,1.5);
 
 }
 
@@ -618,4 +596,5 @@ span.blockIcon2 {
     top: -31%;
     left: 18%;
     font-size: 109px;
+
 }

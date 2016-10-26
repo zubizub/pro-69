@@ -1,0 +1,13 @@
+/* 
+  Mixins
+*/
+
+@import "_variables";
+
+%inline-block {
+  display: -moz-inline-stack;
+  display: inline-block;
+  vertical-align: top;
+  zoom: 1;
+  letter-spacing: normal;
+}
