@@ -50,12 +50,11 @@
             <div class="logo"><img class="" src="/local/templates/pro-69/distr/www/f/media/logo.jpg" alt="#"></div>
             <!-- <div class="slider__ content__item"> -->
             <div class="slider slider--large content__item__">
-                <div class=""><img class="metro-place__img" src="/local/templates/pro-69/distr/www/f/media/slide1.png" alt="#"></div>
-                 <!-- <div class=""><img class="metro-place__img" src="/local/templates/pro-69/distr/www/f/media/slide1.png" alt="#"></div> -->
-<!-- 
-                 <div class=""><img class="metro-place__img" src="/local/templates/pro-69/distr/www/f/media/slider1/1-1.jpg" alt="#"></div>
-                 <div class=""><img class="metro-place__img" src="/local/templates/pro-69/distr/www/f/media/slider1/1-2.jpg" alt="#"></div>
-                 <div class=""><img class="metro-place__img" src="/local/templates/pro-69/distr/www/f/media/slider1/1-3.jpg" alt="#"></div> -->
+                <!-- <div class=""><img class="metro-place__img" src="/local/templates/pro-69/distr/www/f/media/slide1.png" alt="#"></div> -->
+                <div class=""><img class="metro-place__img" src="/local/templates/pro-69/distr/www/f/media/quaters/Pro-69_studio_1.jpg" alt="#"></div>
+                <div class=""><img class="metro-place__img" src="/local/templates/pro-69/distr/www/f/media/quaters/Pro-69_studio_2.jpg" alt="#"></div>
+                <div class=""><img class="metro-place__img" src="/local/templates/pro-69/distr/www/f/media/quaters/Pro-69_studio_3.jpg" alt="#"></div>
+                <div class=""><img class="metro-place__img" src="/local/templates/pro-69/distr/www/f/media/quaters/Pro-69_studio_4.jpg" alt="#"></div>
             </div>
 			<div class="content__item block studios mobile">
                 <div class="slide blue sblock">
@@ -140,12 +139,7 @@
 					
 					<!--./ DYNAMIC LOF TABLE WITH POPUP -->
 
-                      
-                    <div class="rel loftSelect">
-                      <img class="metro-place__img" src="/local/templates/pro-69/distr/www/f/media/69_build_3.jpg" alt="#" style="width:100%;">
-                      <a href="javascript:void(0);"><span class="fp fs26 pdfLoad"></span></a>
-                    </div>
-
+                      <img class="metro-place__img" src="/local/templates/pro-69/distr/www/f/media/69_build_2.jpg" alt="#" style="width:100%;">
 
                     <!--./ END ^-->
 
@@ -155,24 +149,24 @@
                     <!--- ИДИ ТЫ НА ХУЙ СО СВОИМ content__item с фиксированной высотой -->
 					<div class="content__item block area autoHeight">
                          <div class="slide blue sblock">
-                            <span class="fp fs38">Компактные<br> и светлые студии</span>
+                            <span class="fp fs53">Компактные<br> и светлые студии</span>
                             <span class="fg upper studioText area">
-                                <span class="fl lhCond fs77">от<br/>м2</span>
-                                <span class="fl fs177 mTopMarg10">17</span></span>
+                                <span class="fl lhCond">от<br/>м2</span>
+                                <span class="fl fs200 mTopMarg10">17</span></span>
                             <div class="clear clearfix"></div>
                             <div class="rel">
-                                <a href="javascript:void(0);" class=""><img src="/local/templates/pro-69/distr/www/f/media/plans/plan1.png">
-                                <span class="fp fs26 blockSelect"></span></a>
+                                <a href="javascript:void(0);" class=""><img src="/local/templates/pro-69/distr/www/f/media/plans/plan1.png"/>
+                                <span class="fp fs26 blockSelect">Выбрать</span></a>
                             </div>
                         </div>
                     </div>
 
-                        <div class="content__item block_white area2 autoHeight">
+                    <!--     <div class="content__item block_white area2 autoHeight">
                          <div class="slide blue sblock">
-                            <span class="fp fs38 tBlue">Просторные<br>двухкомнатные<br>студии</span>
+                            <span class="fp fs40 tBlue">Просторные<br>двухкомнатные<br>студии</span>
                             <div class="clear clearfix"></div>
                             <div class="rel area2">
-                                
+                                <a href="javascript:void(0);" class="">
                                     <img src="/local/templates/pro-69/distr/www/f/media/plans/plan2.png"/>
                                  <span class="fg upper studioText area2">
                                 <span class="fl fs50 lhCond tBlue" >от<br/>м2</span>
@@ -180,26 +174,10 @@
                             </span>
                             </div>
                         </div>
-                     </div>
+                     </div> -->
 
-    <div class="content__item block readyBlock mobile overflowBlock">
-                <div class="slide blue sblock ">
-                    <span class="fp fs36">Готовая<br/>квартира<br/> с отделкой!</span>
-                    <span class="fp fs20">
 
-                        Предлагаем качественную<br/>
-                        отделку по минимальным ценам.<br/>
-                        "Завози мебель и живи!" </span>
-                    <div class="rel ">
-                        <span class="fg upper studioText--ready">готово</span>
-                        <span class="blockIcon2 fontIcon orange">f</span>
-                    </div>
-
-                </div>
-                
-            </div>
-
-			</div>
+				</div>
 			</div>
         </div>
     </div>
