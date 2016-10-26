@@ -53,16 +53,16 @@ $APPLICATION->SetTitle("Заглавная страница"); ?>
 </head>
 <body id="home_page">
     <div id="popupBg" style="z-index: 400; display: none;"></div>
-    <div id="ajaxPopupCallBack" style=";">
+    <div id="ajaxPopupCallBack" style="display:none;">
 
-         <div class="popup popup--callback">
+         <div class="popup popup--callback" style="display:block; z-index: 400000;">
         <div class="popup__inner">
                     <div class="popup__title">Обратный звонок</div>
                     <div class="popup__desc">Укажите свой контактный телефон, и наш специалист свяжется с вами в удобное для вас время.</div>
                     <form class="form" id="callbackForm" action="#">
                       <div class="form__group">
                         <div class="form__col">
-                          <div class="form__field">http://dev12.korovets.ru/quarters/?bitrix_include_areas=Y&clear_cache_session=Y&clear_cache=Y
+                          <div class="form__field">
                             <input class="form__input" type="text" name="name" placeholder="Как Вас зовут" required>
                           </div>
                           <div class="form__field">
@@ -219,8 +219,9 @@ $APPLICATION->SetTitle("Заглавная страница"); ?>
         <div role="main" id="content" class="content">
             <div class="logo"><img class="" src="/local/templates/pro-69/distr/www/f/media/logo.jpg" alt="#"></div>
             <div class="slider slider--large content__item__">
-                <div class=""><img class="metro-place__img" src="/local/templates/pro-69/distr/www/f/media/slide1.png" alt="#"></div>
-                <div class=""><img class="metro-place__img" src="/local/templates/pro-69/distr/www/f/media/slide1.png" alt="#"></div>
+                <div class=""><img class="metro-place__img" src="/local/templates/pro-69/distr/www/f/media/slider1/Pro-69_studio_mini_1.jpg" alt="#"></div>
+                <div class=""><img class="metro-place__img" src="/local/templates/pro-69/distr/www/f/media/slider1/Pro-69_studio_mini_2.jpg" alt="#"></div>
+                <div class=""><img class="metro-place__img" src="/local/templates/pro-69/distr/www/f/media/slider1/Pro-69_studio_mini_3.jpg" alt="#"></div>
             </div>
 			<div class="content__item block studios mobile">
                 <div class="slide blue sblock">
@@ -456,6 +457,7 @@ $APPLICATION->SetTitle("Заглавная страница"); ?>
     <script type="text/javascript" charset="UTF-8" src="vivus.js"></script>
   <script type="text/javascript" charset="UTF-8" src="/local/templates/pro-69/distr/www/f/src/global/gallery2.js"></script>
   <script type="text/javascript" charset="UTF-8" src="/local/templates/pro-69/distr/www/f/src/global/popupLoft.js"></script>
+  <script type="text/javascript" charset="UTF-8" src="/local/templates/pro-69/distr/www/f/src/global/callBack.js"></script>
     <script type="text/javascript" charset="UTF-8" src="/local/templates/pro-69/js/ajax.js"></script>
 <script>
 /*$(document).ready(function() {

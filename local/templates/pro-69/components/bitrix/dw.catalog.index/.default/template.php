@@ -62,13 +62,15 @@ if (is_array($arResult['ITEMS']) && count($arResult['ITEMS']) > 0):
 	endforeach;
 ?>
         </div>
+<div class="lots__inner">
+              <div class="lots__control"><a class="more-items" href="#">Еще <span><?=$count;?></span></a></div>
+          </div>
+      </div>
+        
 			</div>
 			
-			<!-- <div class="lots__inner">
-				<div class="lots__inner">
-			        <div class="lots__control"><a class="more-items" href="#">Еще <span><?=$count;?></span></a></div>
-			    </div>
-			</div> -->
+			<div class="lots__inner">
+				
     </div>
 </div>
 <? /*
