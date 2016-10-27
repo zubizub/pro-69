@@ -75,7 +75,7 @@ $this->setFrameMode(true);?>
     </div>
     <div style="width:60%;position:relatative;display:inline-block;float:right;">
       <div class="plan">
-        <? if ($arResult['PROPERTIES']['AREA']['VALUE'] < 30) { $plan = 'plan1'; } else { $plan = 'plan2'; } ?>
+        <? if (intval($arResult['PROPERTIES']['AREA']['VALUE']) < 30) { $plan = 'plan1'; } else { $plan = 'plan2'; } ?>
         
        <img src="/local/templates/pro-69/distr/www/f/media/plans/<?=$plan;?>.png">
       </div>
