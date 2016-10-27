@@ -1,4 +1,13 @@
 $(document).ready(function() {
+
+	$('.slider2').slick({
+				    dots: false,
+				    infinite: true,
+				    speed: 500,
+				    fade: true,
+				    cssEase: 'linear'
+				});
+
     $('.gallery2Switch .switch a').click(function(){
 
 
@@ -10,7 +19,15 @@ $(document).ready(function() {
     		$(this).parent().addClass('active');
 
     		$('.galleryGroup').hide();
-    		$('.'+group).show();
+    		$('.group'+group).show();
+    		$('.slider'+group).slick({
+				    dots: false,
+				    infinite: true,
+				    speed: 500,
+				    fade: true,
+				    cssEase: 'linear'
+				});
+
 
     });
 });

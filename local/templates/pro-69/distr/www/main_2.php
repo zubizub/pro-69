@@ -325,30 +325,44 @@ $APPLICATION->SetTitle("Заглавная страница"); ?>
                                   
                     <ul class="gallery2Switch">
                         <li class="switch">  
-                            <a href="javascript:void(0);" data-switch="group1" class="fp fs20">Дом</a>
+                            <a href="javascript:void(0);" data-switch="1" class="fp fs20">Дом</a>
                         </li>
                         <li class="switch active">
-                            <a href="javascript:void(0);" data-switch="group2" class="fp fs20">Вход</a>
+                            <a href="javascript:void(0);" data-switch="2" class="fp fs20">Вход</a>
                         </li>
                         <li class="switch">
-                            <a href="javascript:void(0);" data-switch="group3" class="fp fs20">Студии</a>
+                            <a href="javascript:void(0);" data-switch="3" class="fp fs20">Студии</a>
                         </li>
 
                     </ul>
             
                    
                     <div class="group1 galleryGroup">
-                            <div class=""><img class="" src="/local/templates/pro-69/distr/www/f/media/slider2/Pro-69_House_1.jpg" alt="#"></div>
+                      <div class="slider1">
+                        
+                        <div class=""><img class="" src="/local/templates/pro-69/distr/www/f/media/slider2/Pro-69_House_1.jpg" alt="#"></div>
+                        <div class=""><img class="" src="/local/templates/pro-69/distr/www/f/media/slider2/Pro-69_House_2.jpg" alt="#"></div>
+                        <div class=""><img class="" src="/local/templates/pro-69/distr/www/f/media/slider2/Pro-69_House_3.jpg" alt="#"></div>
+
+                      </div>
                         
                     </div>
                       
                        <div class="group2 galleryGroup">
+                          <div class="slider2">
                             <div class=""><img class="" src="/local/templates/pro-69/distr/www/f/media/slider2/Pro-69_entrance_1.jpg" alt="#"></div>
+                            <div class=""><img class="" src="/local/templates/pro-69/distr/www/f/media/slider2/Pro-69_entrance_2.jpg" alt="#"></div>
+                            <div class=""><img class="" src="/local/templates/pro-69/distr/www/f/media/slider2/Pro-69_entrance_3.jpg" alt="#"></div>
+                          </div>
                         
                     </div>
                         
                         <div class="group3 galleryGroup">
-                            <div class=""><img class="" src="/local/templates/pro-69/distr/www/f/media/slider2/Pro-69_floor_1.jpg" alt="#"></div>
+                            <div class="slider3">
+                              <div class=""><img class="" src="/local/templates/pro-69/distr/www/f/media/slider2/Pro-69_floor_1.jpg" alt="#"></div>
+                              <div class=""><img class="" src="/local/templates/pro-69/distr/www/f/media/slider2/Pro-69_floor_2.jpg" alt="#"></div>
+                              <div class=""><img class="" src="/local/templates/pro-69/distr/www/f/media/slider2/Pro-69_floor_3.jpg" alt="#"></div>
+                            </div>
                         
                     </div>
 
