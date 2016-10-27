@@ -709,6 +709,39 @@ div.group2.galleryGroup{
 }
 
 
+.slick-prev:before, .slick-next:before{
+ position: absolute;
+ z-index: 19;
+}
+
+.slider .slick-prev {
+    left: 1.875rem;
+    z-index: 1;
+    width: 100px;
+    height: 50px;
+ transform: scale(-1, 1);
+    filter: FlipH;
+    -ms-filter: "FlipH";
+    height: 50px;
+    width: 100px;
+    top: 75%;
+ letter-spacing: -25px;
+ white-space: nowrap;
+ left: 4rem;
+}
+
+.slick-next:before {
+    content: "->";
+    font-size: 150px !important;
+    white-space: nowrap;
+    letter-spacing: -25px;
+}
+
+.slider .slick-prev {
+    left: 1.875rem;
+    z-index: 20;
+  }
+
 html {
 
   background: #fec9ae;
@@ -823,7 +856,8 @@ min-height: 395px !important;
 }
 
 
-.content__item.block.compact.dotSlider .slick-prev {
+.content__item.block.compact.dotSlider .slick-prev,
+.content__item.block.compact.dotSlider .slick-next {
   display: none !important;
 }
 
@@ -846,35 +880,8 @@ span.fp.fs29.cardColorWhite.bg2017 {
 
 
 .content__item.ready .studioPrice {
- margin-top: 60px !important;
+ margin-top: 80px !important;
 }
 
 
 
-.slick-prev:before, .slick-next:before{
- position: absolute;
- z-index: 19;
-}
-
-.slider .slick-prev {
-    left: 1.875rem;
-    z-index: 1;
-    width: 100px;
-    height: 50px;
- transform: scale(-1, 1);
-    filter: FlipH;
-    -ms-filter: "FlipH";
-    height: 50px;
-    width: 100px;
-    top: 75%;
- letter-spacing: -25px;
- white-space: nowrap;
- left: 4rem;
-}
-
-.slick-next:before {
-    content: "->";
-    font-size: 150px !important;
-    white-space: nowrap;
-    letter-spacing: -25px;
-}
