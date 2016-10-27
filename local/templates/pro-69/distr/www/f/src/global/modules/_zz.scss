@@ -45,7 +45,7 @@ padding: 35px 0 0 40px;
 
 .studioText {
 
-    font-size: 130px;
+    font-size: 130px !important;
     margin: 0;
     transform: scale(1,1.2);
 }
@@ -54,14 +54,14 @@ span.blockIcon1 {
     position: absolute;
     top: -80%;
     right: -1%;
-    font-size: 151px;
+    font-size: 151px !important;
 }
 
 
 /*Стили Влад*/
 .cardColorWhite {color: #fff;}
-.studioPrice {font-size: 170px;}
-.studioPrice span {font-size: 200px; display: inline !important;}
+.studioPrice {font-size: 170px !important;}
+.studioPrice span {font-size: 200px !important; display: inline !important;}
 .compact .slide {padding: 20px 10px 0 35px;}
 .compact .slide span, .content__item.ready .slide span {display: block;}
 .compact .slide span:nth-of-type(2) {margin: 20px 0 -35px;}
@@ -70,7 +70,7 @@ span.blockIcon1 {
 .content__item.ready {background: url(../distr/www/f/media/bg-ready.jpg); background-size: contain;}
 .content__item.ready .slide {padding: 20px 0 0 15px;}
 .content__item.ready .cardColorWhite {padding-left: 110px;}
-.content__item.ready .studioPrice {font-size: 200px; margin-top: 30px;}
+.content__item.ready .studioPrice {font-size: 200px; margin-top: 30px !important;}
 
 
 .lots__inner {
@@ -367,7 +367,7 @@ padding: 1.25rem;
 .lot.lot--header > div {
 
 font-family: 'posterizerkgrough';
-font-size: 21px;
+font-size: 21px !important;
 
 
 }
@@ -375,7 +375,7 @@ font-size: 21px;
 .lotItems a div {
 
 font-family: 'posterizerkgrough';
-font-size: 15px;
+font-size: 15px !important;
 
 
 }
@@ -383,7 +383,7 @@ font-size: 15px;
 .lot.lot--header > div {
 
 font-family: 'posterizerkgrough';
-font-size: 21px;
+font-size: 21px !important;
 
 
 }
@@ -391,7 +391,7 @@ font-size: 21px;
 .lotItems a div {
 
 font-family: 'posterizerkgrough';
-font-size: 15px;
+font-size: 15px !important;
 
 
 }
@@ -449,18 +449,18 @@ div#ajaxPopup {
 }
 .popup.card .studioText  {
 
-  font-size: 24px;
+  font-size: 24px !important;
   margin-bottom: 10px;
 }
 
 .pLoftInfo span { 
-font-size: 20px;
+font-size: 20px !important;
 }
 
 .pColRight.close { cursor: pointer;}
 
 
-.fs26 {font-size: 26px;}
+.fs26 {font-size: 26px !important;}
 
 .blockSelect {
     position: absolute;
@@ -473,8 +473,8 @@ font-size: 20px;
     margin: 0;
     padding: 8% 0% 0% 15%;
 }
-.fs250 {font-size: 250px;}
-.fs200 {font-size: 200px;}
+.fs250 {font-size: 250px !important;}
+.fs200 {font-size: 200px !important;}
 
 .lhCond {line-height: 70%;}
 
@@ -511,7 +511,7 @@ font-size: 20px;
    }
 
 .area .studioText {
-    font-size: 100px;
+    font-size: 100px !important;
    
 }
 
@@ -546,14 +546,14 @@ font-size: 20px;
     
 }
 
-.fs40 {font-size: 40px;}
-.fs20 {font-size: 20px;}
-.fs100 {font-size: 100px;}
-.fs50 {font-size: 50px;}
-.fs36 {font-size: 36px;}
-.fs38 {font-size: 38px;}
-.fs77 {font-size: 77px;}
-.fs177 {font-size: 177px;}
+.fs40 {font-size: 40px !important;}
+.fs20 {font-size: 20px !important;}
+.fs100 {font-size: 100px !important;}
+.fs50 {font-size: 50px !important;}
+.fs36 {font-size: 36px !important;}
+.fs38 {font-size: 38px !important;}
+.fs77 {font-size: 77px !important;}
+.fs177 {font-size: 177px !important;}
 
 
 .studioText.area span {
@@ -580,7 +580,7 @@ font-size: 20px;
 
 
 .studioText--ready {
-    font-size: 155px;
+    font-size: 155px !important;
     margin: 0;
     transform: scale(1,1.2);
 }
@@ -596,11 +596,11 @@ span.blockIcon2 {
     position: absolute;
     top: -31%;
     left: 18%;
-    font-size: 109px;
+    font-size: 109px !important;
 
 }
 .studioText--showroom {
-    font-size: 155px;
+    font-size: 155px !important;
     /* margin: 0; */
     transform: scale(1,1.2);
     line-height: 80px;
@@ -687,15 +687,15 @@ div.group2.galleryGroup{
 .galleryGroup .slick-next:before {
     
     content: ">";
-    font-size: 150px;
+    font-size: 150px !important;
 }
 
-.fs22 { font-size: 22px;}
-.fs18 { font-size: 18px;}
+.fs22 { font-size: 22px !important;}
+.fs18 { font-size: 18px !important;}
 
 
 .studioText.life {
-    font-size: 80px;
+    font-size: 80px !important;
         margin-bottom: 0px;
 } 
 
