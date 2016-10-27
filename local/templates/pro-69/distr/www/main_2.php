@@ -239,7 +239,7 @@ $APPLICATION->SetTitle("Заглавная страница"); ?>
       <div class="clear clearfix"></div>
 			<div class="content__item block compact dotSlider">
                 <div class="slide">
-                    <span class="fp fs53">Компактные<br> и светлые студии</span>
+                    <span class="fp fs53">Компактные<br> и светлые <br/>студии</span>
                     <span class="fg upper studioPrice">от<span>2,9</span></span>
                     <span class="fg upper fs36">миллионов рублей</span>
                 </div>
