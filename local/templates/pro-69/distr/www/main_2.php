@@ -361,7 +361,7 @@ $APPLICATION->SetTitle("Заглавная страница"); ?>
                             <a href="javascript:void(0);" data-switch="2" class="fp fs20">Вход</a>
                         </li>
                         <li class="switch">
-                            <a href="javascript:void(0);" data-switch="3" class="fp fs20">Студии</a>
+                            <a href="javascript:void(0);" data-switch="3" class="fp fs20">Этаж</a>
                         </li>
 
                     </ul>
