@@ -766,7 +766,8 @@ left: 75px;
 }
 html {
 
-  background: #fec9ae;
+  /*background: #fec9ae;*/
+  background: #fff;
 }
 
  body {
@@ -827,9 +828,9 @@ min-height: 395px !important;
 .content__item.block.studios.mobile {
 
   min-height: 0 !important; 
-  max-height: 400px !important;
+  max-height: 398px !important;
   overflow: hidden !important;
-  height: 400px;
+  height: 398px;
 }
 
 .content__item.block.studios.mobile .studioText{
@@ -856,13 +857,11 @@ min-height: 395px !important;
   background-color: #4972b4  !important;
 }
 
-.content__item.west .fg span {
-    font-size: 90px !important;
-}
 
 .content__item.west .fg {
     font-size: 70px !important;
- 
+ padding-top: 10px !important;
+
 }
 
 
@@ -898,12 +897,49 @@ span.fp.fs29.cardColorWhite.bg2017 {
     position: absolute;
     top: 100px;
     width: 70%;
+    margin-top: 50px;
 }
 
 
 .content__item.ready .studioPrice {
- margin-top: 80px !important;
+ margin-top: 150px !important;
 }
 
 
 
+.content__item.west .fg {
+    font-size: 6.3vw;
+    line-height: 69px;
+    margin-bottom: -23px;
+    padding-top: 10px;
+}
+
+.content__item.west .fs29 {
+    font-size: 18px !important;
+}
+
+
+.content__item.west .fg span {
+    font-size: 95px !important;
+}
+
+ul.fp.fs20 li {
+    font-size: 14px;
+}
+
+
+.row.row3 .content__item {
+    min-height: 398px !important;
+    max-height: 398px;
+}
+
+.row.row4 .content__item {
+    min-height: 440px !important;
+    max-height: 398px;
+    max-width: 398px !important;
+    float: left;
+}
+
+
+
+.life { background: #345385; }

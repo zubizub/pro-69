@@ -279,7 +279,7 @@ $APPLICATION->SetTitle("Заглавная страница"); ?>
                     <!-- <div class="">
                         <img class="metro-place__img" src="/local/templates/pro-69/distr/www/f/media/slide4_2.jpg" alt="#">
                     </div> -->
-                      <div class="block studios">
+                      <div class="block studios life">
                           <div class="slide blue sblock life">
                               <span class="fp fs22">Мечтаете о собственном жилье?</span>
                               <span class="fp fs18">Комфортные студии<br/>с пропиской в Москве.</span>
@@ -324,7 +324,7 @@ $APPLICATION->SetTitle("Заглавная страница"); ?>
                         <p class="fg upper">юго-запад <span>москвы</span></p>
                     </div>
                 </div>
-             <!--    <div class="block_white">
+                <div class="block_white">
                     <div>
                         <span class="fp fs29">Вблизи Дома на Профсоюзной<br>находится: </span>
                         <div>
@@ -341,7 +341,7 @@ $APPLICATION->SetTitle("Заглавная страница"); ?>
                             </ul>
                         </div>
                     </div>
-                </div> -->
+                </div>
             </div>
 </div> 
   <div class="content-block">
@@ -400,8 +400,9 @@ $APPLICATION->SetTitle("Заглавная страница"); ?>
                 </div>
 
 
+<div class="row row4">
 
- <?$APPLICATION->IncludeComponent(
+ <? /*$APPLICATION->IncludeComponent(
     "bitrix:dw.catalog.index",
     "",
     Array(
@@ -413,8 +414,46 @@ $APPLICATION->SetTitle("Заглавная страница"); ?>
         "IBLOCK_TYPE" => "quarters",
         "LIMIT" => "100"
     )
-);?><br>
+);?><br> */?>
 
+    <div class="content__item block_white mobile overflowBlock">
+                <div class="slide blue sblock ">
+                    <span class="fp fs36 tBlue">
+                    Офис-продаж<br>
+                    на Профсоюзной,<br>
+                    69
+                    </span>
+                    <span class="fp fs20 tBlue mb50i">
+                        10:00—19:00<br/>
+                        2 этаж, офис 201
+                    </span>
+                    <div class="rel overflowBlock">
+                        <span class="fg upper studioText--showroom">Show-<br>room</span>
+                        
+                    </div>
+
+                </div>
+                
+            </div>
+
+      <div class="content__item block readyBlock mobile overflowBlock">
+                <div class="slide blue sblock ">
+                    <span class="fp fs36">Готовая<br/>квартира<br/> с отделкой!</span>
+                    <span class="fp fs20">
+
+                        Предлагаем качественную<br/>
+                        отделку по минимальным ценам.<br/>
+                        "Завози мебель и живи!" </span>
+                    <div class="rel ">
+                        <span class="fg upper studioText--ready">готово</span>
+                        <span class="blockIcon2 fontIcon orange">f</span>
+                    </div>
+
+                </div>
+                
+            </div>
+
+                </div>
                 </div>
                 <div class="content-block__col_right">
 
@@ -449,7 +488,7 @@ $APPLICATION->SetTitle("Заглавная страница"); ?>
                         </div>
                      </div>
 
-          <div class="content__item block readyBlock mobile overflowBlock">
+    <!--       <div class="content__item block readyBlock mobile overflowBlock">
                 <div class="slide blue sblock ">
                     <span class="fp fs36">Готовая<br/>квартира<br/> с отделкой!</span>
                     <span class="fp fs20">
@@ -464,9 +503,9 @@ $APPLICATION->SetTitle("Заглавная страница"); ?>
 
                 </div>
                 
-            </div>
+            </div> -->
 
-         <div class="content__item block_white mobile overflowBlock">
+     <!--     <div class="content__item block_white mobile overflowBlock">
                 <div class="slide blue sblock ">
                     <span class="fp fs36 tBlue">
                     Офис-продаж<br>
@@ -484,7 +523,7 @@ $APPLICATION->SetTitle("Заглавная страница"); ?>
 
                 </div>
                 
-            </div>
+            </div> -->
 
         </div>
         </div>
