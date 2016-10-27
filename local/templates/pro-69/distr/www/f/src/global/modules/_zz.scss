@@ -848,3 +848,33 @@ span.fp.fs29.cardColorWhite.bg2017 {
 .content__item.ready .studioPrice {
  margin-top: 60px !important;
 }
+
+
+
+.slick-prev:before, .slick-next:before{
+ position: absolute;
+ z-index: 19;
+}
+
+.slider .slick-prev {
+    left: 1.875rem;
+    z-index: 1;
+    width: 100px;
+    height: 50px;
+ transform: scale(-1, 1);
+    filter: FlipH;
+    -ms-filter: "FlipH";
+    height: 50px;
+    width: 100px;
+    top: 75%;
+ letter-spacing: -25px;
+ white-space: nowrap;
+ left: 4rem;
+}
+
+.slick-next:before {
+    content: "->";
+    font-size: 150px !important;
+    white-space: nowrap;
+    letter-spacing: -25px;
+}
