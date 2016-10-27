@@ -468,7 +468,8 @@ $APPLICATION->SetTitle("Заглавная страница"); ?>
                             <div class="clear clearfix"></div>
                             <div class="rel">
                                 <a href="javascript:void(0);" class=""><img src="/local/templates/pro-69/distr/www/f/media/plans/plan1.png">
-                                <span class="fp fs26 blockSelect"></span></a>
+                              <!--   <span class="fp fs26 blockSelect"></span> -->
+                              </a>
                             </div>
                         </div>
                     </div>
