@@ -152,8 +152,8 @@ $APPLICATION->SetTitle("Заглавная страница"); ?>
     <!-- <div id="ajaxPopups" style="position:fixed; z-index: 400000; display: none;"> -->
     <div id="ajaxPopups" style="position:absolute; z-index: 400000; display: none; top:10%; left: 15%;">
         <div id="popupClose">X</div>
-        <!--- СЕРЕЖА Я ЖЕ ПРОСИЛ ДЕЛАТЬ КОНТЕЙНЕРЫ ИМЕНОВАННЫЕ ДЛЯ АЯКС --> 
-      <div id="cardLoft">
+        
+      <div id="cardLoft"> 
         <div style="width:40%;position:relatative;display:inline-block;float:left;">
             <div class="popupContent">
             
