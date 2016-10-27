@@ -791,7 +791,7 @@ min-height: 395px !important;
 }
 
 .content__item.metro .fg {
-    font-size: 110px !important;
+    font-size: 140px !important;
 }
 
 .content__item.west {
@@ -815,5 +815,15 @@ min-height: 395px !important;
 
 .content__item.west .block {
     height: 100% !important;
+    overflow: none !important;
   
+}
+
+
+.content__item.block.compact.dotSlider .slick-prev {
+  display: none !important;
+}
+
+.ready .studioPrice {
+    font-size: 165px !important;
 }
