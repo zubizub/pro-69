@@ -1,4 +1,4 @@
-<? define(SITE_TEMPLATE_PATH, "/local/templates/pro-69/");?>
+<? //define(SITE_TEMPLATE_PATH, "/local/templates/pro-69/");?>
 <!DOCTYPE html>
 <html lang="ru-RU">
 
@@ -18,7 +18,7 @@
 	<meta name="author" content="Akado">
 	<!--<link href="/favicon.ico" rel="shortcut icon" type="image/x-icon">-->
 	<!-- <link rel="stylesheet" type="text/css" href="/local/templates/pro-69/distr/www/f/min/global.css" media="all"> -->
-	<link rel="stylesheet" type="text/css" href="<?=SITE_TEMPLATE_PATH;?>/distr/www/f/min/global.css" media="all">
+	<link rel="stylesheet" type="text/css" href="/local/templates/pro-69/distr/www/f/min/global.css" media="all">
 	<!-- <link rel="stylesheet" type="text/css" href="/local/templates/pro-69/distr/www/f/min/global/main.css" media="all"> -->
 	<link rel="stylesheet" type="text/css" href="/local/templates/pro-69/fonts/font1.css" media="all">
 	<link rel="stylesheet" type="text/css" href="/local/templates/pro-69/fonts/font2.css" media="all">
