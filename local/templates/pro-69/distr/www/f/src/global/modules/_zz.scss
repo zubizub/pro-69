@@ -725,7 +725,7 @@ html {
 }
 
 #content>.content__item {
-    min-height: 0px !important; 
+    /*min-height: auto !important; */
 }
 
 .clear, .clearfix { 
@@ -764,4 +764,9 @@ min-height: 395px !important;
 
 .fs53 {
     font-size: 38px !important;
+}
+
+.content__item.block.studios.mobile {
+
+  min-height: 0 !important; 
 }
