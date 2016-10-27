@@ -23,6 +23,14 @@ $('.slider_large').slick({
   cssEase: 'linear'
 });
 
+$('.dotSlider').slick({
+  dots: true,
+  infinite: true,
+  speed: 500,
+  fade: true,
+  cssEase: 'linear'
+});
+
 $(document).ready(function() {
     $('.flip-container').addClass('flippp');
 });
@@ -39,3 +47,4 @@ $(document).ready(function() {
 
 //require('f/src/global/gallery2.js');
 //import ("gallery2.js");
+

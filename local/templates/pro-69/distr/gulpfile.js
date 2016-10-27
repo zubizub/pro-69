@@ -3,6 +3,7 @@ var jshint = require('gulp-jshint');
 var rename = require('gulp-rename');
 var include = require('gulp-include');
 var uglify = require('gulp-uglify');
+autoprefixer = require('gulp-autoprefixer');
 var sourcemaps = require('gulp-sourcemaps');
 var plumber = require('gulp-plumber');
 var gulpif = require('gulp-if');
@@ -74,7 +75,32 @@ gulp.task('css', function() {
       path.dirname = '.';
       path.basename = dirname[0]
     }))
+               // Initialise sourcemaps prior to compiling SASS.
+        .pipe(sourcemaps.init())
+
+        // Compile SASS.
+        .pipe(sass({outputStyle: 'compressed'}))
+
+        // Rename index.scss file to styles.css.
+        .pipe(rename({basename: 'styles'}))
+
+        // Write sourcemap inline.
+        .pipe(sourcemaps.write())
+
+        // Reinitialise sourcemaps, loading inline sourcemap.
+        .pipe(sourcemaps.init({loadMaps: true}))
+
+        // Run compiled CSS through autoprefixer.
+        .pipe(autoprefixer({browsers: ['last 2 versions']}))
+
+        // Write sourcemap to a separate file.
+        .pipe(sourcemaps.write('./'))
+
+        // Write CSS file to desitination path.
+        .pipe(gulp.dest('www/f/'))
+
              .pipe(gulp.dest(base.min));
+
 });
 
 gulp.task('clean-js', function() {
@@ -159,6 +185,34 @@ gulp.task('js-libs', function() {
     .pipe(gulp.dest(base.min));
 });
 
+
+  /*gulp.task('styles', function() {
+      return gulp.src('www/f/index.scss')
+
+          // Initialise sourcemaps prior to compiling SASS.
+          .pipe(sourcemaps.init())
+
+          // Compile SASS.
+          .pipe(sass({outputStyle: 'compressed'}))
+
+          // Rename index.scss file to styles.css.
+          .pipe(rename({basename: 'styles'}))
+
+          // Write sourcemap inline.
+          .pipe(sourcemaps.write())
+
+          // Reinitialise sourcemaps, loading inline sourcemap.
+          .pipe(sourcemaps.init({loadMaps: true}))
+
+          // Run compiled CSS through autoprefixer.
+          .pipe(autoprefixer({browsers: ['last 2 versions']}))
+
+          // Write sourcemap to a separate file.
+          .pipe(sourcemaps.write('./'))
+
+          // Write CSS file to desitination path.
+          .pipe(gulp.dest('www/f/'));
+  });*/
 
 gulp.task('build', function () {
   isDevMode = false;
