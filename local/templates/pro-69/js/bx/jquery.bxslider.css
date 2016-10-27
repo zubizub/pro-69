@@ -105,12 +105,14 @@
 
 .bx-wrapper .bx-prev {
 	left: 10px;
-	background: url(images/controls.png) no-repeat 0 -32px;
+	background: url(images/left.png) no-repeat ;
+	background-size: 150% 100%;
 }
 
 .bx-wrapper .bx-next {
 	right: 10px;
-	background: url(images/controls.png) no-repeat -43px -32px;
+	background: url(images/right.png) no-repeat ;
+	background-size: 150% 100%;
 }
 
 .bx-wrapper .bx-prev:hover {
@@ -118,7 +120,8 @@
 }
 
 .bx-wrapper .bx-next:hover {
-	background-position: -43px 0;
+	/*background-position: -43px 0;*/
+	opacity: 0.5;
 }
 
 .bx-wrapper .bx-controls-direction a {

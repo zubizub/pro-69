@@ -678,14 +678,17 @@ div.group2.galleryGroup{
 
 }
 
+/*.slick-next*/
 
+.galleryGroup .slick-next, 
+.slick-next {
 
-.galleryGroup .slick-next {
-
-  right: 75px;
+  right: 75px !important;
+  z-index: 3500 !important;
 }
 
-.galleryGroup .slick-next:before {
+.galleryGroup .slick-next:before,
+.slick-next:before {
     
     content: ">";
     font-size: 150px !important;
@@ -843,4 +846,5 @@ span.fp.fs29.cardColorWhite.bg2017 {
 
 
 .content__item.ready .studioPrice {
- margin-top: 60px !important;}
+ margin-top: 60px !important;
+}
