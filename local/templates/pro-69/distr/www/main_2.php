@@ -268,10 +268,21 @@ $APPLICATION->SetTitle("Заглавная страница"); ?>
                     <!-- <div class="">
                         <img class="metro-place__img" src="/local/templates/pro-69/distr/www/f/media/slide4_2.jpg" alt="#">
                     </div> -->
-                    <img class="metro-place__img" src="/local/templates/pro-69/distr/www/f/media/life.jpg" alt="#" style="width:100%;">
+                      <div class="block studios">
+                          <div class="slide blue sblock life">
+                              <span class="fp fs22">Мечтаете о собственном жилье?</span>
+                              <span class="fp fs18">Комфортные студии<br/>с пропиской в Москве.</span>
+                              <div class="rel">
+                                  <span class="fg studioText life">+ Прописка</span>
+                                  
+                              </div>
+
+                          </div>
+                   <!--  <img class="metro-place__img" src="/local/templates/pro-69/distr/www/f/media/life.jpg" alt="#" style="width:100%;"> -->
                 </div>
                 
             </div>            
+          </div>            
 			<div class="content__item block_white ready">
                 <div class="slide">
                     <span class="fp fs53">Готовность — <br>80%</span>

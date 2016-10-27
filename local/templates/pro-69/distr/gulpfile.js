@@ -82,7 +82,7 @@ gulp.task('css', function() {
         .pipe(sass({outputStyle: 'compressed'}))
 
         // Rename index.scss file to styles.css.
-        .pipe(rename({basename: 'styles'}))
+        .pipe(rename({basename: 'global'}))
 
         // Write sourcemap inline.
         .pipe(sourcemaps.write())
@@ -97,7 +97,7 @@ gulp.task('css', function() {
         .pipe(sourcemaps.write('./'))
 
         // Write CSS file to desitination path.
-        .pipe(gulp.dest('www/f/'))
+      //pipe(gulp.dest('www/f/'))
 
              .pipe(gulp.dest(base.min));
 
