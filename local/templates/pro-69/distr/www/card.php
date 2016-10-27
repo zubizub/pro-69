@@ -85,7 +85,7 @@
 				</div>
 			</div>
 		</div>
-		<div style="width:60%;position:relatative;display:inline-block;float:right;">
+		<div class="card-right">
 				<div class="plan">
 					
 				</div>
