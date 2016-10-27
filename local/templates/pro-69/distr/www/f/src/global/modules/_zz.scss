@@ -774,6 +774,7 @@ html {
 
   max-width: 1200px !important;
   width: 1200px !important;
+  min-width: 1200px !important;
   
   margin: 0 auto !important;
 }
@@ -956,4 +957,9 @@ ul.gallery2Switch li.switch {
   min-height: 450px !important;
   height: 450px !important;
 
+}
+
+
+.content__item {
+    width: 33.3333333% !important;
 }
