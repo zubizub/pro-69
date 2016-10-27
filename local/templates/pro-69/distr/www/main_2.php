@@ -236,6 +236,7 @@ $APPLICATION->SetTitle("Заглавная страница"); ?>
                 </div>
                 
             </div>
+      <div class="clear clearfix"></div>
 			<div class="content__item block compact dotSlider">
                 <div class="slide">
                     <span class="fp fs53">Компактные<br> и светлые студии</span>

@@ -551,6 +551,7 @@ font-size: 20px !important;
 .fs100 {font-size: 100px !important;}
 .fs50 {font-size: 50px !important;}
 .fs36 {font-size: 36px !important;}
+.fs36 {font-size: 30px !important;} /* temp */
 .fs38 {font-size: 38px !important;}
 .fs77 {font-size: 77px !important;}
 .fs177 {font-size: 177px !important;}
@@ -722,3 +723,11 @@ html {
     min-width: 400px !important;
     
 }
+
+#content>.content__item {
+    min-height: 0px !important; 
+}
+
+.clear, .clearfix { 
+width: 100%;
+clear: both;}
