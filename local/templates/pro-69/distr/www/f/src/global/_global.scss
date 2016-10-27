@@ -420,7 +420,7 @@ header {
 
 .ready {
     @media only screen and (max-width: 991px) {
-        display: none;
+       /* display: none;*/
     }
 }
 
@@ -434,7 +434,7 @@ header {
 
 .mobile {
     @media only screen and (max-width: 460px) {
-        display: none;
+       /* display: none;*/
     }
 }
 
