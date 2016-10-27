@@ -149,10 +149,12 @@ $APPLICATION->SetTitle("Заглавная страница"); ?>
                   <button class="popup__close"></button></div>
 
               </div>
-    <div id="ajaxPopups" style="position:fixed; z-index: 400000; display: none;">
+    <!-- <div id="ajaxPopups" style="position:fixed; z-index: 400000; display: none;"> -->
+    <div id="ajaxPopups" style="position:absolute; z-index: 400000; display: none; top:10%; left: 15%;">
         <div id="popupClose">X</div>
         <!--- СЕРЕЖА Я ЖЕ ПРОСИЛ ДЕЛАТЬ КОНТЕЙНЕРЫ ИМЕНОВАННЫЕ ДЛЯ АЯКС --> 
-        <div style="width:40%;position:relatative;display:inline-block;float:left;" id="cardLoft">
+      <div id="cardLoft">
+        <div style="width:40%;position:relatative;display:inline-block;float:left;">
             <div class="popupContent">
             
                 <h2>Компактная и светлая <p>студия</p></h2>
@@ -206,6 +208,7 @@ $APPLICATION->SetTitle("Заглавная страница"); ?>
                 </div>
             </div>
     </div>
+</div>
     <div id="wrapper" class="wrapper" style="max-width: 1441px;">
         <header id="header" class="header">
             <div class="header-column">

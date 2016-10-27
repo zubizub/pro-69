@@ -17,10 +17,9 @@ $this->setFrameMode(true);?>
 
 
 
+       <div class="popupContent">
       
-    <div style="width:40%;position:relatative;display:inline-block;float:left;">
-      <div class="popupContent">
-        <h2>Компактная <br>и светлая <p class="studio">студия</p></h2>
+        <h2>Компактная и светлая <p>студия</p></h2>
         <div class="popupInfo">
           <p>площадь</p>
           <p class="item"><?=$arResult['PROPERTIES']['AREA']['VALUE'];?> м²</p>
@@ -34,52 +33,33 @@ $this->setFrameMode(true);?>
           <table>
             <thead>
               <tr>
-                <td>
-                  <p>этаж</p>
-                </td>
-                <td>
-                  <p>крыло</p>
-                </td>
+                <td><p>этаж</p></td>
+                <td><p>крыло</p></td>
               </tr>
             </thead>
             <tbody>
               <tr>
-                <td>
-                  <p class="item"><?=$arResult['PROPERTIES']['STAGE']['VALUE'];?></p>
-                </td>
-                <td>
-                  <p class="item">бол.</p>
-                </td>
+                <td><p class="item"><?=$arResult['PROPERTIES']['STAGE']['VALUE'];?></p></td>
+                <td><p class="item">бол.</p></td>
               </tr>
             </tbody>
           </table>
           <div class="kostyl"></div>
           <p>статус</p>
           <p style="color: white;">свободно</p>
-          <button type="button" class="btn-def">Забронировать</button>
+          <!-- <button type="button" class="btn-def">Забронировать</button> -->
           <div class="popupFooterLeft">
             <p class="phone">+7 (495) 780-40-40</p>
-            <br/>
             <div class="kostyl"></div>
             <ul>
-              <li><a href="#">заказать звонок</a></li>
+              <!-- <li><a href="#">заказать звонок</a></li>
               <li><a href="#">отправить на почту</a></li>
-              <li><a href="#">скачать</a></li>
+              <li><a href="#">скачать</a></li> -->
             </ul>
-            <br/>
             <div class="kostyl"></div>
             <p class="adress">дом на профсоюзной, 69</p>
           </div>
         </div>
       </div>
-    </div>
-    <div style="width:60%;position:relatative;display:inline-block;float:right;">
-      <div class="plan">
-        <? if ($arResult['PROPERTIES']['AREA']['VALUE'] < 30) { $plan = 'plan1'; } else { $plan = 'plan2'; } ?>
-        
-       <img src="/local/templates/pro-69/distr/www/f/media/plans/<?=$plan;?>.png">
-      </div>
-      <div class="preview"> <img src="/local/templates/pro-69/distr/www/img/preview.png"> </div>
-    </div>
 
-      
+
