@@ -31,6 +31,7 @@ $APPLICATION->SetTitle("Заглавная страница"); ?>
     <link rel="stylesheet" type="text/css" href="/local/templates/pro-69/css/ser.css" media="all">
     <link rel="stylesheet" type="text/css" href="/local/templates/pro-69/css/popup.css" media="all">
     <link rel="start" href="/">
+        <script type="text/javascript" charset="UTF-8" src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
     
 <style>
 
@@ -451,7 +452,7 @@ $APPLICATION->SetTitle("Заглавная страница"); ?>
             
         </div>
    
-    <script type="text/javascript" charset="UTF-8" src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+
     <script type="text/javascript" charset="UTF-8" src="/local/templates/pro-69/distr/www/f/min/libs.min.js"></script>
     <script type="text/javascript" charset="UTF-8" src="/local/templates/pro-69/distr/www/f/min/global.min.js"></script>
     <script type="text/javascript" charset="UTF-8" src="vivus.js"></script>
