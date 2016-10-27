@@ -16,7 +16,7 @@ var browserify = require('browserify');
 var source = require('vinyl-source-stream');
 var buffer = require('vinyl-buffer');
 
-var isDevMode = false;
+var isDevMode = true;
 
 var base = {
     src: 'www/f/src/**/',
@@ -53,6 +53,17 @@ gulp.task('css', ['clean-css'], function () {
       path.basename = dirname[0]
     }))
     .pipe(gulp.dest(base.min));
+});
+
+
+gulp.task('maps', function() {
+  //gulp.src(base.src + 'main.scss''src/**/*.scss')
+  gulp.src(base.src + 'main.scss')
+  .pipe(sourcemaps.init())
+  .pipe(gulp-sass())
+  .pipe(gulp-autoprefixer())
+  .pipe(sourcemaps.write('../maps'))
+  .pipe(gulp.dest(base.min));
 });
 
 gulp.task('css-dev', function () {
