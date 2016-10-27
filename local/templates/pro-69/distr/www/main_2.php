@@ -31,7 +31,7 @@ $APPLICATION->SetTitle("Заглавная страница"); ?>
     <link rel="stylesheet" type="text/css" href="/local/templates/pro-69/css/ser.css" media="all">
     <link rel="stylesheet" type="text/css" href="/local/templates/pro-69/css/popup.css" media="all">
     <link rel="start" href="/">
-        <script type="text/javascript" charset="UTF-8" src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+        <script type="text/javascript" charset="UTF-8" src="/local/templates/pro-69/js/jquery-3.1.1.min"></script>
     
 <style>
 
@@ -292,6 +292,9 @@ $APPLICATION->SetTitle("Заглавная страница"); ?>
                     <span class="fg upper studioPrice">2017</span>
                 </div>
             </div>
+          
+          <div class="row row3"> 
+
             <div class="content__item block_white metro">
                 <div class="slide">
                     <span class="fp fs53">7 минут<br>пешком!</span>
@@ -311,7 +314,7 @@ $APPLICATION->SetTitle("Заглавная страница"); ?>
                         <p class="fg upper">юго-запад <span>москвы</span></p>
                     </div>
                 </div>
-                <div class="block_white">
+             <!--    <div class="block_white">
                     <div>
                         <span class="fp fs29">Вблизи Дома на Профсоюзной<br>находится: </span>
                         <div>
@@ -328,9 +331,9 @@ $APPLICATION->SetTitle("Заглавная страница"); ?>
                             </ul>
                         </div>
                     </div>
-                </div>
+                </div> -->
             </div>
-
+</div> 
   <div class="content-block">
                 <div class="content-block__col_left">
                     
