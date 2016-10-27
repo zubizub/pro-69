@@ -30,8 +30,9 @@ $APPLICATION->SetTitle("Заглавная страница"); ?>
     <link rel="stylesheet" type="text/css" href="/local/templates/pro-69/css/vlad.css" media="all">
     <link rel="stylesheet" type="text/css" href="/local/templates/pro-69/css/ser.css" media="all">
     <link rel="stylesheet" type="text/css" href="/local/templates/pro-69/css/popup.css" media="all">
+    <link rel="stylesheet" type="text/css" href="/local/templates/pro-69/js/bx/jquery.bxslider.css" media="all">
     <link rel="start" href="/">
-        <script type="text/javascript" charset="UTF-8" src="/local/templates/pro-69/js/jquery-3.1.1.min"></script>
+        <script type="text/javascript" charset="UTF-8" src="/local/templates/pro-69/js/jquery-3.1.1.min.js"></script>
     
 <style>
 
@@ -219,11 +220,20 @@ $APPLICATION->SetTitle("Заглавная страница"); ?>
         </header>
         <div role="main" id="content" class="content">
             <div class="logo"><img class="" src="/local/templates/pro-69/distr/www/f/media/logo.jpg" alt="#"></div>
-            <div class="slider slider--large content__item__">
+          <!--   <div class="slider slider--large content__item__">
                 <div class=""><img class="metro-place__img" src="/local/templates/pro-69/distr/www/f/media/slider1/Pro-69_studio_mini_1.jpg" alt="#"></div>
                 <div class=""><img class="metro-place__img" src="/local/templates/pro-69/distr/www/f/media/slider1/Pro-69_studio_mini_2.jpg" alt="#"></div>
                 <div class=""><img class="metro-place__img" src="/local/templates/pro-69/distr/www/f/media/slider1/Pro-69_studio_mini_3.jpg" alt="#"></div>
             </div>
+ -->
+<!-- bx -->
+            <ul class="bx slider--large ">
+                <li><img class="metro-place__img" src="/local/templates/pro-69/distr/www/f/media/slider1/Pro-69_studio_mini_1.jpg" alt="#"></li>
+                <li><img class="metro-place__img" src="/local/templates/pro-69/distr/www/f/media/slider1/Pro-69_studio_mini_2.jpg" alt="#"></li>
+                <li><img class="metro-place__img" src="/local/templates/pro-69/distr/www/f/media/slider1/Pro-69_studio_mini_3.jpg" alt="#"></li>
+            </ul>
+
+
 			<div class="content__item block studios mobile">
                 <div class="slide blue sblock">
                     <span class="fp fs36">Дом<br/>на Профсоюзной<br/>ждет вас!</span>
@@ -494,7 +504,15 @@ $APPLICATION->SetTitle("Заглавная страница"); ?>
   <script type="text/javascript" charset="UTF-8" src="/local/templates/pro-69/distr/www/f/src/global/popupLoft.js"></script>
   <script type="text/javascript" charset="UTF-8" src="/local/templates/pro-69/distr/www/f/src/global/callBack.js"></script>
     <script type="text/javascript" charset="UTF-8" src="/local/templates/pro-69/js/ajax.js"></script>
+
+        <script type="text/javascript" charset="UTF-8" src="/local/templates/pro-69/js/bx/jquery.bxslider.js"></script>
 <script>
+
+$('.bx').bxSlider({
+  infiniteLoop: false,
+  hideControlOnEnd: true
+});
+
 /*$(document).ready(function() {
     $('.flip-container').addClass('flippp');
 });
