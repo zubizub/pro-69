@@ -791,7 +791,7 @@ min-height: 395px !important;
 }
 
 .content__item.metro .fg {
-    font-size: 130px !important;
+    font-size: 110px !important;
 }
 
 .content__item.west {
@@ -805,4 +805,15 @@ min-height: 395px !important;
 .content__item.west .fg {
     font-size: 70px !important;
  
+}
+
+
+.content__item.ready {
+    background: url(../distr/www/f/media/bg-ready.jpg);
+    background-size: 100% 100% !important;
+}
+
+.content__item.west .block {
+    height: 100% !important;
+  
 }
