@@ -285,11 +285,11 @@ $APPLICATION->SetTitle("Заглавная страница"); ?>
             </div>            
           </div>            
 			<div class="content__item block_white ready">
-                <div class="slide">
+                <div class="slide rel">
                     <span class="fp fs53">Готовность — <br>80%</span>
                     <span class="fontIcon">b</span>
-                    <span class="fp fs29 cardColorWhite">Сдача проекта — <br>уже в начале года:</span>
-                    <span class="fg upper studioPrice">2017</span>
+                    <span class="fp fs29 cardColorWhite bg2017">Сдача проекта — <br>уже в начале года:</span>
+                    <span class="fg upper studioPrice z1000">2017</span>
                 </div>
             </div>
           

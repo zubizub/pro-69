@@ -815,7 +815,7 @@ min-height: 395px !important;
 
 .content__item.west .block {
     height: 100% !important;
-    overflow: none !important;
+    overflow: initial !important;
   
 }
 
@@ -827,3 +827,20 @@ min-height: 395px !important;
 .ready .studioPrice {
     font-size: 165px !important;
 }
+
+.bg2017 {
+    background: url(/local/templates/pro-69/distr/www/f/media/2017.png) no-repeat;
+    background-size: 100% 140%;
+}
+
+span.fp.fs29.cardColorWhite.bg2017 {
+    min-height: 130px;
+    padding: 20px;
+    position: absolute;
+    top: 100px;
+    width: 70%;
+}
+
+
+.content__item.ready .studioPrice {
+ margin-top: 60px !important;}
