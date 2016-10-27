@@ -769,4 +769,16 @@ min-height: 395px !important;
 .content__item.block.studios.mobile {
 
   min-height: 0 !important; 
+  max-height: 400px !important;
+  overflow: hidden !important;
 }
+
+.content__item.block.studios.mobile .studioText{
+
+  margin-bottom: 0px;
+}
+
+.fs29 {
+    font-size: 24px !important;
+}
+
