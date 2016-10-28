@@ -20,18 +20,17 @@ $APPLICATION->SetTitle("Заглавная страница"); ?>
     <!-- End Windows Phone -->
     <title>Заглавная страница — </title>
     <meta name="author" content="Akado">
-    <!--<link href="/favicon.ico" rel="shortcut icon" type="image/x-icon">-->
-    <link rel="stylesheet" type="text/css" href="/local/templates/pro-69/distr/www/f/min/global.css" media="all">
+    <!--<link href="/favicon.ico" rel="shortcut icon" type="image/x-icon">--><link rel="stylesheet" type="text/css" href="/local/templates/pro-69/css/vlad_sasha.css" media="all">
+    <link rel="stylesheet" type="text/css" href="/local/templates/pro-69/distr/www/f/min/sasha.css" media="all">
     <link rel="stylesheet" type="text/css" href="/local/templates/pro-69/fonts/font1.css" media="all">
     <link rel="stylesheet" type="text/css" href="/local/templates/pro-69/fonts/font2.css" media="all">
     <link rel="stylesheet" type="text/css" href="/local/templates/pro-69/fonts/font3.css" media="all">
     <link rel="stylesheet" type="text/css" href="/local/templates/pro-69/fonts/font4.css" media="all">
-    <link rel="stylesheet" type="text/css" href="/local/templates/pro-69/css/zz.css" media="all">
-    <link rel="stylesheet" type="text/css" href="/local/templates/pro-69/css/vlad.css" media="all">
+  <link rel="stylesheet" type="text/css" href="/local/templates/pro-69/css/zz_sasha.css" media="all">
+    
     <link rel="stylesheet" type="text/css" href="/local/templates/pro-69/css/ser.css" media="all">
     <link rel="stylesheet" type="text/css" href="/local/templates/pro-69/css/popup.css" media="all">
     <link rel="stylesheet" type="text/css" href="/local/templates/pro-69/js/bx/jquery.bxslider.css" media="all">
-    <link rel="stylesheet" type="text/css" href="/local/templates/pro-69/js/fancy/jquery.fancybox.css" media="all">
     <link rel="start" href="/">
         <script type="text/javascript" charset="UTF-8" src="/local/templates/pro-69/js/jquery-3.1.1.min.js"></script>
     
@@ -207,7 +206,7 @@ $APPLICATION->SetTitle("Заглавная страница"); ?>
                 </div>
             </div>
     </div>
-    <div id="wrapper" class="wrapper" style="max-width: 1441px;">
+    <div id="wrapper" class="wrapper">
         <header id="header" class="header">
             <div class="header-column">
                 <ul class="header-link__list">
@@ -221,27 +220,18 @@ $APPLICATION->SetTitle("Заглавная страница"); ?>
         </header>
         <div role="main" id="content" class="content">
             <div class="logo"><img class="" src="/local/templates/pro-69/distr/www/f/media/logo.jpg" alt="#"></div>
-            <div class="slider slider--large content__item__">
-                
-                <div class="">
-                  <a class="fancybox" rel="gallery1" href="/local/templates/pro-69/distr/www/f/media/slider1/Pro-69_studio_mini_1.jpg" title="">
-                     <img src="/local/templates/pro-69/distr/www/f/media/slider1/Pro-69_studio_mini_1.jpg" alt="" />
-                  </a>
-                </div>
-
-              <div class="">
-                  <a class="fancybox" rel="gallery1" href="/local/templates/pro-69/distr/www/f/media/slider1/Pro-69_studio_mini_2.jpg" title="">
-                     <img src="/local/templates/pro-69/distr/www/f/media/slider1/Pro-69_studio_mini_2.jpg" alt="" />
-                  </a>
-                </div>
-
-              <div class="">
-                  <a class="fancybox" rel="gallery1" href="/local/templates/pro-69/distr/www/f/media/slider1/Pro-69_studio_mini_3.jpg" title="">
-                     <img src="/local/templates/pro-69/distr/www/f/media/slider1/Pro-69_studio_mini_3.jpg" alt="" />
-                  </a>
-                </div>
-            </div>
-
+			<div class="flip-container slider_wrapper content__item">
+				<div class="flipper">
+					<div class="front" style="background: orange;">
+			
+					</div>
+					<div class="back slider slider--large">
+			                <div class=""><img class="metro-place__img" src="/local/templates/pro-69/distr/www/f/media/slider1/Pro-69_studio_mini_1.jpg" alt="#"></div>
+                <div class=""><img class="metro-place__img" src="/local/templates/pro-69/distr/www/f/media/slider1/Pro-69_studio_mini_2.jpg" alt="#"></div>
+                <div class=""><img class="metro-place__img" src="/local/templates/pro-69/distr/www/f/media/slider1/Pro-69_studio_mini_3.jpg" alt="#"></div>
+					</div>
+				</div>
+			</div>
 <!-- bx -->
            <!--  <ul class="bx slider--large ">
                 <li><img class="metro-place__img" src="/local/templates/pro-69/distr/www/f/media/slider1/Pro-69_studio_mini_1.jpg" alt="#"></li>
@@ -262,17 +252,17 @@ $APPLICATION->SetTitle("Заглавная страница"); ?>
                 </div>
                 
             </div>
-      <div class="clear clearfix"></div>
-			<div class="content__item block compact dotSlider">
+     <!-- <div class="clear clearfix"></div> -->
+			<div class="content__item block compact dotSlider hide-for-4">
                 <div class="slide">
                     <span class="fp fs53">Компактные<br> и светлые <br/>студии</span>
                     <span class="fg upper studioPrice">от<span>2,9</span></span>
-                    <span class="fg upper fs36">миллионов рублей</span>
+                    <span class="fg upper fs37">миллионов рублей</span>
                 </div>
                 <div class="slide">
                     <span class="fp fs53">Просторные<br>двухкомнатные<br>студии</span>
                     <span class="fg upper studioPrice">от<span>4,9</span></span>
-                    <span class="fg upper fs36">миллионов рублей</span>
+                    <span class="fg upper fs37">миллионов рублей</span>
                 </div>
             </div>
 <!-- 			<div class="content__item five-persent">
@@ -289,37 +279,36 @@ $APPLICATION->SetTitle("Заглавная страница"); ?>
                     
                 </div>
             </div> -->
-            <div class="content__item block block-double mobile">
-                <div class="content__item five-persent">
-                    <div class=""><img class="metro-place__img" src="/local/templates/pro-69/distr/www/f/media/slide4_1.jpg" alt="#"></div>
-                    <!-- <div class="">
-                        <img class="metro-place__img" src="/local/templates/pro-69/distr/www/f/media/slide4_2.jpg" alt="#">
-                    </div> -->
-                      <div class="block studios life">
-                          <div class="slide blue sblock life">
-                              <span class="fp fs22">Мечтаете о собственном жилье?</span>
-                              <span class="fp fs18">Комфортные студии<br/>с пропиской в Москве.</span>
-                              <div class="rel">
-                                  <span class="fg studioText life">+ Прописка</span>
-                                  
-                              </div>
-
-                          </div>
-                   <!--  <img class="metro-place__img" src="/local/templates/pro-69/distr/www/f/media/life.jpg" alt="#" style="width:100%;"> -->
-                </div>
-                
-            </div>            
-          </div>            
+            <div class="content__item block-double mobile">
+						<div class="content__item five-persent">
+							<div class="five-persent__left-block block_white" style="display: inline-block; width: 50%;">
+								<div class="fp  title"  style="margin-bottom: 15px;"
+>В Октябре скидка<br/> на покупку студии!</div>
+								<div class="text">
+									Прочное готовое здание реновируется и переформатируется с помощью
+									строительных технологий последнего поколения в уникальный жилой комплекс
+								</div>
+							</div>
+							<div class="five-persent__right-block" style="display: inline-block; width: 50%; margin-left: -5px;">
+								<span class="fg orange">-5%</span>
+							</div>
+						</div>
+						<div class="content__item block_dark-blue registration">
+							<div class="fp title">Мечтаете о собственном жилье?</div>
+							<p class="fp text">Комфортные студии<br>
+							c пропиской в Москве.</p>
+							<p class="fg brush"><span>+П</span>рописка</div>
+						</div>                    
 			<div class="content__item block_white ready">
                 <div class="slide rel">
                     <span class="fp fs53">Готовность — <br>80%</span>
                     <span class="fontIcon">b</span>
-                    <span class="fp fs29 cardColorWhite bg2017">Сдача проекта — <br>уже в начале года:</span>
+                    <span class="fp fs29 cardColorWhite">Сдача проекта — <br>уже в начале года:</span>
                     <span class="fg upper studioPrice z1000">2017</span>
                 </div>
             </div>
           
-          <div class="row row3"> 
+         <!-- <div class="row row3"> -->
 
             <div class="content__item block_white metro">
                 <div class="slide">
@@ -333,7 +322,41 @@ $APPLICATION->SetTitle("Заглавная страница"); ?>
                     <img src="/local/templates/pro-69/distr/www/f/media/69_map.jpg" alt="#">
                 </div>
             </div>
-            <div class="content__item west">
+			<div class="content__item west flip-container">
+							<div class="flipper">
+					<div class="front" style="background: orange;">
+					</div>
+					<div class="back">
+						<div class="slide">
+							                <div class="block">
+                    <div>
+                        <span class="fp fs29smaller">Жить в престижном районе.</span>
+                        <p class="fg upper">юго-запад <span>москвы</span></p>
+                    </div>
+                </div>
+                <div class="block block_white">
+                    <div>
+                        <span class="fp fs28">Вблизи Дома на Профсоюзной<br>находится: </span>
+                        <div>
+                            <ul class="fp fs20">
+                                <li>Супермаркеты</li>
+                                <li>Торговые центры</li>
+                                <li>Спортивные клубы</li>
+                                <li>Аптеки, школы, дет. сады</li>
+                            </ul>
+                            <ul class="fp fs20">
+                                <li>Институты МФЮА,РГАИС</li>
+                                <li>Отделения банков</li>
+                                <li>Кафе и рестораны</li>
+									</ul>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+            </div>
+           <!-- <div class="content__item west block-double">
                 <div class="block">
                     <div>
                         <span class="fp fs29">Жить в престижном районе.</span>
@@ -359,7 +382,7 @@ $APPLICATION->SetTitle("Заглавная страница"); ?>
                     </div>
                 </div>
             </div>
-</div> 
+</div>  -->
   <div class="content-block">
                 <div class="content-block__col_left">
                     
@@ -386,25 +409,9 @@ $APPLICATION->SetTitle("Заглавная страница"); ?>
                     <div class="group1 galleryGroup">
                       <div class="slider1">
                         
-
-                        <div class="">
-                             <a class="fancybox" rel="gallery2" href="/local/templates/pro-69/distr/www/f/media/slider1/Pro-69_House_1.jpg" title="">
-                               <img src="/local/templates/pro-69/distr/www/f/media/slider1/Pro-69_House_1.jpg" alt="" />
-                            </a>
-                        </div>
-
-                        <div class="">
-                             <a class="fancybox" rel="gallery2" href="/local/templates/pro-69/distr/www/f/media/slider1/Pro-69_House_2.jpg" title="">
-                               <img src="/local/templates/pro-69/distr/www/f/media/slider1/Pro-69_House_2.jpg" alt="" />
-                            </a>
-                        </div>
-
-
-                        <div class="">
-                             <a class="fancybox" rel="gallery2" href="/local/templates/pro-69/distr/www/f/media/slider1/Pro-69_House_3.jpg" title="">
-                               <img src="/local/templates/pro-69/distr/www/f/media/slider1/Pro-69_House_3.jpg" alt="" />
-                            </a>
-                        </div>
+                        <div class=""><img class="" src="/local/templates/pro-69/distr/www/f/media/slider2/Pro-69_House_1.jpg" alt="#"></div>
+                        <div class=""><img class="" src="/local/templates/pro-69/distr/www/f/media/slider2/Pro-69_House_2.jpg" alt="#"></div>
+                        <div class=""><img class="" src="/local/templates/pro-69/distr/www/f/media/slider2/Pro-69_House_3.jpg" alt="#"></div>
 
                       </div>
                         
@@ -412,43 +419,18 @@ $APPLICATION->SetTitle("Заглавная страница"); ?>
                       
                        <div class="group2 galleryGroup">
                           <div class="slider2">
-
-                                <div class="">
-                                     <a class="fancybox" rel="gallery2" href="/local/templates/pro-69/distr/www/f/media/slider1/Pro-69_entrance_1.jpg" title="">
-                                       <img src="/local/templates/pro-69/distr/www/f/media/slider1/Pro-69_entrance_1.jpg" alt="" />
-                                    </a>
-                                </div>
-
-                                <div class="">
-                                     <a class="fancybox" rel="gallery2" href="/local/templates/pro-69/distr/www/f/media/slider1/Pro-69_entrance_2.jpg" title="">
-                                       <img src="/local/templates/pro-69/distr/www/f/media/slider1/Pro-69_entrance_2.jpg" alt="" />
-                                    </a>
-                                </div>
-
-                                <div class="">
-                                     <a class="fancybox" rel="gallery2" href="/local/templates/pro-69/distr/www/f/media/slider1/Pro-69_entrance_3.jpg" title="">
-                                       <img src="/local/templates/pro-69/distr/www/f/media/slider1/Pro-69_entrance_3.jpg" alt="" />
-                                    </a>
-                                </div>
-                          
+                            <div class=""><img class="" src="/local/templates/pro-69/distr/www/f/media/slider2/Pro-69_entrance_1.jpg" alt="#"></div>
+                            <div class=""><img class="" src="/local/templates/pro-69/distr/www/f/media/slider2/Pro-69_entrance_2.jpg" alt="#"></div>
+                            <div class=""><img class="" src="/local/templates/pro-69/distr/www/f/media/slider2/Pro-69_entrance_3.jpg" alt="#"></div>
                           </div>
                         
                     </div>
                         
                         <div class="group3 galleryGroup">
                             <div class="slider3">
-                             
-                              <div class="">
-                                   <a class="fancybox" rel="gallery2" href="/local/templates/pro-69/distr/www/f/media/slider1/Pro-69_floor_1.jpg" title="">
-                                     <img src="/local/templates/pro-69/distr/www/f/media/slider1/Pro-69_floor_1.jpg" alt="" />
-                                  </a>
-                              </div>
-
-                              <div class="">
-                                   <a class="fancybox" rel="gallery2" href="/local/templates/pro-69/distr/www/f/media/slider1/Pro-69_floor_2.jpg" title="">
-                                     <img src="/local/templates/pro-69/distr/www/f/media/slider1/Pro-69_floor_2.jpg" alt="" />
-                                  </a>
-                              </div>
+                              <div class=""><img class="" src="/local/templates/pro-69/distr/www/f/media/slider2/Pro-69_floor_1.jpg" alt="#"></div>
+                              <div class=""><img class="" src="/local/templates/pro-69/distr/www/f/media/slider2/Pro-69_floor_2.jpg" alt="#"></div>
+                              <div class=""><img class="" src="/local/templates/pro-69/distr/www/f/media/slider2/Pro-69_floor_3.jpg" alt="#"></div>
                             </div>
                         
                     </div>
@@ -459,7 +441,7 @@ $APPLICATION->SetTitle("Заглавная страница"); ?>
 
 <div class="row row4">
 
- <? /*$APPLICATION->IncludeComponent(
+ <? $APPLICATION->IncludeComponent(
     "bitrix:dw.catalog.index",
     "",
     Array(
@@ -471,9 +453,9 @@ $APPLICATION->SetTitle("Заглавная страница"); ?>
         "IBLOCK_TYPE" => "quarters",
         "LIMIT" => "100"
     )
-);?><br> */?>
+);?><br>
 
-    <div class="content__item block_white mobile overflowBlock">
+  <!--  <div class="content__item block_white mobile overflowBlock">
                 <div class="slide blue sblock ">
                     <span class="fp fs36 tBlue">
                     Офис-продаж<br>
@@ -508,7 +490,7 @@ $APPLICATION->SetTitle("Заглавная страница"); ?>
 
                 </div>
                 
-            </div>
+            </div>-->
 
                 </div>
                 </div>
@@ -518,7 +500,7 @@ $APPLICATION->SetTitle("Заглавная страница"); ?>
                     <!--- ИДИ ТЫ НА ХУЙ СО СВОИМ content__item с фиксированной высотой -->
                     <div class="content__item block area autoHeight">
                          <div class="slide blue sblock">
-                            <span class="fp fs38">Компактные<br> и светлые студии</span>
+                            <span class="fp fs38">Компактные<br> и светлые <br/>студии</span>
                             <span class="fg upper studioText area">
                                 <span class="fl lhCond fs77">от<br/>м2</span>
                                 <span class="fl fs177 mTopMarg10">17</span></span>
@@ -546,7 +528,7 @@ $APPLICATION->SetTitle("Заглавная страница"); ?>
                         </div>
                      </div>
 
-    <!--       <div class="content__item block readyBlock mobile overflowBlock">
+           <div class="content__item block readyBlock mobile overflowBlock">
                 <div class="slide blue sblock ">
                     <span class="fp fs36">Готовая<br/>квартира<br/> с отделкой!</span>
                     <span class="fp fs20">
@@ -561,9 +543,9 @@ $APPLICATION->SetTitle("Заглавная страница"); ?>
 
                 </div>
                 
-            </div> -->
+            </div>
 
-     <!--     <div class="content__item block_white mobile overflowBlock">
+         <div class="content__item block_white mobile overflowBlock">
                 <div class="slide blue sblock ">
                     <span class="fp fs36 tBlue">
                     Офис-продаж<br>
@@ -581,7 +563,7 @@ $APPLICATION->SetTitle("Заглавная страница"); ?>
 
                 </div>
                 
-            </div> -->
+            </div> 
 
         </div>
         </div>
@@ -603,16 +585,6 @@ $APPLICATION->SetTitle("Заглавная страница"); ?>
     <script type="text/javascript" charset="UTF-8" src="/local/templates/pro-69/js/ajax.js"></script>
 
         <script type="text/javascript" charset="UTF-8" src="/local/templates/pro-69/js/bx/jquery.bxslider.js"></script>
-        <script type="text/javascript" charset="UTF-8" src="/local/templates/pro-69/js/fancy/jquery.fancybox.pack.js"></script>
-
-
-<script type="text/javascript">
-  $(document).ready(function() {
-    $(".fancybox").fancybox();
-  });
-</script>
-
-
 <script>
 
 $('.bx').bxSlider({
@@ -630,6 +602,38 @@ $(function(){                // сработает, когда документ 
 });
         ;
 
+	$(function(){
+	var height = $('body').innerHeight();
+	var width = $('body').innerWidth();
+	if (width < 991) {
+		$('.content__item').height($('.content__item').width());
+		$('.slider img').height($('.content__item').height());
+		$('.slider').height($('.content__item').height());
+		$('.block-double .content__item').height($('.content__item').height()/2);
+	} else {
+		$('.content__item').height($('.content__item').width()/2);
+		$('.slider img').height($('.content__item').height());
+		$('.slider').height($('.content__item').height());
+		$('.block-double .content__item').height($('.content__item').height()/2 - 60);
+	}
+	
+	  $(window).resize(function(){
+    	var height = $('body').innerHeight();
+		var width = $('body').innerWidth();
+		if (width < 991) {
+			$('.content__item').height($('.content__item').width());
+			$('.slider img').height($('.content__item').height());
+			$('.slider').height($('.content__item').height());
+			$('.block-double .content__item').height($('.content__item').height()/2);
+		} else {
+			$('.content__item').height($('.content__item').width()/2);
+			$('.slider img').height($('.content__item').height());
+			$('.slider').height($('.content__item').height());
+			$('.block-double .content__item').height($('.content__item').height()/2 - 60);
+		}
+	});
+});	
+		
 </script>
 </body>
 </html>
