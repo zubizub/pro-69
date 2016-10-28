@@ -1,0 +1,12 @@
+
+
+
+@font-face {
+    font-family: 'sprite_graffiti_shadow';
+    src: url('sprite_graffiti_shadow-webfont.woff2') format('woff2'),
+         url('sprite_graffiti_shadow-webfont.woff') format('woff'),
+         url('sprite_graffiti_shadow-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+}

@@ -1,0 +1,18 @@
+/* 
+  Fonts
+ */
+
+@font-face {
+  font-family: 'Helvetica_Neue_CE_55_Roman';
+  src: url('../media/fonts/Helvetica_Neue_CE_55_Roman.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'sprite_graffitiregular';
+  src: 	url('../../media/fonts/sprite_graffiti-webfont.woff2') format('woff2'),
+		url('../../media/fonts/sprite_graffiti-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  }

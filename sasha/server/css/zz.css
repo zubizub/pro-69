@@ -1,0 +1,68 @@
+.fp {
+
+	font-family: 'posterizerkgrough';
+}
+
+.rel {
+	position: relative;
+}
+
+.blockIcon1 {
+
+	margin-bottom: 0 !important;
+ } 
+.fg {
+	  font-family: 'sprite_graffiti';
+}
+
+.fontIcon {
+	font-family: 'sprite_graffiti_extra';
+}
+.fontIcon.orange {
+
+	color: #ff5400;
+}
+.upper {
+	text-transform: uppercase;
+}
+
+.sblock span { 
+
+display: block;
+margin-bottom: 30px;
+
+}
+
+.sblock  { 
+
+padding: 35px 0 0 40px;
+/*text-align: center;*/
+
+
+}
+
+.header-link__item {
+    position: relative;
+    text-transform: uppercase;
+    font-size: 145%;
+    font-family: 'posterizerkgrough';
+    margin: 0 1.5%;
+}
+
+.fs36 { font-size: 36px;}
+.fs29 { font-size: 29px; }
+
+
+.studioText {
+
+    font-size: 130px;
+    margin: 0;
+    transform: scale(1,1.2);
+}
+
+span.blockIcon1 {
+    position: absolute;
+    top: -80%;
+    right: -1%;
+    font-size: 151px;
+}
