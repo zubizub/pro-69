@@ -388,21 +388,21 @@ $APPLICATION->SetTitle("Заглавная страница"); ?>
                         
 
                         <div class="">
-                             <a class="fancybox" rel="gallery2" href="/local/templates/pro-69/distr/www/f/media/slider1/Pro-69_House_1.jpg" title="">
-                               <img src="/local/templates/pro-69/distr/www/f/media/slider1/Pro-69_House_1.jpg" alt="" />
+                             <a class="fancybox" rel="gallery2" href="/local/templates/pro-69/distr/www/f/media/slider2/Pro-69_House_1.jpg" title="">
+                               <img src="/local/templates/pro-69/distr/www/f/media/slider2/Pro-69_House_1.jpg" alt="" />
                             </a>
                         </div>
 
                         <div class="">
-                             <a class="fancybox" rel="gallery2" href="/local/templates/pro-69/distr/www/f/media/slider1/Pro-69_House_2.jpg" title="">
-                               <img src="/local/templates/pro-69/distr/www/f/media/slider1/Pro-69_House_2.jpg" alt="" />
+                             <a class="fancybox" rel="gallery2" href="/local/templates/pro-69/distr/www/f/media/slider2/Pro-69_House_2.jpg" title="">
+                               <img src="/local/templates/pro-69/distr/www/f/media/slider2/Pro-69_House_2.jpg" alt="" />
                             </a>
                         </div>
 
 
                         <div class="">
-                             <a class="fancybox" rel="gallery2" href="/local/templates/pro-69/distr/www/f/media/slider1/Pro-69_House_3.jpg" title="">
-                               <img src="/local/templates/pro-69/distr/www/f/media/slider1/Pro-69_House_3.jpg" alt="" />
+                             <a class="fancybox" rel="gallery2" href="/local/templates/pro-69/distr/www/f/media/slider2/Pro-69_House_3.jpg" title="">
+                               <img src="/local/templates/pro-69/distr/www/f/media/slider2/Pro-69_House_3.jpg" alt="" />
                             </a>
                         </div>
 
@@ -414,20 +414,20 @@ $APPLICATION->SetTitle("Заглавная страница"); ?>
                           <div class="slider2">
 
                                 <div class="">
-                                     <a class="fancybox" rel="gallery2" href="/local/templates/pro-69/distr/www/f/media/slider1/Pro-69_entrance_1.jpg" title="">
-                                       <img src="/local/templates/pro-69/distr/www/f/media/slider1/Pro-69_entrance_1.jpg" alt="" />
+                                     <a class="fancybox" rel="gallery2" href="/local/templates/pro-69/distr/www/f/media/slider2/Pro-69_entrance_1.jpg" title="">
+                                       <img src="/local/templates/pro-69/distr/www/f/media/slider2/Pro-69_entrance_1.jpg" alt="" />
                                     </a>
                                 </div>
 
                                 <div class="">
-                                     <a class="fancybox" rel="gallery2" href="/local/templates/pro-69/distr/www/f/media/slider1/Pro-69_entrance_2.jpg" title="">
-                                       <img src="/local/templates/pro-69/distr/www/f/media/slider1/Pro-69_entrance_2.jpg" alt="" />
+                                     <a class="fancybox" rel="gallery2" href="/local/templates/pro-69/distr/www/f/media/slider2/Pro-69_entrance_2.jpg" title="">
+                                       <img src="/local/templates/pro-69/distr/www/f/media/slider2/Pro-69_entrance_2.jpg" alt="" />
                                     </a>
                                 </div>
 
                                 <div class="">
-                                     <a class="fancybox" rel="gallery2" href="/local/templates/pro-69/distr/www/f/media/slider1/Pro-69_entrance_3.jpg" title="">
-                                       <img src="/local/templates/pro-69/distr/www/f/media/slider1/Pro-69_entrance_3.jpg" alt="" />
+                                     <a class="fancybox" rel="gallery2" href="/local/templates/pro-69/distr/www/f/media/slider2/Pro-69_entrance_3.jpg" title="">
+                                       <img src="/local/templates/pro-69/distr/www/f/media/slider2/Pro-69_entrance_3.jpg" alt="" />
                                     </a>
                                 </div>
                           
@@ -439,14 +439,14 @@ $APPLICATION->SetTitle("Заглавная страница"); ?>
                             <div class="slider3">
                              
                               <div class="">
-                                   <a class="fancybox" rel="gallery2" href="/local/templates/pro-69/distr/www/f/media/slider1/Pro-69_floor_1.jpg" title="">
-                                     <img src="/local/templates/pro-69/distr/www/f/media/slider1/Pro-69_floor_1.jpg" alt="" />
+                                   <a class="fancybox" rel="gallery2" href="/local/templates/pro-69/distr/www/f/media/slider2/Pro-69_floor_1.jpg" title="">
+                                     <img src="/local/templates/pro-69/distr/www/f/media/slider2/Pro-69_floor_1.jpg" alt="" />
                                   </a>
                               </div>
 
                               <div class="">
-                                   <a class="fancybox" rel="gallery2" href="/local/templates/pro-69/distr/www/f/media/slider1/Pro-69_floor_2.jpg" title="">
-                                     <img src="/local/templates/pro-69/distr/www/f/media/slider1/Pro-69_floor_2.jpg" alt="" />
+                                   <a class="fancybox" rel="gallery2" href="/local/templates/pro-69/distr/www/f/media/slider2/Pro-69_floor_2.jpg" title="">
+                                     <img src="/local/templates/pro-69/distr/www/f/media/slider2/Pro-69_floor_2.jpg" alt="" />
                                   </a>
                               </div>
                             </div>
