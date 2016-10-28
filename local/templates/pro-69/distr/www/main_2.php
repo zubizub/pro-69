@@ -31,6 +31,7 @@ $APPLICATION->SetTitle("Заглавная страница"); ?>
     <link rel="stylesheet" type="text/css" href="/local/templates/pro-69/css/ser.css" media="all">
     <link rel="stylesheet" type="text/css" href="/local/templates/pro-69/css/popup.css" media="all">
     <link rel="stylesheet" type="text/css" href="/local/templates/pro-69/js/bx/jquery.bxslider.css" media="all">
+    <link rel="stylesheet" type="text/css" href="/local/templates/pro-69/js/fancy/jquery.fancybox.css" media="all">
     <link rel="start" href="/">
         <script type="text/javascript" charset="UTF-8" src="/local/templates/pro-69/js/jquery-3.1.1.min.js"></script>
     
@@ -221,9 +222,24 @@ $APPLICATION->SetTitle("Заглавная страница"); ?>
         <div role="main" id="content" class="content">
             <div class="logo"><img class="" src="/local/templates/pro-69/distr/www/f/media/logo.jpg" alt="#"></div>
             <div class="slider slider--large content__item__">
-                <div class=""><img class="metro-place__img" src="/local/templates/pro-69/distr/www/f/media/slider1/Pro-69_studio_mini_1.jpg" alt="#"></div>
-                <div class=""><img class="metro-place__img" src="/local/templates/pro-69/distr/www/f/media/slider1/Pro-69_studio_mini_2.jpg" alt="#"></div>
-                <div class=""><img class="metro-place__img" src="/local/templates/pro-69/distr/www/f/media/slider1/Pro-69_studio_mini_3.jpg" alt="#"></div>
+                
+                <div class="">
+                  <a class="fancybox" rel="gallery1" href="/local/templates/pro-69/distr/www/f/media/slider1/Pro-69_studio_mini_1.jpg" title="">
+                     <img src="/local/templates/pro-69/distr/www/f/media/slider1/Pro-69_studio_mini_1.jpg" alt="" />
+                  </a>
+                </div>
+
+              <div class="">
+                  <a class="fancybox" rel="gallery1" href="/local/templates/pro-69/distr/www/f/media/slider1/Pro-69_studio_mini_2.jpg" title="">
+                     <img src="/local/templates/pro-69/distr/www/f/media/slider1/Pro-69_studio_mini_2.jpg" alt="" />
+                  </a>
+                </div>
+
+              <div class="">
+                  <a class="fancybox" rel="gallery1" href="/local/templates/pro-69/distr/www/f/media/slider1/Pro-69_studio_mini_3.jpg" title="">
+                     <img src="/local/templates/pro-69/distr/www/f/media/slider1/Pro-69_studio_mini_3.jpg" alt="" />
+                  </a>
+                </div>
             </div>
 
 <!-- bx -->
@@ -370,9 +386,25 @@ $APPLICATION->SetTitle("Заглавная страница"); ?>
                     <div class="group1 galleryGroup">
                       <div class="slider1">
                         
-                        <div class=""><img class="" src="/local/templates/pro-69/distr/www/f/media/slider2/Pro-69_House_1.jpg" alt="#"></div>
-                        <div class=""><img class="" src="/local/templates/pro-69/distr/www/f/media/slider2/Pro-69_House_2.jpg" alt="#"></div>
-                        <div class=""><img class="" src="/local/templates/pro-69/distr/www/f/media/slider2/Pro-69_House_3.jpg" alt="#"></div>
+
+                        <div class="">
+                             <a class="fancybox" rel="gallery2" href="/local/templates/pro-69/distr/www/f/media/slider1/Pro-69_House_1.jpg" title="">
+                               <img src="/local/templates/pro-69/distr/www/f/media/slider1/Pro-69_House_1.jpg" alt="" />
+                            </a>
+                        </div>
+
+                        <div class="">
+                             <a class="fancybox" rel="gallery2" href="/local/templates/pro-69/distr/www/f/media/slider1/Pro-69_House_2.jpg" title="">
+                               <img src="/local/templates/pro-69/distr/www/f/media/slider1/Pro-69_House_2.jpg" alt="" />
+                            </a>
+                        </div>
+
+
+                        <div class="">
+                             <a class="fancybox" rel="gallery2" href="/local/templates/pro-69/distr/www/f/media/slider1/Pro-69_House_3.jpg" title="">
+                               <img src="/local/templates/pro-69/distr/www/f/media/slider1/Pro-69_House_3.jpg" alt="" />
+                            </a>
+                        </div>
 
                       </div>
                         
@@ -380,18 +412,43 @@ $APPLICATION->SetTitle("Заглавная страница"); ?>
                       
                        <div class="group2 galleryGroup">
                           <div class="slider2">
-                            <div class=""><img class="" src="/local/templates/pro-69/distr/www/f/media/slider2/Pro-69_entrance_1.jpg" alt="#"></div>
-                            <div class=""><img class="" src="/local/templates/pro-69/distr/www/f/media/slider2/Pro-69_entrance_2.jpg" alt="#"></div>
-                            <div class=""><img class="" src="/local/templates/pro-69/distr/www/f/media/slider2/Pro-69_entrance_3.jpg" alt="#"></div>
+
+                                <div class="">
+                                     <a class="fancybox" rel="gallery2" href="/local/templates/pro-69/distr/www/f/media/slider1/Pro-69_entrance_1.jpg" title="">
+                                       <img src="/local/templates/pro-69/distr/www/f/media/slider1/Pro-69_entrance_1.jpg" alt="" />
+                                    </a>
+                                </div>
+
+                                <div class="">
+                                     <a class="fancybox" rel="gallery2" href="/local/templates/pro-69/distr/www/f/media/slider1/Pro-69_entrance_2.jpg" title="">
+                                       <img src="/local/templates/pro-69/distr/www/f/media/slider1/Pro-69_entrance_2.jpg" alt="" />
+                                    </a>
+                                </div>
+
+                                <div class="">
+                                     <a class="fancybox" rel="gallery2" href="/local/templates/pro-69/distr/www/f/media/slider1/Pro-69_entrance_3.jpg" title="">
+                                       <img src="/local/templates/pro-69/distr/www/f/media/slider1/Pro-69_entrance_3.jpg" alt="" />
+                                    </a>
+                                </div>
+                          
                           </div>
                         
                     </div>
                         
                         <div class="group3 galleryGroup">
                             <div class="slider3">
-                              <div class=""><img class="" src="/local/templates/pro-69/distr/www/f/media/slider2/Pro-69_floor_1.jpg" alt="#"></div>
-                              <div class=""><img class="" src="/local/templates/pro-69/distr/www/f/media/slider2/Pro-69_floor_2.jpg" alt="#"></div>
-                              
+                             
+                              <div class="">
+                                   <a class="fancybox" rel="gallery2" href="/local/templates/pro-69/distr/www/f/media/slider1/Pro-69_floor_1.jpg" title="">
+                                     <img src="/local/templates/pro-69/distr/www/f/media/slider1/Pro-69_floor_1.jpg" alt="" />
+                                  </a>
+                              </div>
+
+                              <div class="">
+                                   <a class="fancybox" rel="gallery2" href="/local/templates/pro-69/distr/www/f/media/slider1/Pro-69_floor_2.jpg" title="">
+                                     <img src="/local/templates/pro-69/distr/www/f/media/slider1/Pro-69_floor_2.jpg" alt="" />
+                                  </a>
+                              </div>
                             </div>
                         
                     </div>
@@ -546,6 +603,16 @@ $APPLICATION->SetTitle("Заглавная страница"); ?>
     <script type="text/javascript" charset="UTF-8" src="/local/templates/pro-69/js/ajax.js"></script>
 
         <script type="text/javascript" charset="UTF-8" src="/local/templates/pro-69/js/bx/jquery.bxslider.js"></script>
+        <script type="text/javascript" charset="UTF-8" src="/local/templates/pro-69/js/fancy/jquery.fancybox.pack.js"></script>
+
+
+<script type="text/javascript">
+  $(document).ready(function() {
+    $(".fancybox").fancybox();
+  });
+</script>
+
+
 <script>
 
 $('.bx').bxSlider({
