@@ -44,9 +44,10 @@ if (is_array($arResult['ITEMS']) && count($arResult['ITEMS']) > 0):
       <?$page++;?>
   <? endif; ?>
   <? $count++; ?>
-					<a 
-          class="lot ajaxLotItem <?=$additionClass;?>" 
-          href="<?=$arItem['DETAIL_URL']?>" 
+					<!-- href="<?=$arItem['DETAIL_URL']?>" -->
+          <a 
+          class="lot ajaxLotItem___ <?=$additionClass;?>" 
+          href="javascript:void(0);" 
           el="<?=$arItem['ID'];?>"
           lot="<?=$arItem['PROPS']['LOT']['VALUE'];?>"
           object-id="<?=$arItem['PROPS']['SITE_ID']['VALUE'];?>">
