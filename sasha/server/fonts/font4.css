@@ -1,0 +1,13 @@
+
+
+
+
+@font-face {
+    font-family: 'posterizerkgrough';
+    src: url('posterizer_kg_rough-webfont.woff2') format('woff2'),
+         url('posterizer_kg_rough-webfont.woff') format('woff'),
+         url('posterizer_kg_rough-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+}

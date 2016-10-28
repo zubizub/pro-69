@@ -1,0 +1,216 @@
+div#ajaxPopups {
+	margin: 0 auto;
+	position: absolute;
+	width: 80%;
+	top: 10%;
+	left: 20%;
+	right: 20%;
+	color: white;
+	background: #4972b4;
+	max-width: 1000px;
+}
+
+div#popupBg {
+	position: fixed;
+	top: -10%;
+	width: 100%;
+	height: 110%;
+	background: black;
+	opacity: 0.1;
+	overflow: hidden;
+}
+
+.popupContent {
+	color: white;
+	margin-left: 15px;
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+
+#popupClose {
+	background: #ff5400;
+	padding: 10px;
+	position: absolute;
+	top: 0;
+	right: 0;
+	font-family: 'sprite_graffiti';
+	cursor: pointer;
+}
+
+p {
+	font-family: 'sprite_graffiti';
+}
+
+h2 {
+	font-family: 'posterizerkgrough';
+	font-size: 45px;
+}
+
+.popupInfo {
+	margin-top: 30px;
+}
+
+.popupInfo p {
+	font-family: 'posterizerkgrough';
+	text-transform: uppercase;
+	color: #000000;
+	width: 100%;
+	display: block;
+}
+
+.kostyl {
+	margin-top: 15px;
+}
+
+p.item {
+	color: white;
+	font-size: 30px;
+}
+
+.btn-def {
+	font-family: 'posterizerkgrough';
+	text-transform: uppercase;
+	padding: 5px 10px;
+	background: #ff5400;
+	border: 0;
+	color: white;
+	font-size: 30px;
+	margin-top: 30px;
+	border-radius: 50px;
+	cursor: pointer;
+}
+
+p.phone {
+	color: #4972b4;
+	font-size: 30px;
+}
+
+td:last-child {
+	padding-left: 10px;
+}
+
+p.adress {
+	color: #4972b4;
+}
+
+li {
+	//margin-top: 10px;
+}
+
+a {
+	font-size: 20px;
+	font-family: 'posterizerkgrough';
+	color: #ff5400;
+	text-transform: uppercase;
+	text-decoration: none;
+}
+
+.plan {
+	height: 500px;
+	background: white;
+	width: 100%;
+	background-image: url('/local/templates/pro-69/distr/www/img/plan.png');
+	background-repeat: no-repeat;
+}
+
+
+.preview {
+	width: 100%;
+	height: 231px;
+	background-image: url('/local/templates/pro-69/distr/www/img/preview.png');
+	background-size: contain;
+}
+
+.popupFooterLeft {
+	display: block;
+	padding-left: 15px;
+	background-color: white;
+	width: 100%;
+	margin-top: 10px;
+	margin-bottom: -15px;
+	margin-left: -15px;
+	
+	padding-top: 30px;
+	padding-bottom: 10px;
+}
+
+
+/* Галерея */
+
+.galery-img {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+}
+
+img {
+	width: 100%;
+	height: 100%;
+}
+
+ul.horizontal-menu {
+	display: block;
+}
+
+.horizontal-menu > li {
+	display: inline-block;
+	position: relative;
+	
+}
+
+.btn-galery {
+	border: 0;
+	padding: 5px 10px;
+	background: #ff5400;
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
