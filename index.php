@@ -214,7 +214,7 @@ $APPLICATION->SetTitle("Заглавная страница"); ?>
                     <li class="header-link__item header-link__item_address header_link__item_first">
 						Дом на профсоюзной, 69
                     </li>
-					<li class="header-link__item header-link">+7 495 780-40-40</li>
+					<li class="header-link__item header-link">+7 (495) 229-01-51</li>
                     <li class="header-link__item call"><a class="header-link" href="mailto:INFO@PRO-69.RU">INFO@PRO-69.RU</a></li>
                 </ul>
             </div>
