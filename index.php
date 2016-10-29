@@ -291,7 +291,8 @@ $APPLICATION->SetTitle("Заглавная страница"); ?>
             </div> -->
             <div class="content__item block block-double mobile">
                 <div class="content__item five-persent">
-                    <div class=""><img class="metro-place__img" src="/local/templates/pro-69/distr/www/f/media/slide4_1.jpg" alt="#"></div>
+                    <!-- <div class=""><img class="metro-place__img" src="/local/templates/pro-69/distr/www/f/media/slide4_1.jpg" alt="#"></div> -->
+                    <div class=""><img class="metro-place__img" src="/local/templates/pro-69/distr/www/f/media/news2.jpg" alt="#"></div>
                     <!-- <div class="">
                         <img class="metro-place__img" src="/local/templates/pro-69/distr/www/f/media/slide4_2.jpg" alt="#">
                     </div> -->
