@@ -314,7 +314,7 @@ $APPLICATION->SetTitle("Заглавная страница"); ?>
                 <div class="slide rel">
                     <span class="fp fs53">Готовность — <br>80%</span>
                     <span class="fontIcon">b</span>
-                    <span class="fp fs29 cardColorWhite bg2017">Сдача проекта — <br>уже в начале года:</span>
+                    <span class="fp fs29 cardColorWhite bg2017">Сдача проекта — <br>уже в середине года:</span>
                     <span class="fg upper studioPrice z1000">2017</span>
                 </div>
             </div>
@@ -323,7 +323,7 @@ $APPLICATION->SetTitle("Заглавная страница"); ?>
 
             <div class="content__item block_white metro">
                 <div class="slide">
-                    <span class="fp fs53">7 минут<br>пешком!</span>
+                    <span class="fp fs53">10 минут<br>пешком!</span>
                     <span class="fp fs29">В пешей доступности <br>м.Калужская и м.Беляево</span>
                     <span class="fg upper">метро</span>
                 </div>
