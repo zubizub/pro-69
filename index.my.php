@@ -600,19 +600,7 @@ $(function(){                // сработает, когда документ 
     $('.logo').delay(1000) // пауза в 3 сек.
                 .show(1000); // появление элемента в течении 1 сек.
 });
-        
-$(document).ready(function() {
-
-  $('.slider0').slick({
-            dots: false,
-            infinite: true,
-            speed: 500,
-            fade: true,
-            cssEase: 'linear'
-        });
-
-});
-
+        ;
 
 </script>
 </body>

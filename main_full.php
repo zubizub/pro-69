@@ -52,10 +52,8 @@ $APPLICATION->SetTitle("Заглавная страница"); ?>
 }
 
 </style>
-<?$APPLICATION->ShowHead()?>
 </head>
 <body id="home_page">
-	<?$APPLICATION->ShowPanel()?>
     <div id="popupBg" style="z-index: 400; display: none;"></div>
     <div id="ajaxPopupCallBack" style="display:none;">
 
@@ -358,82 +356,48 @@ $APPLICATION->SetTitle("Заглавная страница"); ?>
                                 <div class="content__item_ rel">
 
                                   
+                    <ul class="gallery2Switch">
+                        <li class="switch">  
+                            <a href="javascript:void(0);" data-switch="1" class="fp fs20">Дом</a>
+                        </li>
+                        <li class="switch active">
+                            <a href="javascript:void(0);" data-switch="2" class="fp fs20">Вход</a>
+                        </li>
+                        <li class="switch">
+                            <a href="javascript:void(0);" data-switch="3" class="fp fs20">Этаж</a>
+                        </li>
 
+                    </ul>
+            
+                   
+                    <div class="group1 galleryGroup">
+                      <div class="slider1">
+                        
+                        <div class=""><img class="" src="/local/templates/pro-69/distr/www/f/media/slider2/Pro-69_House_1.jpg" alt="#"></div>
+                        <div class=""><img class="" src="/local/templates/pro-69/distr/www/f/media/slider2/Pro-69_House_2.jpg" alt="#"></div>
+                        <div class=""><img class="" src="/local/templates/pro-69/distr/www/f/media/slider2/Pro-69_House_3.jpg" alt="#"></div>
 
-<?$APPLICATION->IncludeComponent(
-	"bitrix:news.list", 
-	"g2", 
-	array(
-		"IBLOCK_TYPE" => "info",
-		"IBLOCK_ID" => "7",
-		"NEWS_COUNT" => "20",
-		"SORT_BY1" => "ID",
-		"SORT_ORDER1" => "ASC",
-		"SORT_BY2" => "ID",
-		"SORT_ORDER2" => "ASC",
-		"FIELD_CODE" => array(
-			0 => "",
-			1 => $arParams["LIST_FIELD_CODE"],
-			2 => "",
-		),
-		"PROPERTY_CODE" => array(
-			0 => "",
-			1 => "",
-			2 => "",
-		),
-		"DETAIL_URL" => $arResult["FOLDER"].$arResult["URL_TEMPLATES"]["detail"],
-		"SECTION_URL" => $arResult["FOLDER"].$arResult["URL_TEMPLATES"]["section"],
-		"IBLOCK_URL" => $arResult["FOLDER"].$arResult["URL_TEMPLATES"]["news"],
-		"DISPLAY_PANEL" => $arParams["DISPLAY_PANEL"],
-		"SET_TITLE" => "N",
-		"SET_LAST_MODIFIED" => "N",
-		"MESSAGE_404" => $arParams["MESSAGE_404"],
-		"SET_STATUS_404" => "N",
-		"SHOW_404" => "N",
-		"FILE_404" => $arParams["FILE_404"],
-		"INCLUDE_IBLOCK_INTO_CHAIN" => "N",
-		"CACHE_TYPE" => "N",
-		"CACHE_TIME" => $arParams["CACHE_TIME"],
-		"CACHE_FILTER" => "N",
-		"CACHE_GROUPS" => "N",
-		"DISPLAY_TOP_PAGER" => "N",
-		"DISPLAY_BOTTOM_PAGER" => "N",
-		"PAGER_TITLE" => $arParams["PAGER_TITLE"],
-		"PAGER_TEMPLATE" => $arParams["PAGER_TEMPLATE"],
-		"PAGER_SHOW_ALWAYS" => "N",
-		"PAGER_DESC_NUMBERING" => "N",
-		"PAGER_DESC_NUMBERING_CACHE_TIME" => $arParams["PAGER_DESC_NUMBERING_CACHE_TIME"],
-		"PAGER_SHOW_ALL" => "N",
-		"PAGER_BASE_LINK_ENABLE" => "N",
-		"PAGER_BASE_LINK" => $arParams["PAGER_BASE_LINK"],
-		"PAGER_PARAMS_NAME" => $arParams["PAGER_PARAMS_NAME"],
-		"DISPLAY_DATE" => "N",
-		"DISPLAY_NAME" => "Y",
-		"DISPLAY_PICTURE" => "N",
-		"DISPLAY_PREVIEW_TEXT" => "N",
-		"PREVIEW_TRUNCATE_LEN" => $arParams["PREVIEW_TRUNCATE_LEN"],
-		"ACTIVE_DATE_FORMAT" => $arParams["LIST_ACTIVE_DATE_FORMAT"],
-		"USE_PERMISSIONS" => $arParams["USE_PERMISSIONS"],
-		"GROUP_PERMISSIONS" => $arParams["GROUP_PERMISSIONS"],
-		"FILTER_NAME" => "",
-		"HIDE_LINK_WHEN_NO_DETAIL" => "N",
-		"CHECK_DATES" => "N",
-		"COMPONENT_TEMPLATE" => "g2",
-		"AJAX_MODE" => "N",
-		"AJAX_OPTION_JUMP" => "N",
-		"AJAX_OPTION_STYLE" => "Y",
-		"AJAX_OPTION_HISTORY" => "N",
-		"AJAX_OPTION_ADDITIONAL" => "",
-		"SET_BROWSER_TITLE" => "Y",
-		"SET_META_KEYWORDS" => "Y",
-		"SET_META_DESCRIPTION" => "Y",
-		"ADD_SECTIONS_CHAIN" => "Y",
-		"PARENT_SECTION" => "",
-		"PARENT_SECTION_CODE" => "",
-		"INCLUDE_SUBSECTIONS" => "Y"
-	),
-	$component
-);?>
+                      </div>
+                        
+                    </div>
+                      
+                       <div class="group2 galleryGroup">
+                          <div class="slider2">
+                            <div class=""><img class="" src="/local/templates/pro-69/distr/www/f/media/slider2/Pro-69_entrance_1.jpg" alt="#"></div>
+                            <div class=""><img class="" src="/local/templates/pro-69/distr/www/f/media/slider2/Pro-69_entrance_2.jpg" alt="#"></div>
+                            <div class=""><img class="" src="/local/templates/pro-69/distr/www/f/media/slider2/Pro-69_entrance_3.jpg" alt="#"></div>
+                          </div>
+                        
+                    </div>
+                        
+                        <div class="group3 galleryGroup">
+                            <div class="slider3">
+                              <div class=""><img class="" src="/local/templates/pro-69/distr/www/f/media/slider2/Pro-69_floor_1.jpg" alt="#"></div>
+                              <div class=""><img class="" src="/local/templates/pro-69/distr/www/f/media/slider2/Pro-69_floor_2.jpg" alt="#"></div>
+                              <div class=""><img class="" src="/local/templates/pro-69/distr/www/f/media/slider2/Pro-69_floor_3.jpg" alt="#"></div>
+                            </div>
+                        
+                    </div>
 
                 
                 </div>
@@ -600,19 +564,7 @@ $(function(){                // сработает, когда документ 
     $('.logo').delay(1000) // пауза в 3 сек.
                 .show(1000); // появление элемента в течении 1 сек.
 });
-        
-$(document).ready(function() {
-
-  $('.slider0').slick({
-            dots: false,
-            infinite: true,
-            speed: 500,
-            fade: true,
-            cssEase: 'linear'
-        });
-
-});
-
+        ;
 
 </script>
 </body>
