@@ -1,9 +1,13 @@
 ﻿<? require_once($_SERVER["DOCUMENT_ROOT"]."/bitrix/modules/main/include/prolog_before.php");
 $APPLICATION->SetTitle("Заглавная страница"); ?>
 <? if(!defined("B_PROLOG_INCLUDED") || B_PROLOG_INCLUDED!==true) die(); ?>
+
+<!DOCTYPE html>
+
 <!DOCTYPE html>
 <html lang="ru-RU">
-<head>    <title>Заглавная страница</title>
+<head>
+    <title>Заглавная страница</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes, maximum-scale=3.0">
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <meta http-equiv="cleartype" content="on">
@@ -210,7 +214,7 @@ $APPLICATION->SetTitle("Заглавная страница"); ?>
                     <li class="header-link__item header-link__item_address header_link__item_first">
 						Дом на профсоюзной, 69
                     </li>
-					<li class="header-link__item header-link">+7 495 780-40-40</li>
+					<li class="header-link__item header-link">+7 (495) 229-01-51</li>
                     <li class="header-link__item call"><a class="header-link" href="mailto:INFO@PRO-69.RU">INFO@PRO-69.RU</a></li>
                 </ul>
             </div>
@@ -287,7 +291,8 @@ $APPLICATION->SetTitle("Заглавная страница"); ?>
             </div> -->
             <div class="content__item block block-double mobile">
                 <div class="content__item five-persent">
-                    <div class=""><img class="metro-place__img" src="/local/templates/pro-69/distr/www/f/media/slide4_1.jpg" alt="#"></div>
+                    <!-- <div class=""><img class="metro-place__img" src="/local/templates/pro-69/distr/www/f/media/slide4_1.jpg" alt="#"></div> -->
+                    <div class=""><img class="metro-place__img" src="/local/templates/pro-69/distr/www/f/media/news2.jpg" alt="#"></div>
                     <!-- <div class="">
                         <img class="metro-place__img" src="/local/templates/pro-69/distr/www/f/media/slide4_2.jpg" alt="#">
                     </div> -->
@@ -310,7 +315,7 @@ $APPLICATION->SetTitle("Заглавная страница"); ?>
                 <div class="slide rel">
                     <span class="fp fs53">Готовность — <br>80%</span>
                     <span class="fontIcon">b</span>
-                    <span class="fp fs29 cardColorWhite bg2017">Сдача проекта — <br>уже в начале года:</span>
+                    <span class="fp fs29 cardColorWhite bg2017">Сдача проекта — <br>уже в середине года:</span>
                     <span class="fg upper studioPrice z1000">2017</span>
                 </div>
             </div>
@@ -319,7 +324,7 @@ $APPLICATION->SetTitle("Заглавная страница"); ?>
 
             <div class="content__item block_white metro">
                 <div class="slide">
-                    <span class="fp fs53">7 минут<br>пешком!</span>
+                    <span class="fp fs53">10 минут<br>пешком!</span>
                     <span class="fp fs29">В пешей доступности <br>м.Калужская и м.Беляево</span>
                     <span class="fg upper">метро</span>
                 </div>
