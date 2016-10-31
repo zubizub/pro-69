@@ -58,10 +58,11 @@ $this->setFrameMode(true);?>
           <p style="color: white;">свободно</p>
           <button type="button" class="btn-def">Забронировать</button>
           <div class="popupFooterLeft">
-            <p class="phone">+7 (495) 780-40-40</p>
+            <p class="phone">+7 (495) 229-01-51</p>
             <br/>
             <div class="kostyl"></div>
-            <ul>
+<!-- СПРЯТАНО НА ВРЕМЯ ---->
+            <ul style="display: none;">
               <li><a href="#">заказать звонок</a></li>
               <li><a href="#">отправить на почту</a></li>
               <li><a href="#">скачать</a></li>
