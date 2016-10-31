@@ -21,14 +21,14 @@ $APPLICATION->SetTitle("Заглавная страница"); ?>
     <title>Заглавная страница — </title>
     <meta name="author" content="Akado">
     <!--<link href="/favicon.ico" rel="shortcut icon" type="image/x-icon">-->
-		<link rel="stylesheet" type="text/css" href="/local/templates/pro-69/css/vlad_sasha.css" media="all">
-    <link rel="stylesheet" type="text/css" href="/local/templates/pro-69/distr/www/f/min/global.css" media="all">
+		<link rel="stylesheet" type="text/css" href="vlad_sasha.css" media="all">
+    <link rel="stylesheet" type="text/css" href="sasha.css" media="all">
     <link rel="stylesheet" type="text/css" href="/local/templates/pro-69/fonts/font1.css" media="all">
     <link rel="stylesheet" type="text/css" href="/local/templates/pro-69/fonts/font2.css" media="all">
     <link rel="stylesheet" type="text/css" href="/local/templates/pro-69/fonts/font3.css" media="all">
     <link rel="stylesheet" type="text/css" href="/local/templates/pro-69/fonts/font4.css" media="all">
-	<link rel="stylesheet" type="text/css" href="/local/templates/pro-69/css/zz_sasha.css" media="all">
-    <link rel="stylesheet" type="text/css" href="/local/templates/pro-69/css/ser_sasha.css" media="all">
+	<link rel="stylesheet" type="text/css" href="zz_sasha.css" media="all">
+    <link rel="stylesheet" type="text/css" href="ser_sasha.css" media="all">
     <link rel="stylesheet" type="text/css" href="/local/templates/pro-69/css/popup.css" media="all">
     <link rel="stylesheet" type="text/css" href="/local/templates/pro-69/js/bx/jquery.bxslider.css" media="all">
     <link rel="stylesheet" type="text/css" href="/local/templates/pro-69/js/fancy/jquery.fancybox.css" media="all">
@@ -259,7 +259,7 @@ $APPLICATION->SetTitle("Заглавная страница"); ?>
             </ul> -->
 
 
-			<div class="content__item block studios">
+			<div class="content__item block studios mobile">
                 <div class="slide blue sblock">
                     <span class="fp fs36">Дом<br/>на Профсоюзной<br/>ждет вас!</span>
                     <span class="fp fs29">Профсоюзная, 69 -<br/>это светлые, удобные<br/>студии</span>
@@ -453,11 +453,11 @@ $APPLICATION->SetTitle("Заглавная страница"); ?>
                     <img src="/local/templates/pro-69/distr/www/f/media/69_map.jpg" alt="#">
                 </div>
             </div>
-			                    <div class="content__item block area mobile-show autoHeight">
+			                    <div class="content__item block area autoHeight">
                          <div class="slide blue sblock">
                             <span class="fp fs38">Компактные<br> и светлые <br/>студии</span>
                             <span class="fg upper studioText area">
-                                <span class="fl lhCond fs77">от<br/>м<sup>2</sup></span>
+                                <span class="fl lhCond fs77">от<br/>м2</span>
                                 <span class="fl fs177 mTopMarg10">17</span></span>
                             <div class="clear clearfix"></div>
                             <div class="rel">
@@ -468,7 +468,7 @@ $APPLICATION->SetTitle("Заглавная страница"); ?>
                         </div>
                     </div>
 
-                        <div class="content__item block_white area2 mobile-show autoHeight">
+                        <div class="content__item block_white area2 autoHeight">
                          <div class="slide blue sblock">
                             <span class="fp fs38 tBlue">Просторные<br>двухкомнатные<br>студии</span>
                             <div class="clear clearfix"></div>
@@ -476,13 +476,31 @@ $APPLICATION->SetTitle("Заглавная страница"); ?>
                                 
                                     <img src="/local/templates/pro-69/distr/www/f/media/plans/plan2.png"/>
                                  <span class="fg upper studioText area2">
-                                <span class="fl fs50 lhCond tBlue" >от<br/>м<sup>2</sup></span>
+                                <span class="fl fs50 lhCond tBlue" >от<br/>м2</span>
                                 <span class="fl fs100 mTopMarg10 tBlue">33</span>
                             </span>
                             </div>
                         </div>
                      </div>
-         <div class="content__item block_white mobile-show overflowBlock">
+
+           <div class="content__item block readyBlock mobile overflowBlock">
+                <div class="slide blue sblock ">
+                    <span class="fp fs36">Готовая<br/>квартира<br/> с отделкой!</span>
+                    <span class="fp fs20">
+
+                        Предлагаем качественную<br/>
+                        отделку по минимальным ценам.<br/>
+                        "Завози мебель и живи!" </span>
+                    <div class="rel ">
+                        <span class="fg upper studioText--ready">готово</span>
+                        <span class="blockIcon2 fontIcon orange">f</span>
+                    </div>
+
+                </div>
+                
+            </div>
+
+         <div class="content__item block_white mobile overflowBlock">
                 <div class="slide blue sblock ">
                     <span class="fp fs36 tBlue">
                     Офис-продаж<br>
@@ -500,25 +518,7 @@ $APPLICATION->SetTitle("Заглавная страница"); ?>
 
                 </div>
                 
-            </div>
-           <div class="content__item block readyBlock mobile-show overflowBlock">
-                <div class="slide blue sblock ">
-                    <span class="fp fs36">Готовая<br/>квартира<br/> с отделкой!</span>
-                    <span class="fp fs20">
-
-                        Предлагаем качественную<br/>
-                        отделку по минимальным ценам.<br/>
-                        "Завози мебель и живи!" </span>
-                    <div class="rel ">
-                        <span class="fg upper studioText--ready">готово</span>
-                        <span class="blockIcon2 fontIcon orange">f</span>
-                    </div>
-
-                </div>
-                
-            </div>
-
- <div class="content__item west flip-container">
+            </div> <div class="content__item west flip-container">
 							<div class="flipper">
 					<div class="front" style="background: orange;">
 					</div>

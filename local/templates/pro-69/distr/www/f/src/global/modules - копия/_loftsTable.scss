@@ -1,0 +1,5 @@
+.lotItems .lots__page { display: none; }
+.lotItems .lots__page:first-child { display: block; } 
+.lots__inner .pagination li {
+  display: inline-block;
+}

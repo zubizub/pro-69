@@ -29,7 +29,7 @@ $this->setFrameMode(true);
                   <?=$arItem['PREVIEW_TEXT'];?></div>
               </div>
               <div class="five-persent__right-block" style="display: inline-block; width: 50%; margin-left: -5px;">
-                <span class="fg orange">-<?= $arItem['PROPERTIES']['DISCOUNT']['VALUE'];?>%</span>
+                <span class="fg orange">-5<?= $arItem['PROPERTIES']['DISCOUNT']['VALUE'];?>%</span>
               </div>
             <!-- </div> -->
 </div>

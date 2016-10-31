@@ -28,9 +28,16 @@
 	text-transform: uppercase;
 }
 
+.sblock span { 
+
+display: block;
+margin-bottom: 30px;
+
+}
+
 .sblock  { 
 
-//padding: 35px 0 0 40px;
+padding: 35px 0 0 40px;
 /*text-align: center;*/
 
 
@@ -43,26 +50,27 @@
     transform: scale(1,1.2);
 }
 
-//span.blockIcon1 {
-  //  position: absolute;
-  //  top: -80%;
-  //  right: 1%;
-    //font-size: 151px !important;
-//}
+span.blockIcon1 {
+    position: absolute;
+    top: -80%;
+    right: -1%;
+    font-size: 151px !important;
+}
 
 
 /*Стили Влад*/
 .cardColorWhite {color: #fff;}
-//.studioPrice {font-size: 170px !important;}
-//.studioPrice span {font-size: 200px !important; display: inline !important;}
+.studioPrice {font-size: 170px !important;}
+.studioPrice span {font-size: 200px !important; display: inline !important;}
+.compact .slide {padding: 20px 10px 0 35px;}
 .compact .slide span, .content__item.ready .slide span {display: block;}
-//.compact .slide span:nth-of-type(2) {margin-top: rem(50);}
+.compact .slide span:nth-of-type(2) {margin: 20px 0 -35px;}
 
 
 .content__item.ready {background: url(../distr/www/f/media/bg-ready.jpg); background-size: contain;}
-//.content__item.ready .slide {padding: 20px 0 0 15px;}
-//.content__item.ready .cardColorWhite {padding-left: 110px;}
-//.content__item.ready .studioPrice {font-size: 200px; margin-top: 30px !important;}
+.content__item.ready .slide {padding: 20px 0 0 15px;}
+.content__item.ready .cardColorWhite {padding-left: 110px;}
+.content__item.ready .studioPrice {font-size: 200px; margin-top: 30px !important;}
 
 
 .lots__inner {
@@ -95,7 +103,7 @@ padding: 1.25rem;
 }
 @media screen and (max-width: 1000px) {
   .lots__list {
-    //padding-left: 4.375rem;
+    padding-left: 4.375rem;
   }
 }
 .lots__info {
@@ -468,6 +476,8 @@ font-size: 20px !important;
 //.fs250 {font-size: 250px !important;}
 //.fs200 {font-size: 200px !important;}
 
+.lhCond {line-height: 70%;}
+
 .mTopMarg10 { margin-top: -10%; }
 
 
@@ -571,7 +581,7 @@ font-size: 20px !important;
 
 
 .studioText--ready {
-    //font-size: 155px !important;
+    font-size: 155px !important;
     margin: 0;
     transform: scale(1,1.2);
 }
@@ -591,15 +601,15 @@ span.blockIcon2 {
 
 }
 .studioText--showroom {
-    //font-size: 155px !important;
+    font-size: 155px !important;
     /* margin: 0; */
     transform: scale(1,1.2);
-    line-height: 0.6;
+    line-height: 80px;
     /* padding-top: 53px; */
     /* position: absolute; */
     /* top: 24px; */
     margin-bottom: -18px !important;
-    margin-top: 20%;
+    margin-top: 45px;
 }
 
 
@@ -616,6 +626,16 @@ ul.gallery2Switch {
     z-index: 40000;
 }
 
+ul.gallery2Switch li.switch {
+    width: 27%;
+    height: 80%;
+    background: url(/local/templates/pro-69/distr/www/f/media/gSwitchBg.png) no-repeat;
+  background-size: 100% 100%;
+  padding: 3%;
+  float: left;
+  /*display: none;*/
+
+}
 ul.gallery2Switch li.switch.active {
     display: block;
 
@@ -662,6 +682,8 @@ div.group2.galleryGroup{
 
 .galleryGroup .slick-next, 
 .slick-next {
+
+  right: 75px !important;
   z-index: 3500 !important;
 }
 
@@ -677,7 +699,7 @@ div.group2.galleryGroup{
 
 
 .studioText.life {
-    //font-size: 80px !important;
+    font-size: 80px !important;
         margin-bottom: 0px;
 } 
 
@@ -692,15 +714,17 @@ div.group2.galleryGroup{
 }
 
 .slider .slick-prev {
+    left: 1.875rem;
     z-index: 20;
     width: 100px;
+    height: 50px;
  transform: scale(-1, 1);
  -webkit-transform: scale(-1, 1);
     filter: FlipH;
     -ms-filter: "FlipH";
-    //height: 50px;
+    height: 50px;
     width: 100px;
-    /*top: 75%;*/
+    top: 75%;
  letter-spacing: -25px;
  white-space: nowrap;
  left: 4rem;
@@ -714,13 +738,29 @@ div.group2.galleryGroup{
 }
 
 .slider .slick-next {
- //top: 65%;
+ top: 65%;
 }
 
 .slick-list{
  z-index: 0;
 }
 
+.galleryGroup .slick-next{
+    background: url(/local/templates/pro-69/distr/www/vlad/next.png);
+    height: 66px;
+width: 160px;
+
+
+}
+
+.galleryGroup .slick-prev {
+    background: url(/local/templates/pro-69/distr/www/vlad/prev.png);
+    height: 66px;
+width: 160px;
+position: absolute;
+z-index: 1;
+left: 75px;
+}
 .galleryGroup .slick-prev:before, .galleryGroup .slick-next:before {
  content: '';
 }
@@ -760,7 +800,7 @@ clear: both;}
 //}
 
 .slider--large {
-//min-height: 395px !important;
+min-height: 395px !important;
  
 }
 
@@ -771,7 +811,7 @@ clear: both;}
 
 
 .studioPrice span {
-    //font-size: 170px !important;
+    font-size: 170px !important;
     display: inline !important;
 }
 
@@ -779,7 +819,7 @@ clear: both;}
 .content__item.block_white.ready
 
  {
-  //min-height: 450px !important;
+  min-height: 450px !important;
 }
 
 //.fs53 {
@@ -811,7 +851,7 @@ clear: both;}
 }
 
 .content__item.metro .fg {
-    //font-size: 155px !important;
+    font-size: 155px !important;
 }
 
 .content__item.west {
@@ -820,21 +860,20 @@ clear: both;}
 
 
 .content__item.west .fg {
-   // font-size: 70px !important;
- //padding-top: 10px !important;
+    font-size: 70px !important;
+ padding-top: 10px !important;
 
 }
 
 
 .content__item.ready {
-    background: url(/local/templates/pro-69//distr/www/f/media/bg-ready.jpg);
+    background: url(../distr/www/f/media/bg-ready.jpg);
     background-size: 100% 100% !important;
-	z-index: 0;
 }
 
 .content__item.west .block {
-   // height: 100% !important;
-   // overflow: initial !important;
+    height: 100% !important;
+    overflow: initial !important;
   
 }
 
@@ -845,7 +884,7 @@ clear: both;}
 }
 
 .ready .studioPrice {
-    //font-size: 165px !important;
+    font-size: 165px !important;
 }
 
 .bg2017 {
@@ -863,17 +902,17 @@ span.fp.fs29.cardColorWhite.bg2017 {
 }
 
 
-//.content__item.ready .studioPrice {
-// margin-top: 150px !important;
-//}
+.content__item.ready .studioPrice {
+ margin-top: 150px !important;
+}
 
 
 
 .content__item.west .fg {
-    //font-size: 6.3vw;
-    //line-height: 69px;
+    font-size: 6.3vw;
+    line-height: 69px;
     margin-bottom: -23px;
-    //padding-top: 10px;
+    padding-top: 10px;
 }
 
 //.content__item.west .fs29 {

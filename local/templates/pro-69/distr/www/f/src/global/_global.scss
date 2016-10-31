@@ -358,7 +358,12 @@ header {
 			left: rem(30);
 			z-index: 1;
 			width: 100px;
-			height: 50px;
+			//height: 50px;
+			
+			
+			&:hover {
+				height: 7px;
+			}
 		}
 
 
@@ -366,7 +371,7 @@ header {
 			right: rem(30);
 			width: 100px;
 			height: 50px;
-			top: 90%;
+			/*top: 90%;*/
 			letter-spacing: -25px;
 
 			&:hover {
@@ -420,7 +425,7 @@ header {
 
 .ready {
     @media only screen and (max-width: 991px) {
-       /* display: none;*/
+        display: none;
     }
 }
 
@@ -434,7 +439,7 @@ header {
 
 .mobile {
     @media only screen and (max-width: 460px) {
-       /* display: none;*/
+        display: none;
     }
 }
 
@@ -498,5 +503,9 @@ header {
 	/*padding: rem(30);*/
 }
 
+.content__item.ready .slide{
+	padding: rem(30);
+}
 
-#content > .content__item {min-height: 450px;}
+
+//#content > .content__item {min-height: 450px;}

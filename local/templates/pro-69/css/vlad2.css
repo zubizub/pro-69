@@ -50,16 +50,16 @@ padding: 35px 0 0 40px;
     font-family: 'posterizerkgrough';
     margin: 0 1.5%;
 }
-
+/*
 .fs20 { font-size: 20px;}
 .fs36 { font-size: 36px;}
 .fs29 { font-size: 29px; }
 .fs53 { font-size: 53px; }
 
-
+*/
 .studioText {
 
-    font-size: 130px;
+    //font-size: 130px;
     margin: 0;
     transform: scale(1,1.2);
 }
@@ -490,7 +490,7 @@ font-size: 20px;
 .pColRight.close { cursor: pointer;}
 
 
-.fs26 {font-size: 26px;}
+//.fs26 {font-size: 26px;}
 
 .blockSelect {
     position: absolute;
@@ -503,8 +503,8 @@ font-size: 20px;
     margin: 0;
     padding: 8% 0% 0% 15%;
 }
-.fs250 {font-size: 250px;}
-.fs200 {font-size: 200px;}
+//.fs250 {font-size: 250px;}
+//.fs200 {font-size: 200px;}
 
 .lhCond {line-height: 70%;}
 
