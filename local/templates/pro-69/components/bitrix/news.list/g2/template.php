@@ -50,7 +50,11 @@ $this->setFrameMode(true);
       while($ob = $res->GetNextElement()){ 
        $arFields = $ob->GetFields();  ?>
       
-      <div class=""><img class="" src="<?=CFile::GetPath($arFields['PREVIEW_PICTURE']);?>" alt="#"></div>
+      <div class="">
+        <a class="fancybox" rel="gallery2" href="<?=CFile::GetPath($arFields['PREVIEW_PICTURE']);?>">
+              <img src="<?=CFile::GetPath($arFields['PREVIEW_PICTURE']);?>" alt="#" />
+          </a>
+      </div>
       <? 
       } 
       ?>
