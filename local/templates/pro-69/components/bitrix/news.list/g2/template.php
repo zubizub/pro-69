@@ -1,0 +1,76 @@
+<?if(!defined("B_PROLOG_INCLUDED") || B_PROLOG_INCLUDED!==true)die();
+/** @var array $arParams */
+/** @var array $arResult */
+/** @global CMain $APPLICATION */
+/** @global CUser $USER */
+/** @global CDatabase $DB */
+/** @var CBitrixComponentTemplate $this */
+/** @var string $templateName */
+/** @var string $templateFile */
+/** @var string $templateFolder */
+/** @var string $componentPath */
+/** @var CBitrixComponent $component */
+$this->setFrameMode(true);
+?>
+
+
+<ul class="gallery2Switch">
+<?
+//print_r($arParams);
+  $i=0;
+  $arSections = array();
+  $arFilter = Array('IBLOCK_ID'=>$arParams['IBLOCK_ID'], 'GLOBAL_ACTIVE'=>'Y', );
+  $db_list = CIBlockSection::GetList(Array($by=>$order), $arFilter, true);
+  
+    while($ar_result = $db_list->GetNext())
+  { ?>
+
+<? $arSections[$i] = $ar_result['ID'];?>
+     <li class="switch">  
+      <a href="javascript:void(0);" data-switch="<?=$i;$i++;?>" class="fp fs20"><?=$ar_result['NAME'];?></a>
+    </li>
+  <? } ?>
+</ul>
+
+
+<? //print_r($arSections);?>
+
+
+<? foreach ($arSections as $key => $section) { ?>
+
+  
+         <? if ($key == 2)  { $active = "";} ?>
+                    <div class="group<?=$key;?> galleryGroup" style="display:block;">
+                      <div class="slider<?=$key;?>">
+                        
+                        
+                        <!-- <div class=""><img class="" src="/local/templates/pro-69/distr/www/f/media/slider2/Pro-69_House_2.jpg" alt="#"></div>
+                        <div class=""><img class="" src="/local/templates/pro-69/distr/www/f/media/slider2/Pro-69_House_3.jpg" alt="#"></div> -->
+
+                      
+                        
+
+<? //print_r($section);
+
+      $arSelect = Array("ID", "IBLOCK_ID", "NAME", "DATE_ACTIVE_FROM","*");
+      $arFilter = Array("IBLOCK_ID"=>$arParams['IBLOCK_ID'], "ACTIVE_DATE"=>"Y", "ACTIVE"=>"Y", "SECTION_ID" => $section);
+      $res = CIBlockElement::GetList(Array(), $arFilter, false, Array("nPageSize"=>50), $arSelect);
+      while($ob = $res->GetNextElement()){ 
+       $arFields = $ob->GetFields();  ?>
+      
+      <div class=""><img class="" src="<?=CFile::GetPath($arFields['PREVIEW_PICTURE']);?>" alt="#"></div>
+      <? //print_r($arFields);
+       /*$arProps = $ob->GetProperties();
+      print_r($arProps);*/
+      } ?>
+
+  </div>
+</div>
+<? } ?>
+
+
+
+
+
+
+  
