@@ -26,7 +26,8 @@ $this->setFrameMode(true);
   { ?>
 
 <? $arSections[$i] = $ar_result['ID'];?>
-     <li class="switch">  
+     
+     <li class="switch <?= ($i ==0) ? 'active' : '';?>">  
       <a href="javascript:void(0);" data-switch="<?=$i;$i++;?>" class="fp fs20"><?=$ar_result['NAME'];?></a>
     </li>
   <? } ?>
@@ -42,16 +43,7 @@ $this->setFrameMode(true);
          <? if ($key == 2)  { $active = "";} ?>
                     <div class="group<?=$key;?> galleryGroup" style="display:block;">
                       <div class="slider<?=$key;?>">
-                        
-                        
-                        <!-- <div class=""><img class="" src="/local/templates/pro-69/distr/www/f/media/slider2/Pro-69_House_2.jpg" alt="#"></div>
-                        <div class=""><img class="" src="/local/templates/pro-69/distr/www/f/media/slider2/Pro-69_House_3.jpg" alt="#"></div> -->
-
-                      
-                        
-
 <? //print_r($section);
-
       $arSelect = Array("ID", "IBLOCK_ID", "NAME", "DATE_ACTIVE_FROM","*");
       $arFilter = Array("IBLOCK_ID"=>$arParams['IBLOCK_ID'], "ACTIVE_DATE"=>"Y", "ACTIVE"=>"Y", "SECTION_ID" => $section);
       $res = CIBlockElement::GetList(Array(), $arFilter, false, Array("nPageSize"=>50), $arSelect);
@@ -59,10 +51,9 @@ $this->setFrameMode(true);
        $arFields = $ob->GetFields();  ?>
       
       <div class=""><img class="" src="<?=CFile::GetPath($arFields['PREVIEW_PICTURE']);?>" alt="#"></div>
-      <? //print_r($arFields);
-       /*$arProps = $ob->GetProperties();
-      print_r($arProps);*/
-      } ?>
+      <? 
+      } 
+      ?>
 
   </div>
 </div>

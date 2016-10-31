@@ -80,7 +80,26 @@ $this->setFrameMode(true);?>
         
        <img src="/local/templates/pro-69/distr/www/f/media/plans/<?=$plan;?>.png">
       </div>
-      <div class="preview"> <img src="/local/templates/pro-69/distr/www/img/preview.png"> </div>
-    </div>
-
       
+<div class="slider slider--large content__item__">
+                <div class=""><img class="metro-place__img" src="/local/templates/pro-69/distr/www/f/media/slider1/Pro-69_studio_mini_1.jpg" alt="#"></div>
+                <div class=""><img class="metro-place__img" src="/local/templates/pro-69/distr/www/f/media/slider1/Pro-69_studio_mini_2.jpg" alt="#"></div>
+                <div class=""><img class="metro-place__img" src="/local/templates/pro-69/distr/www/f/media/slider1/Pro-69_studio_mini_3.jpg" alt="#"></div>
+            </div>
+      <script type="text/javascript">
+
+$(document).ready(function() {
+
+  $('.slider').slick({
+            dots: false,
+            infinite: true,
+            speed: 500,
+            fade: true,
+            cssEase: 'linear'
+        });
+
+});
+
+      </script>
+      
+    </div>
