@@ -32,7 +32,16 @@ $(document).ready(function () {
             })
             .done(function (data) {
                 $('.loft-types__content').html(data);
-                $('.loft-types__tabs').slick({
+                
+ $('.sliderCard').slick({
+            dots: false,
+            infinite: true,
+            speed: 500,
+            fade: true,
+            cssEase: 'linear'
+        });
+
+                $('.sliderCard').slick({
                     dots: false,
                     arrows: false,
                     infinite: false,
