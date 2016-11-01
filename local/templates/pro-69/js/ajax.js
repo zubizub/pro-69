@@ -13,6 +13,11 @@ $(document).ready(function () {
             .done(function (data) {
                // console.log(data);
                 $('.loft-types__content').html(data);
+                $('.btn-def').on('click', function(){
+    $('#ajaxPopups').hide(200);
+    $('#ajaxPopupCallBack').show(200);
+    $('#popupBg').show(200);
+});
 
             });
 
