@@ -31,6 +31,7 @@ $APPLICATION->SetTitle("Заглавная страница"); ?>
     <link rel="stylesheet" type="text/css" href="/local/templates/pro-69/css/ser_sasha.css" media="all">
     <link rel="stylesheet" type="text/css" href="/local/templates/pro-69/css/popup.css" media="all">
     <link rel="stylesheet" type="text/css" href="/local/templates/pro-69/js/bx/jquery.bxslider.css" media="all">
+    <link rel="stylesheet" type="text/css" href="/local/templates/pro-69/js/fancy/jquery.fancybox.css" media="all">
     <link rel="start" href="/">
         <script type="text/javascript" charset="UTF-8" src="/local/templates/pro-69/js/jquery-3.1.1.min.js"></script>
     
@@ -691,6 +692,18 @@ $APPLICATION->SetTitle("Заглавная страница"); ?>
     <script type="text/javascript" charset="UTF-8" src="/local/templates/pro-69/js/ajax.js"></script>
 
         <script type="text/javascript" charset="UTF-8" src="/local/templates/pro-69/js/bx/jquery.bxslider.js"></script>
+        <script type="text/javascript" charset="UTF-8" src="/local/templates/pro-69/js/fancy/jquery.fancybox.pack.js"></script>
+
+
+
+<script type="text/javascript">
+  $(document).ready(function() {
+    $(".fancybox").fancybox();
+  });
+</script>
+
+
+
 <script>
 
 $('.bx').bxSlider({
@@ -718,6 +731,8 @@ $(document).ready(function() {
         });
 
 });
+
+
 
 $(function(){
 	var height = $('body').innerHeight();
