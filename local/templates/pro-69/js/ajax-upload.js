@@ -112,7 +112,7 @@ $(document).ready(function () {
                     $('.popup--callback .popup__title').text('Забронировать');
                 });
 
-
+                $(window).trigger('resize');
                 return false;
             });
 
