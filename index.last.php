@@ -31,6 +31,7 @@ $APPLICATION->SetTitle("Заглавная страница"); ?>
     <link rel="stylesheet" type="text/css" href="/local/templates/pro-69/css/ser_sasha.css" media="all">
     <link rel="stylesheet" type="text/css" href="/local/templates/pro-69/css/popup.css" media="all">
     <link rel="stylesheet" type="text/css" href="/local/templates/pro-69/js/bx/jquery.bxslider.css" media="all">
+    <link rel="stylesheet" type="text/css" href="/local/templates/pro-69/js/fancy/jquery.fancybox.css" media="all">
     <link rel="start" href="/">
         <script type="text/javascript" charset="UTF-8" src="/local/templates/pro-69/js/jquery-3.1.1.min.js"></script>
     
@@ -49,6 +50,10 @@ $APPLICATION->SetTitle("Заглавная страница"); ?>
 
 #svg.finished * {
   fill-opacity: 1;
+}
+
+.fancybox-skin{
+	padding: 0!important;
 }
 
 </style>
@@ -301,7 +306,115 @@ $APPLICATION->SetTitle("Заглавная страница"); ?>
             </div> -->
                <div class="content__item block block-double mobile">
                 <div class="content__item five-persent">
-                    <div class=""><img class="metro-place__img" src="/local/templates/pro-69/distr/www/f/media/slide4_1.jpg" alt="#"></div>
+                    <?$APPLICATION->IncludeComponent(
+ "bitrix:news", 
+ "main_offers", 
+ array(
+  "ADD_ELEMENT_CHAIN" => "Y",
+  "ADD_SECTIONS_CHAIN" => "Y",
+  "AJAX_MODE" => "N",
+  "AJAX_OPTION_ADDITIONAL" => "",
+  "AJAX_OPTION_HISTORY" => "N",
+  "AJAX_OPTION_JUMP" => "N",
+  "AJAX_OPTION_STYLE" => "Y",
+  "BROWSER_TITLE" => "-",
+  "CACHE_FILTER" => "N",
+  "CACHE_GROUPS" => "Y",
+  "CACHE_TIME" => "36000000",
+  "CACHE_TYPE" => "A",
+  "CHECK_DATES" => "Y",
+  "COMPONENT_TEMPLATE" => "main_offers",
+  "DETAIL_ACTIVE_DATE_FORMAT" => "d.m.Y",
+  "DETAIL_DISPLAY_BOTTOM_PAGER" => "Y",
+  "DETAIL_DISPLAY_TOP_PAGER" => "N",
+  "DETAIL_FIELD_CODE" => array(
+   0 => "",
+   1 => "",
+  ),
+  "DETAIL_PAGER_SHOW_ALL" => "Y",
+  "DETAIL_PAGER_TEMPLATE" => "",
+  "DETAIL_PAGER_TITLE" => "Страница",
+  "DETAIL_PROPERTY_CODE" => array(
+   0 => "",
+   1 => "AUTHOR_LINK",
+   2 => "",
+  ),
+  "DETAIL_SET_CANONICAL_URL" => "N",
+  "DISPLAY_BOTTOM_PAGER" => "N",
+  "DISPLAY_DATE" => "Y",
+  "DISPLAY_NAME" => "Y",
+  "DISPLAY_PICTURE" => "Y",
+  "DISPLAY_PREVIEW_TEXT" => "Y",
+  "DISPLAY_TOP_PAGER" => "N",
+  "FILTER_FIELD_CODE" => array(
+   0 => "",
+   1 => "",
+  ),
+  "FILTER_NAME" => "",
+  "FILTER_PROPERTY_CODE" => array(
+   0 => "",
+   1 => "AUTHOR_LINK",
+   2 => "SECTION",
+   3 => "",
+  ),
+  "FORUM_ID" => "1",
+  "HIDE_LINK_WHEN_NO_DETAIL" => "N",
+  "IBLOCK_ID" => "1",
+  "IBLOCK_TYPE" => "news",
+  "INCLUDE_IBLOCK_INTO_CHAIN" => "N",
+  "LIST_ACTIVE_DATE_FORMAT" => "d.m.Y",
+  "LIST_FIELD_CODE" => array(
+   0 => "",
+   1 => "",
+  ),
+  "LIST_PROPERTY_CODE" => array(
+   0 => "",
+   1 => "AUTHOR_LINK",
+   2 => "",
+  ),
+  "MESSAGES_PER_PAGE" => "10",
+  "MESSAGE_404" => "",
+  "META_DESCRIPTION" => "-",
+  "META_KEYWORDS" => "-",
+  "NEWS_COUNT" => "10",
+  "PAGER_BASE_LINK_ENABLE" => "N",
+  "PAGER_DESC_NUMBERING" => "N",
+  "PAGER_DESC_NUMBERING_CACHE_TIME" => "36000",
+  "PAGER_SHOW_ALL" => "N",
+  "PAGER_SHOW_ALWAYS" => "N",
+  "PAGER_TEMPLATE" => ".default",
+  "PAGER_TITLE" => "Новости",
+  "PATH_TO_SMILE" => "/bitrix/images/forum/smile/",
+  "PREVIEW_TRUNCATE_LEN" => "",
+  "REVIEW_AJAX_POST" => "Y",
+  "SEF_FOLDER" => "/blog/",
+  "SEF_MODE" => "N",
+  "SET_LAST_MODIFIED" => "N",
+  "SET_STATUS_404" => "Y",
+  "SET_TITLE" => "N",
+  "SHOW_404" => "N",
+  "SHOW_LINK_TO_FORUM" => "Y",
+  "SORT_BY1" => "ACTIVE_FROM",
+  "SORT_BY2" => "SORT",
+  "SORT_ORDER1" => "DESC",
+  "SORT_ORDER2" => "ASC",
+  "URL_TEMPLATES_READ" => "",
+  "USE_CAPTCHA" => "Y",
+  "USE_CATEGORIES" => "N",
+  "USE_FILTER" => "Y",
+  "USE_PERMISSIONS" => "N",
+  "USE_RATING" => "N",
+  "USE_REVIEW" => "N",
+  "USE_RSS" => "N",
+  "USE_SEARCH" => "N",
+  "USE_SHARE" => "N",
+  "VARIABLE_ALIASES" => array(
+   "SECTION_ID" => "SECTION_ID",
+   "ELEMENT_ID" => "ELEMENT_ID",
+  )
+ ),
+ false
+);?>
 
                 
             </div>
@@ -690,6 +803,7 @@ $APPLICATION->SetTitle("Заглавная страница"); ?>
     <script type="text/javascript" charset="UTF-8" src="/local/templates/pro-69/js/ajax.js"></script>
 
         <script type="text/javascript" charset="UTF-8" src="/local/templates/pro-69/js/bx/jquery.bxslider.js"></script>
+        <script type="text/javascript" charset="UTF-8" src="/local/templates/pro-69/js/fancy/jquery.fancybox.pack.js"></script>
 <script>
 
 $('.bx').bxSlider({
@@ -716,6 +830,13 @@ $(document).ready(function() {
             cssEase: 'linear'
         });
 
+});
+
+$(document).ready(function() {
+  $(".fancybox").fancybox({
+    openEffect  : 'none',
+    closeEffect : 'none'
+  });
 });
 
 $(function(){
@@ -746,6 +867,8 @@ $(function(){
 		$('.block-double .content__item').height($('.content__item').height()/2 - 60);
 		$('.west .block').height($('.content__item').height()/2 );
 		$('.west .white_block').height($('.content__item').height()/2 );
+		$('.slider0').height($('.content__item').height()*1.5);
+		
 		
 	}
 	
@@ -775,6 +898,7 @@ $(function(){
 			$('.block-double .content__item').height($('.content__item').height()/2 - 60);
 			$('.west .block').height($('.content__item').height()/2 );
 			$('.west .white_block').height($('.content__item').height()/2 );
+			$('.slider0').height($('.content__item').height()*1.5);
 		}
 	});
 });	
