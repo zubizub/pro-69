@@ -61,6 +61,18 @@ $this->setFrameMode(true);
 
   </div>
 </div>
+<script type="text/javascript">
+$(document).ready(function() {
+  $('.slider<?=$key;?>').slick({
+            dots: false,
+            infinite: true,
+            speed: 500,
+            fade: true,
+            cssEase: 'linear'
+        });
+
+});
+</script>
 <? } ?>
 
 
