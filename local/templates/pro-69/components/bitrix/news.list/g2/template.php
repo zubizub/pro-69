@@ -40,8 +40,10 @@ $this->setFrameMode(true);
 <? foreach ($arSections as $key => $section) { ?>
 
   
-         <? if ($key == 2)  { $active = "";} ?>
-                    <div class="group<?=$key;?> galleryGroup">
+         <? if ($key == 0)  { $active = "";} ?>
+         <? unset($show); if ($key == '0')  { $show = "display: block;";} ?>
+
+                    <div class="group<?=$key;?> galleryGroup" style="width:100%; min-height: 700px; height: 700px;<?=$show;?>">
                       <div class="slider<?=$key;?>">
 <? //print_r($section);
       $arSelect = Array("ID", "IBLOCK_ID", "NAME", "DATE_ACTIVE_FROM","*");
@@ -63,7 +65,7 @@ $this->setFrameMode(true);
 </div>
 <script type="text/javascript">
 $(document).ready(function() {
-  $('.slider<?=$key;?>').slick({
+  /*$('.slider<?=$key;?>').slick({
             dots: false,
             infinite: true,
             speed: 500,
@@ -71,7 +73,7 @@ $(document).ready(function() {
             cssEase: 'linear'
         });
 
-});
+});*/
 </script>
 <? } ?>
 
