@@ -41,7 +41,7 @@ $this->setFrameMode(true);
 
   
          <? if ($key == 2)  { $active = "";} ?>
-                    <div class="group<?=$key;?> galleryGroup" style="display:block;">
+                    <div class="group<?=$key;?> galleryGroup">
                       <div class="slider<?=$key;?>">
 <? //print_r($section);
       $arSelect = Array("ID", "IBLOCK_ID", "NAME", "DATE_ACTIVE_FROM","*");
