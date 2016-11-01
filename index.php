@@ -549,6 +549,7 @@ $APPLICATION->SetTitle("Заглавная страница"); ?>
 
  <? $APPLICATION->IncludeComponent(
     "bitrix:dw.catalog.index",
+    //"popup-card",
     "popup-card",
     Array(
         "CACHE_GROUPS" => "Y",
