@@ -14,3 +14,10 @@ $('#popupClose2').on('click', function(){
     $('#ajaxPopupCallBack').fadeOut(200);
     //$('#popupBg').fadeOut(200);
 });
+
+$('.btn-callback-header').on('click', function(){
+    //$('#ajaxPopups').fadeOut(200);
+    $('#ajaxPopupCallBack').fadeIn(200);
+    //$('#popupBg').fadeIn(200);
+    return false;
+});

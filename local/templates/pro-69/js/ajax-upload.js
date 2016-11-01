@@ -97,11 +97,22 @@ $(document).ready(function () {
                 $('#cardLoft').html(data);
                 $('#ajaxPopups').fadeIn(200);
                 $('#popupBg').fadeIn(200);
-                $('.btn-def').on('click', function(){
+                $('.btn-callback').add('.btn-def').on('click', function(){
                     //$('#ajaxPopups').fadeOut(200);
                     $('#ajaxPopupCallBack').fadeIn(200);
                     //$('#popupBg').fadeIn(200);
+                    return false;
                 });
+
+                $('.btn-callback').on('click', function() {
+                    $('.popup--callback .popup__title').text('Обратный звонок');
+                });
+
+                $('.btn-def').on('click', function() {
+                    $('.popup--callback .popup__title').text('Забронировать');
+                });
+
+
                 return false;
             });
 
