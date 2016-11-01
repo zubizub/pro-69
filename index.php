@@ -52,6 +52,10 @@ $APPLICATION->SetTitle("Заглавная страница"); ?>
   fill-opacity: 1;
 }
 
+.fancybox-skin{
+	padding: 0!important;
+}
+
 </style>
 <?$APPLICATION->ShowHead()?>
 </head>
@@ -863,6 +867,8 @@ $(function(){
 		$('.block-double .content__item').height($('.content__item').height()/2 - 60);
 		$('.west .block').height($('.content__item').height()/2 );
 		$('.west .white_block').height($('.content__item').height()/2 );
+		$('.slider0').height($('.content__item').height()*1.5);
+		
 		
 	}
 	
@@ -892,6 +898,7 @@ $(function(){
 			$('.block-double .content__item').height($('.content__item').height()/2 - 60);
 			$('.west .block').height($('.content__item').height()/2 );
 			$('.west .white_block').height($('.content__item').height()/2 );
+			$('.slider0').height($('.content__item').height()*1.5);
 		}
 	});
 });	

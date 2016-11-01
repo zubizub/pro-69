@@ -404,7 +404,40 @@ header {
 	}
 }
 
+.sliderCard{
+			.slick-prev {
+			left: rem(30);
+			z-index: 1;
+			width: 100px;
+			//height: 50px;
+		}
 
+
+		.slick-next {
+			right: 4rem;
+			width: 100px;
+			height: 7px;
+			//top: 90%;
+			letter-spacing: -25px;
+
+			&:hover {
+				width: 100px;
+				height: 7px;
+			}
+
+			&:before {
+				font-size: 150px;
+				line-height: 0.33;
+			}
+		}
+		
+		.slick-track, .slick-current{
+			width: 100%;
+		}
+	img{
+		width: 600px;
+	}
+}
 
 
 .block {
@@ -1362,4 +1395,22 @@ ul.gallery2Switch li.switch {
 				  width: 23%;
 		}
 		}
+}
+
+div#ajaxPopups {
+	
+	.plan{
+		display: table;
+		
+		&>div{
+			display: table-cell;
+			text-align: center;
+			vertical-align: middle;
+			
+			img{
+				width: auto;
+				height: auto;
+			}
+		}
+	}
 }

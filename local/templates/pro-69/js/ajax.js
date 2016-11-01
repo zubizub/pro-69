@@ -31,8 +31,7 @@ $(document).ready(function () {
                 action: action
             })
             .done(function (data) {
-                $('.loft-types__content').html(data);
-                
+                $('.loft-types__content').html(data);		
  $('.sliderCard').slick({
             dots: false,
             infinite: true,
@@ -72,6 +71,10 @@ $(document).ready(function () {
                         }
                     ]
                 });
+				
+
+
+
             });
     });
 

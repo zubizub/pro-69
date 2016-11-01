@@ -395,6 +395,38 @@ header {
 	}
 }
 
+.sliderCard{
+			.slick-prev {
+			left: rem(30);
+			z-index: 1;
+			width: 100px;
+			//height: 50px;
+			
+			
+			&:hover {
+				height: 50px;
+			}
+		}
+
+
+		.slick-next {
+			right: rem(30);
+			width: 100px;
+			height: 50px;
+			/*top: 90%;*/
+			letter-spacing: -25px;
+
+			&:hover {
+				width: 100px;
+				height: 50px;
+			}
+
+			&:before {
+				font-size: 150px;
+				line-height: 0.33;
+			}
+		}
+}
 
 .block {
     background-color: #4972b4;

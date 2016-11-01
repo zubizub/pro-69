@@ -110,7 +110,7 @@ $slick-opacity-not-active: 0.25 !default;
         -moz-osx-font-smoothing: grayscale;
     }
 }
-.slider{
+.slider, .sliderCard{
 
 	.slick-prev,
 .slick-next {
@@ -178,16 +178,25 @@ $slick-opacity-not-active: 0.25 !default;
 			width: 100px;
 		}
     }
-
-    .slider_large & {
-        left: rem(30);
-        z-index: 1;
+	
+	.sliderCard & {
+        -moz-transform: scale(-1, 1);
+        -webkit-transform: scale(-1, 1);
+        -o-transform: scale(-1, 1);
+        transform: scale(-1, 1);
+        filter: FlipH;
+        -ms-filter: "FlipH";
         height: 50px;
         width: 100px;
-       // top: 85%;
+        //top: 85%;
+		
+		    &:hover {
+			height: 50px;
+			width: 100px;
+		}
     }
 
-	.slider_large & {
+    .slider_large & {
         left: rem(30);
         z-index: 1;
         height: 50px;
@@ -222,7 +231,7 @@ $slick-opacity-not-active: 0.25 !default;
             }
         }
 
-        .slider & {
+        .slider &, .sliderCard & {
             font-family: "sprite_graffiti";
         }
 

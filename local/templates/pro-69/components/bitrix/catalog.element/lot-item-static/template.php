@@ -77,8 +77,9 @@ $this->setFrameMode(true);?>
     <div style="width:60%;position:relatative;display:inline-block;float:right;">
       <div class="plan">
         <? if (intval($arResult['PROPERTIES']['AREA']['VALUE']) < 30) { $plan = 'plan1'; } else { $plan = 'plan2'; } ?>
-        
+        <div>
        <img src="/local/templates/pro-69/distr/www/f/media/plans/<?=$plan;?>.png">
+	   </div>
       </div>
       
 <div class="sliderCard slider--large content__item__">

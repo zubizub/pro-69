@@ -6,7 +6,7 @@ div#ajaxPopups {
 	left: 20%;
 	right: 20%;
 	color: white;
-	background: #4972b4;
+	background: #ffffff;
 	max-width: 1000px;
 }
 
@@ -22,9 +22,10 @@ div#popupBg {
 
 .popupContent {
 	color: white;
-	margin-left: 15px;
-	margin-top: 15px;
-	margin-bottom: 15px;
+	padding-left: 15px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	background: #4972b4;
 }
 
 #popupClose {
