@@ -57,20 +57,18 @@ $this->setFrameMode(true);?>
           <p>статус</p>
           <p style="color: white;">свободно</p>
           <button type="button" class="btn-def">Забронировать</button>
-          <div class="popupFooterLeft">
-            <p class="phone">+7 (495) 229-01-51</p>
-            <br/>
-            <div class="kostyl"></div>
-<!-- СПРЯТАНО НА ВРЕМЯ ---->
-            <ul style="display: none;">
-              <li><a href="#">заказать звонок</a></li>
-              <li><a href="#">отправить на почту</a></li>
-              <li><a href="#">скачать</a></li>
-            </ul>
-            <br/>
-            <div class="kostyl"></div>
-            <p class="adress">дом на профсоюзной, 69</p>
-          </div>
+      <div class="popupFooterLeft">
+    <p class="phone">+7 (495) 229-01-51</p>
+  <a class="btn-callback" href="#">Заказать звонок</a>
+  <div class="kostyl"></div>
+  <ul>
+    <li><a href="#">заказать звонок</a></li>
+      <li><a href="#">отправить на почту</a></li>
+        <li><a href="#">скачать</a></li>
+          </ul>
+  <div class="kostyl"></div>
+  <p class="adress">дом на профсоюзной, 69</p>
+</div>
         </div>
       </div>
     </div>
