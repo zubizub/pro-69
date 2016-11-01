@@ -12,5 +12,5 @@ $('.form__select').each(function () {
 
 $('#popupClose2').on('click', function(){
     $('#ajaxPopupCallBack').fadeOut(200);
-    $('#popupBg').fadeOut(200);
+    //$('#popupBg').fadeOut(200);
 });

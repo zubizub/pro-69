@@ -98,9 +98,9 @@ $(document).ready(function () {
                 $('#ajaxPopups').fadeIn(200);
                 $('#popupBg').fadeIn(200);
                 $('.btn-def').on('click', function(){
-                    $('#ajaxPopups').fadeOut(200);
+                    //$('#ajaxPopups').fadeOut(200);
                     $('#ajaxPopupCallBack').fadeIn(200);
-                    $('#popupBg').fadeIn(200);
+                    //$('#popupBg').fadeIn(200);
                 });
                 return false;
             });
