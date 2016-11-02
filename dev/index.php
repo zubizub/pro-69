@@ -264,10 +264,6 @@ $APPLICATION->SetTitle("Заглавная страница"); ?>
                 <li class="header-link__item call">
                     <a class="btn-callback-header" href="#">Обратный звонок</a>
                 </li>
-                <!--<li class="header-link__item call">-->
-                    <!--<button id="btn-pdf">PDF пример</button>-->
-                <!--</li>-->
-
             </ul>
         </div>
     </header>

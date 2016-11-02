@@ -13,8 +13,8 @@ $(document).ready(function () {
             .done(function (data) {
                 // console.log(data);
                 $('.loft-types__content').html(data);
-
-
+                alert('Успешно отправлено!');
+                $('#ajaxPopupCallBack').fadeOut(200);
             });
 
         return false;
@@ -119,8 +119,12 @@ $(document).ready(function () {
                     $('#callBackLot').val(lot);
                 });
 
-                $(window).trigger('resize');
-                return false;
+                var doc = new jsPDF();
+                var specialElementHandlers = {
+                    '#editor': function (element, renderer) {
+                        return true;
+                    }
+                };
             });
 
         return false;

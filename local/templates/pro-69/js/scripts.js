@@ -32,17 +32,3 @@ $('.btn-callback-header').on('click', function(){
 //        }
 //    }
 //});
-
-var doc = new jsPDF();
-var specialElementHandlers = {
-    '#editor': function (element, renderer) {
-        return true;
-    }
-};
-
-$('#btn-pdf').click(function () {
-    doc.fromHTML($('#content').html(), 15, 15, {
-        'elementHandlers': specialElementHandlers
-    });
-    doc.save('sample-file.pdf');
-});

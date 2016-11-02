@@ -338,6 +338,20 @@ ul.gallery2Switch {
     }
 }
 
+@media screen and (max-height: 700px) {
+
+    #ajaxPopups {
+        top: 0 !important;
+        bottom: 0 !important;
+        -webkit-transform: none !important;
+        -moz-transform: none !important;
+        -ms-transform: none !important;
+        -o-transform: none !important;
+        transform: none !important;
+        overflow-y: scroll;
+    }
+}
+
 .title {
     margin-left: 0 !important;
     white-space: normal;
