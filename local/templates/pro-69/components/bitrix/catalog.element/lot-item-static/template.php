@@ -97,6 +97,15 @@ $this->setFrameMode(true);?>
                            src="/local/templates/pro-69/distr/www/f/media/slider1/Pro-69_studio_mini_3.jpg" alt="#">
         </div>
     </div>
+    <div class="popupFooterLeft popupFooterLeft--mobile">
+        <p class="phone">+7 (495) 229-01-51</p>
+        <a class="btn-callback" href="#">Заказать звонок</a>
+
+        <div class="kostyl"></div>
+
+        <div class="kostyl"></div>
+        <p class="adress">дом на профсоюзной, 69</p>
+    </div>
     <script type="text/javascript">
 
         $(document).ready(function () {

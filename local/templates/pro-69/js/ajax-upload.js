@@ -80,10 +80,11 @@ $(document).ready(function () {
     });
 
 
-    $('#popupClose').on('click', function () {
-        $(this).parent().fadeOut(200);
+    $('#popupClose').add('#popupBg').on('click', function () {
+        $('#ajaxPopups').fadeOut(200);
         $('#popupBg').fadeOut(200);
-    })
+    });
+
     $('.ajaxLotItem').on('click', function () {
         var el = $(this).attr('el');
         var lot = $(this).attr('lot');
