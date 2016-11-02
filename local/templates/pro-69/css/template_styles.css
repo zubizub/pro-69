@@ -355,14 +355,20 @@ ul.gallery2Switch {
     display: table;
 }
 
+.entry__content {
+    font-size: 0;
+}
+
 .entry__desc {
-    float: left;
+    display: inline-block;
+    vertical-align: middle;
     width: 50%;
 }
 
 .entry__num {
-    float: right;
+    display: inline-block;
+    vertical-align: middle;
     width: 50%;
-    font-size: 15vw;
+    font-size: 13vw;
     color: #ff5400;
 }
