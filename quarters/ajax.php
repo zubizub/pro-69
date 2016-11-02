@@ -2,7 +2,7 @@
 <? if(!defined("B_PROLOG_INCLUDED") || B_PROLOG_INCLUDED!==true) die(); ?>
 <? //$_REQUEST['ELEMENT_ID'] =33;?>
 <? //print_r($_REQUEST['ELEMENT_ID']);?>
-<? print_r($_REQUEST['action']);?>
+<? //print_r($_REQUEST['action']);?>
 
 <? switch ($_REQUEST['action']) {
 	case 'elementPopup':
