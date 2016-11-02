@@ -288,18 +288,22 @@ ul.horizontal-menu {
     height: 100%;
 }
 
-/*.galleryGroup .slick-slider,*/
-/*.galleryGroup .slick-list,*/
-/*.galleryGroup .slick-slide,*/
-/*.galleryGroup .slick-track,*/
-/*.galleryGroup .fancybox {*/
-/*height: inherit !important;*/
-/*}*/
-
-
-.galleryGroup {
-    min-height: 500px !important;
+.galleryGroup .slick-slider,
+.galleryGroup .slick-list,
+.galleryGroup .slick-slide,
+.galleryGroup .slick-track,
+.galleryGroup .fancybox {
+    height: inherit !important;
 }
+
+.galleryGroup .slick-slide img {
+    object-fit: cover;
+}
+
+
+/*.galleryGroup {*/
+    /*min-height: 500px !important;*/
+/*}*/
 
 ul.gallery2Switch {
     z-index: 100;
@@ -370,5 +374,6 @@ ul.gallery2Switch {
     vertical-align: middle;
     width: 50%;
     font-size: 13vw;
+    letter-spacing: -10px;
     color: #ff5400;
 }
