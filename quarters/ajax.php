@@ -284,7 +284,7 @@
 				$headers= "MIME-Version: 1.0\r\n";
 				$headers .= "Content-type: text/html; charset=utf-8\r\n";
 
-				$text = "Обратный звонок.<br/>
+				$text = "Забронировать.<br/>
 				Профсоюзная, 69: $output[lot]<br/>
 				Имя: $output[name]<br/>
 				Телефон:$output[phone]<br/>
