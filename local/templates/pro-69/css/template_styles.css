@@ -293,6 +293,7 @@ ul.horizontal-menu {
 .galleryGroup .slick-slide,
 .galleryGroup .slick-track,
 .galleryGroup .fancybox {
+    display: block;
     height: inherit !important;
 }
 
