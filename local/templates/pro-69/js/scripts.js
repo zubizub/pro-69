@@ -21,3 +21,26 @@ $('.btn-callback-header').on('click', function(){
     //$('#popupBg').fadeIn(200);
     return false;
 });
+
+//
+//$("[data-fancybox-group]").fancybox({
+//    helpers: {
+//        overlay: {
+//            locked: false
+//        }
+//    }
+//});
+
+var doc = new jsPDF();
+var specialElementHandlers = {
+    '#editor': function (element, renderer) {
+        return true;
+    }
+};
+
+$('#btn-pdf').click(function () {
+    doc.fromHTML($('#content').html(), 15, 15, {
+        'elementHandlers': specialElementHandlers
+    });
+    doc.save('sample-file.pdf');
+});
