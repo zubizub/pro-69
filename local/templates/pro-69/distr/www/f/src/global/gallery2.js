@@ -21,7 +21,6 @@ $(document).ready(function() {
 
     		var group = $(this).attr('data-switch');
 
-    		console.log(group);
 
     		$('.gallery2Switch .switch').removeClass('active');
     		$(this).parent().addClass('active');

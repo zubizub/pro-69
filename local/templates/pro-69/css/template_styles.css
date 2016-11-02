@@ -367,13 +367,13 @@ ul.gallery2Switch {
 .entry__desc {
     display: inline-block;
     vertical-align: middle;
-    width: 50%;
+    width: 40%;
 }
 
 .entry__num {
     display: inline-block;
     vertical-align: middle;
-    width: 50%;
+    width: 60%;
     font-size: 13vw;
     letter-spacing: -10px;
     color: #ff5400;
