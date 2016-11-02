@@ -333,6 +333,10 @@ ul.gallery2Switch {
     white-space: normal;
 }
 
+.five-persent {
+    padding-left: 0;
+    padding-right: 0;
+}
 
 .entry {
     color: #4972b4;
