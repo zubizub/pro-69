@@ -440,10 +440,37 @@ ul.gallery2Switch {
     margin-bottom: 15px;
 }
 
+.popupFooterLeft--mobile {
+    display: none;
+    padding: 0 30px;
+    margin-left: 0;
+    padding-bottom: 20px;
+}
+
+.popupFooterLeft--mobile .btn-callback {
+    margin-bottom: 10px;
+}
+
+.phone {
+    font-family: 'posterizerkgrough' !important;
+}
+
+.adress {
+    font-family: 'posterizerkgrough' !important;
+}
+
 @media screen and (max-width: 1000px) {
 
     .detail__item {
         margin-bottom: 25px;
+    }
+
+    .popupFooterLeft {
+        display: none;
+    }
+
+    .popupFooterLeft--mobile {
+        display: block;
     }
 }
 
