@@ -280,7 +280,7 @@
 				print_r($output);
 				//$output[]
 
-				$subject = "Перезвонить. PRO-69: Лот $output[lot]";
+				$subject = "Забронировать. PRO-69: Лот $output[lot]";
 				$headers= "MIME-Version: 1.0\r\n";
 				$headers .= "Content-type: text/html; charset=utf-8\r\n";
 
