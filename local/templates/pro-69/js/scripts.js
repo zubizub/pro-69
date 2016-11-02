@@ -19,7 +19,7 @@ $('.btn-callback-header').on('click', function(){
     //$('#ajaxPopups').fadeOut(200);
     $('#ajaxPopupCallBack').fadeIn(200);
     var action="callbackSimple";
-    $('#callBackAction').val(action);
+    $('#callbackForm').attr('action', action);
     //$('#popupBg').fadeIn(200);
     return false;
 });
