@@ -23,7 +23,7 @@ div#popupBg {
 }
 
 .popupContent h2 p {
-    font-size: 80px;
+    font-size: 70px;
 }
 
 #popupClose {
@@ -78,8 +78,8 @@ p.item {
     border: 0;
     color: white;
     font-size: 30px;
-    margin-top: 60px;
-    margin-bottom: 30px;
+    margin-top: 30px;
+    margin-bottom: 20px;
     -webkit-border-radius: 50px;
     -moz-border-radius: 50px;
     border-radius: 50px;
@@ -398,4 +398,61 @@ ul.gallery2Switch {
     -o-transform: translateY(-50%);
     transform: translateY(-50%);
     top: 50%;
+}
+
+.detail-wrap:after {
+    clear: both;
+    content: "";
+    display: table;
+}
+
+.detail {
+
+}
+
+@media screen and (max-width: 1000px) {
+    .detail {
+        display: inline-block;
+        vertical-align: top;
+        margin-left: 20px;
+    }
+
+    .plan {
+        height: auto;
+        padding: 20px 0;
+    }
+
+    .sliderCard .slick-next,
+    .sliderCard .slick-prev {
+        top: 50%;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .detail {
+        display: block;
+        vertical-align: top;
+        margin-left: 0;
+    }
+}
+
+.detail__item {
+    margin-bottom: 15px;
+}
+
+@media screen and (max-width: 1000px) {
+
+    .detail__item {
+        margin-bottom: 25px;
+    }
+}
+
+
+.detail__line {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.detail__title {
+    margin-bottom: 5px;
 }
