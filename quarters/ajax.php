@@ -253,7 +253,7 @@
 				print_r($output);
 				//$output[]
 
-				$subject = "Перезвонить. Профсоюзная, 69: $output[lot] ";
+				$subject = "Перезвонить. PRO-69: Лот $output[lot] ";
 				$headers= "MIME-Version: 1.0\r\n";
 				$headers .= "Content-type: text/html; charset=utf-8\r\n";
 
@@ -280,11 +280,11 @@
 				print_r($output);
 				//$output[]
 
-				$subject = "Перезвонить. Профсоюзная, 69:  $output[lot]";
+				$subject = "Забронировать. PRO-69: Лот $output[lot]";
 				$headers= "MIME-Version: 1.0\r\n";
 				$headers .= "Content-type: text/html; charset=utf-8\r\n";
 
-				$text = "Обратный звонок.<br/>
+				$text = "Забронировать.<br/>
 				Профсоюзная, 69: $output[lot]<br/>
 				Имя: $output[name]<br/>
 				Телефон:$output[phone]<br/>
