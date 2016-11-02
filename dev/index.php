@@ -856,6 +856,8 @@ $APPLICATION->SetTitle("Заглавная страница"); ?>
 
 <script type="text/javascript" charset="UTF-8" src="/local/templates/pro-69/distr/www/f/min/libs.min.js"></script>
 <script type="text/javascript" charset="UTF-8" src="/local/templates/pro-69/distr/www/f/min/global.min.js"></script>
+<script type="text/javascript" charset="UTF-8" src="vivus.js"></script>
+<script type="text/javascript" charset="UTF-8" src="/local/templates/pro-69/distr/www/f/src/global/gallery2.js"></script>
 <script type="text/javascript" charset="UTF-8" src="/local/templates/pro-69/distr/www/f/src/global/popupLoft.js"></script>
 <script type="text/javascript" charset="UTF-8" src="/local/templates/pro-69/distr/www/f/src/global/callBack.js"></script>
 <!--<script type="text/javascript" charset="UTF-8" src="/local/templates/pro-69/js/ajax.js"></script>-->
