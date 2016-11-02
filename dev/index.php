@@ -80,6 +80,8 @@ $APPLICATION->SetTitle("Заглавная страница"); ?>
                 время.
             </div>
             <form class="form" id="callbackForm" action="#">
+                <input type="hidden" name="action" id="callBackAction">
+                <input type="hidden" name="lot" id="callBackLot">
                 <div class="form__group">
                     <div class="form__col">
                         <div class="form__field">

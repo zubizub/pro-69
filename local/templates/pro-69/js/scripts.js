@@ -18,6 +18,8 @@ $('#popupClose2').on('click', function(){
 $('.btn-callback-header').on('click', function(){
     //$('#ajaxPopups').fadeOut(200);
     $('#ajaxPopupCallBack').fadeIn(200);
+    var action="callbackSimple";
+    $('#callbackForm').attr('action', action);
     //$('#popupBg').fadeIn(200);
     return false;
 });

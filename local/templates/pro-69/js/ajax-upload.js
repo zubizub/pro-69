@@ -2,7 +2,7 @@ $(document).ready(function () {
 
 
     $(document).on('submit', '.popup .form', function () {
-        var action = $(this).attr('id');
+        var action = $(this).attr('action');
         var data = $(this).serialize();
 
         $.post("/quarters/ajax.php", {
@@ -106,10 +106,16 @@ $(document).ready(function () {
 
                 $('.btn-callback').on('click', function() {
                     $('.popup--callback .popup__title').text('Обратный звонок');
+                    var action="callbackCard";
+                    $('#callbackForm').attr('action', action);
+                    $('#callBackLot').val(lot);
                 });
 
                 $('.btn-def').on('click', function() {
                     $('.popup--callback .popup__title').text('Забронировать');
+                    var action="callbackReserve";
+                    $('#callbackForm').attr('action', action);
+                    $('#callBackLot').val(lot);
                 });
 
                 $(window).trigger('resize');
