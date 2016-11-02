@@ -2,7 +2,7 @@ $(document).ready(function () {
 
 
     $(document).on('submit', '.popup .form', function () {
-        var action = $(this).attr('id');
+        var action = $(this).attr('action');
         var data = $(this).serialize();
 
         $.post("/quarters/ajax.php", {
