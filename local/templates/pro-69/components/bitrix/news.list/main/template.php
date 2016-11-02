@@ -24,10 +24,10 @@ $this->setFrameMode(true);
 <!--   <div class="content__item five-persent"> -->
 <div>
     <div class="entry" id="<?=$this->GetEditAreaId($arItem['ID']);?>">
-      <div class="entry__title"><?=$arItem["NAME"]?></div>
+      <div class="entry__title fp title"><?=$arItem["NAME"]?></div>
       <div class="entry__content">
-        <div class="entry__desc"><?=$arItem['PREVIEW_TEXT'];?></div>
-        <div class="entry__num">-<?= $arItem['PROPERTIES']['DISCOUNT']['VALUE'];?>%</div>
+        <div class="entry__desc text"><?=$arItem['PREVIEW_TEXT'];?></div>
+        <div class="entry__num fg">-<?= $arItem['PROPERTIES']['DISCOUNT']['VALUE'];?>%</div>
       </div>
     </div>
 </div>

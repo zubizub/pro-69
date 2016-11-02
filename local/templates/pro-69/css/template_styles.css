@@ -328,3 +328,30 @@ ul.gallery2Switch {
         width: 100% !important;
     }
 }
+
+.entry {
+    color: #4972b4;
+}
+
+.entry__title {
+    font-size: 1.3vw;
+    line-height: 1.3;
+}
+
+.entry__content:after {
+    clear: both;
+    content: "";
+    display: table;
+}
+
+.entry__desc {
+    float: left;
+    width: 50%;
+}
+
+.entry__num {
+    float: right;
+    width: 50%;
+    font-size: 15vw;
+    color: #ff5400;
+}
