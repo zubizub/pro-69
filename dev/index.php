@@ -822,7 +822,7 @@ $APPLICATION->SetTitle("Заглавная страница"); ?>
 
                 </div>
 
-                <div class="content__item block_white mobile overflowBlock">
+                <div class="content__item block_white mobile overflowBlock show-room">
                     <div class="slide blue sblock ">
                     <span class="fp fs36 tBlue">
                     Офис-продаж<br>

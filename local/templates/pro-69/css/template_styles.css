@@ -401,7 +401,7 @@ ul.gallery2Switch {
 @media screen and (min-width: 1600px) {
 
     .entry__num {
-        font-size: 10vw;
+        font-size: 7vw;
     }
 }
 
@@ -496,4 +496,8 @@ ul.gallery2Switch {
 
 .detail__title {
     margin-bottom: 5px;
+}
+
+.show-room {
+    overflow: visible !important;
 }
