@@ -106,10 +106,16 @@ $(document).ready(function () {
 
                 $('.btn-callback').on('click', function() {
                     $('.popup--callback .popup__title').text('Обратный звонок');
+                    var action="callbackCard";
+                    $('#callBackAction').val(action);
+                    $('callBackLot').val(lot);
                 });
 
                 $('.btn-def').on('click', function() {
                     $('.popup--callback .popup__title').text('Забронировать');
+                    var action="callbackReserve";
+                    $('#callBackAction').val(action);
+                    $('callBackLot').val(lot);
                 });
 
                 $(window).trigger('resize');

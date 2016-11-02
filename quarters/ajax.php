@@ -215,7 +215,7 @@
                     </div>
 		<?break;
 
-			case 'callbackForm':?>
+			case 'callbackSimple':?>
 		
 
 				<?
@@ -225,12 +225,11 @@
 				print_r($output);
 				//$output[]
 
-				$subject = "Перезвонить. S#12: $output[lot]";
+				$subject = "Перезвонить.Перезвонить. PRO69 ";
 				$headers= "MIME-Version: 1.0\r\n";
 				$headers .= "Content-type: text/html; charset=utf-8\r\n";
 
 				$text = "Обратный звонок.<br/>
-				Studio#12: $output[lot]<br/>
 				Имя: $output[name]<br/>
 				Телефон:$output[phone]<br/>
 				Время звонка: c $output[fromClock] до $output[toClock]<br/>
@@ -243,6 +242,63 @@
 				?>
 
 		<?break;
+
+			case 'callbackCard':?>
+		
+
+				<?
+				//print_r($_REQUEST);
+				parse_str($_REQUEST['data'], $output);
+
+				print_r($output);
+				//$output[]
+
+				$subject = "Перезвонить. S#69: $output[lot]";
+				$headers= "MIME-Version: 1.0\r\n";
+				$headers .= "Content-type: text/html; charset=utf-8\r\n";
+
+				$text = "Обратный звонок.<br/>
+				Studio#69: $output[lot]<br/>
+				Имя: $output[name]<br/>
+				Телефон:$output[phone]<br/>
+				Время звонка: c $output[fromClock] до $output[toClock]<br/>
+				Комментарий: $output[comments].";
+
+				//mail("nobody@example.com", $subject, $text, "From: webmaster@$SERVER_NAME", "-fwebmaster@$SERVER_NAME");
+				mail("zubizubwork@gmail.com, sergokorovets@gmail.com", $subject, $text, $headers);
+				
+
+				?>
+
+		<?break;	case 'callbackReserve':?>
+		
+
+				<?
+				//print_r($_REQUEST);
+				parse_str($_REQUEST['data'], $output);
+
+				print_r($output);
+				//$output[]
+
+				$subject = "Перезвонить. S#69: $output[lot]";
+				$headers= "MIME-Version: 1.0\r\n";
+				$headers .= "Content-type: text/html; charset=utf-8\r\n";
+
+				$text = "Обратный звонок.<br/>
+				Studio#69: $output[lot]<br/>
+				Имя: $output[name]<br/>
+				Телефон:$output[phone]<br/>
+				Время звонка: c $output[fromClock] до $output[toClock]<br/>
+				Комментарий: $output[comments].";
+
+				//mail("nobody@example.com", $subject, $text, "From: webmaster@$SERVER_NAME", "-fwebmaster@$SERVER_NAME");
+				mail("zubizubwork@gmail.com, sergokorovets@gmail.com", $subject, $text, $headers);
+				
+
+				?>
+
+		<?break;
+
 			case 'send_me_email':?>
 		
 <? $element = $_REQUEST['ELEMENT_ID'];?>
