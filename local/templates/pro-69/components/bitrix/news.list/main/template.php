@@ -22,17 +22,26 @@ $this->setFrameMode(true);
                 
 
 <!--   <div class="content__item five-persent"> -->
-<div class="slide" id="<?=$this->GetEditAreaId($arItem['ID']);?>">
+
+<div class="entry" id="<?=$this->GetEditAreaId($arItem['ID']);?>">
+  <div class="entry__title"><?=$arItem["NAME"]?></div>
+  <div class="entry__content">
+    <div class="entry__desc"><?=$arItem['PREVIEW_TEXT'];?></div>
+    <div class="entry__num">-<?= $arItem['PROPERTIES']['DISCOUNT']['VALUE'];?>%</div>
+  </div>
+</div>
+
+<!-- <div class="slide">
               <div class="five-persent__left-block block_white" style="display: inline-block; width: 50%;">
-                <div class="fp  title"  style="margin-bottom: 15px;"><?=$arItem["NAME"]?></div>
+                <div class="fp  title"  style="margin-bottom: 15px;"></div>
                 <div class="text">
-                  <?=$arItem['PREVIEW_TEXT'];?></div>
+                  </div>
               </div>
               <div class="five-persent__right-block" style="display: inline-block; width: 50%; margin-left: -5px;">
-                <span class="fg orange">-5<?= $arItem['PROPERTIES']['DISCOUNT']['VALUE'];?>%</span>
+                <span class="fg orange">-5%</span>
               </div>
-            <!-- </div> -->
-</div>
+            <!-- </div>
+</div> -->
 
 <? endforeach;?>
 
