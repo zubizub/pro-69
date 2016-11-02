@@ -20,7 +20,7 @@ $this->setFrameMode(true);
   $i=0;
   $arSections = array();
   $arFilter = Array('IBLOCK_ID'=>$arParams['IBLOCK_ID'], 'GLOBAL_ACTIVE'=>'Y', );
-  $db_list = CIBlockSection::GetList(Array($by=>$order), $arFilter, true);
+  $db_list = CIBlockSection::GetList(Array("SORT"=>"ASC"), $arFilter, true);
   
     while($ar_result = $db_list->GetNext())
   { ?>
