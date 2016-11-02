@@ -14,7 +14,7 @@ $(document).ready(function () {
                 // console.log(data);
                 $('.loft-types__content').html(data);
                 $('#ajaxPopupCallBack').fadeOut(200);
-
+                $('.popup .form').trigger('reset');
             });
 
         return false;
