@@ -4,6 +4,8 @@
 <? //print_r($_REQUEST['ELEMENT_ID']);?>
 <? //print_r($_REQUEST['action']);?>
 
+<? $recepients = "INFO@PRO-69.RU, o.kargina@pro-69.ru, zubizubwork@gmail.com, sergokorovets@gmail.com"; ?>
+
 <? switch ($_REQUEST['action']) {
 	case 'elementPopup':
 
@@ -236,7 +238,7 @@
 				Комментарий: $output[comments].";
 
 				//mail("nobody@example.com", $subject, $text, "From: webmaster@$SERVER_NAME", "-fwebmaster@$SERVER_NAME");
-				mail("zubizubwork@gmail.com, sergokorovets@gmail.com", $subject, $text, $headers);
+				mail($recepients, $subject, $text, $headers);
 				
 
 				?>
@@ -265,7 +267,7 @@
 				Комментарий: $output[comments].";
 
 				//mail("nobody@example.com", $subject, $text, "From: webmaster@$SERVER_NAME", "-fwebmaster@$SERVER_NAME");
-				mail("zubizubwork@gmail.com, sergokorovets@gmail.com", $subject, $text, $headers);
+				mail($recepients, $subject, $text, $headers);
 				
 
 				?>
@@ -292,7 +294,7 @@
 				Комментарий: $output[comments].";
 
 				//mail("nobody@example.com", $subject, $text, "From: webmaster@$SERVER_NAME", "-fwebmaster@$SERVER_NAME");
-				mail("zubizubwork@gmail.com, sergokorovets@gmail.com", $subject, $text, $headers);
+				mail($recepients, $subject, $text, $headers);
 				
 
 				?>
