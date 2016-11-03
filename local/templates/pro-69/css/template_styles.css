@@ -1,6 +1,25 @@
-* {
-    outline: none;
-}
+.example {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-transition: all .5s;
+    -moz-transition: all .5s;
+    -o-transition: all .5s;
+    transition: all .5s;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background: -webkit-gradient(linear, left top, left bottom, from(white), to(black));
+    background: -webkit-linear-gradient(top, white, black);
+    background: -moz-linear-gradient(top, white, black);
+    background: -o-linear-gradient(top, white, black);
+    background: linear-gradient(to bottom, white, black);
+}* {
+     outline: none;
+ }
 
 
 
@@ -253,22 +272,21 @@ ul.horizontal-menu {
 
 #ajaxPopups {
     display: none;
-    left: 0 !important;
+    left: 50% !important;
     right: 0 !important;
     top: 50% !important;
-    -webkit-transform: translateY(-50%);
-    -moz-transform: translateY(-50%);
-    -ms-transform: translateY(-50%);
-    -o-transform: translateY(-50%);
-    transform: translateY(-50%);
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
     margin: 0 auto;
     position: fixed;
     bottom: auto;
     color: white;
     background: #ffffff;
-    max-width: 1000px;
+    width: 1000px;
     z-index: 5000;
-    float: left;
 }
 
 .btn-callback {
@@ -324,6 +342,7 @@ ul.gallery2Switch {
         -o-transform: none !important;
         transform: none !important;
         overflow-y: scroll;
+        width: 100%;
     }
 
     #cardLoft > div:first-child,
@@ -343,6 +362,7 @@ ul.gallery2Switch {
     #ajaxPopups {
         top: 0 !important;
         bottom: 0 !important;
+        left: 0 !important;
         -webkit-transform: none !important;
         -moz-transform: none !important;
         -ms-transform: none !important;
@@ -500,4 +520,38 @@ ul.gallery2Switch {
 
 .show-room {
     overflow: visible !important;
+}
+
+.slider .slick-prev,
+.slider .slick-next,
+.sliderCard .slick-prev,
+.sliderCard .slick-next {
+    top: 50% !important;
+}
+
+.slider .slick-prev:before,
+.slider .slick-next:before ,
+.sliderCard .slick-prev:before,
+.sliderCard .slick-next:before {
+    position: static !important;
+    height: 50px !important;
+}
+
+.slider .slick-prev,
+.slider .slick-next,
+.sliderCard .slick-prev,
+.sliderCard .slick-next {
+    height: 50px !important;
+    overflow: hidden;
+}
+
+.sliderCard .slick-prev,
+.slider .slick-prev {
+    left: 2rem;
+}
+
+.sliderCard .slick-next,
+.slider .slick-next {
+    right: 2rem;
+    margin-top: 25px;
 }
