@@ -238,7 +238,7 @@
 				Комментарий: $output[comments].";
 
 				//mail("nobody@example.com", $subject, $text, "From: webmaster@$SERVER_NAME", "-fwebmaster@$SERVER_NAME");
-				mail($recepients,, $subject, $text, $headers);
+				mail($recepients, $subject, $text, $headers);
 				
 
 				?>
