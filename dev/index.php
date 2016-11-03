@@ -269,35 +269,30 @@ $APPLICATION->SetTitle("Заглавная страница"); ?>
     </header>
     <div role="main" id="content" class="content">
         <div class="logo"><img class="" src="/local/templates/pro-69/distr/www/f/media/logo.jpg" alt="#"></div>
-        <div class="flip-container slider_wrapper content__item">
-            <div class="flipper">
-                <div class="front" style="background: orange;">
-
+        <div class="slider_wrapper content__item">
+            <div class="slider slider--large">
+                <div class="">
+                    <a class="fancybox" rel="gallery1"
+                       href="/local/templates/pro-69/distr/www/f/media/slider1/Pro-69_studio_mini_1.jpg" title="">
+                        <img src="/local/templates/pro-69/distr/www/f/media/slider1/Pro-69_studio_mini_1.jpg"
+                             alt=""/>
+                    </a>
                 </div>
-                <div class="back slider slider--large">
-                    <div class="">
-                        <a class="fancybox" rel="gallery1"
-                           href="/local/templates/pro-69/distr/www/f/media/slider1/Pro-69_studio_mini_1.jpg" title="">
-                            <img src="/local/templates/pro-69/distr/www/f/media/slider1/Pro-69_studio_mini_1.jpg"
-                                 alt=""/>
-                        </a>
-                    </div>
 
-                    <div class="">
-                        <a class="fancybox" rel="gallery1"
-                           href="/local/templates/pro-69/distr/www/f/media/slider1/Pro-69_studio_mini_2.jpg" title="">
-                            <img src="/local/templates/pro-69/distr/www/f/media/slider1/Pro-69_studio_mini_2.jpg"
-                                 alt=""/>
-                        </a>
-                    </div>
+                <div class="">
+                    <a class="fancybox" rel="gallery1"
+                       href="/local/templates/pro-69/distr/www/f/media/slider1/Pro-69_studio_mini_2.jpg" title="">
+                        <img src="/local/templates/pro-69/distr/www/f/media/slider1/Pro-69_studio_mini_2.jpg"
+                             alt=""/>
+                    </a>
+                </div>
 
-                    <div class="">
-                        <a class="fancybox" rel="gallery1"
-                           href="/local/templates/pro-69/distr/www/f/media/slider1/Pro-69_studio_mini_3.jpg" title="">
-                            <img src="/local/templates/pro-69/distr/www/f/media/slider1/Pro-69_studio_mini_3.jpg"
-                                 alt=""/>
-                        </a>
-                    </div>
+                <div class="">
+                    <a class="fancybox" rel="gallery1"
+                       href="/local/templates/pro-69/distr/www/f/media/slider1/Pro-69_studio_mini_3.jpg" title="">
+                        <img src="/local/templates/pro-69/distr/www/f/media/slider1/Pro-69_studio_mini_3.jpg"
+                             alt=""/>
+                    </a>
                 </div>
             </div>
         </div>
@@ -561,37 +556,31 @@ $APPLICATION->SetTitle("Заглавная страница"); ?>
 
         </div>
 
-        <div class="content__item west flip-container">
-            <div class="flipper">
-                <div class="front" style="background: orange;">
+        <div class="content__item west">
+            <div class="slide block-double">
+                <div class="block">
+                    <div>
+                        <span class="fp fs29smaller">Жить в престижном районе.</span>
+
+                        <p class="fg upper">юго-запад <span>москвы</span></p>
+                    </div>
                 </div>
-                <div class="back">
-                    <div class="slide block-double">
-                        <div class="block">
-                            <div>
-                                <span class="fp fs29smaller">Жить в престижном районе.</span>
+                <div class="block block_white">
+                    <div>
+                        <span class="fp fs28">Вблизи Дома на Профсоюзной<br>находится: </span>
 
-                                <p class="fg upper">юго-запад <span>москвы</span></p>
-                            </div>
-                        </div>
-                        <div class="block block_white">
-                            <div>
-                                <span class="fp fs28">Вблизи Дома на Профсоюзной<br>находится: </span>
-
-                                <div>
-                                    <ul class="fp fs20">
-                                        <li>Три супермаркета</li>
-                                        <li>Два торговых центра</li>
-                                        <li>Кафе и рестораны</li>
-                                        <li>Школы и детские сады</li>
-                                    </ul>
-                                    <ul class="fp fs20">
-                                        <li>Медицинские учреждения</li>
-                                        <li>Институты МГФЮА и РГАИС</li>
-                                        <li>Отделения банков</li>
-                                    </ul>
-                                </div>
-                            </div>
+                        <div>
+                            <ul class="fp fs20">
+                                <li>Три супермаркета</li>
+                                <li>Два торговых центра</li>
+                                <li>Кафе и рестораны</li>
+                                <li>Школы и детские сады</li>
+                            </ul>
+                            <ul class="fp fs20">
+                                <li>Медицинские учреждения</li>
+                                <li>Институты МГФЮА и РГАИС</li>
+                                <li>Отделения банков</li>
+                            </ul>
                         </div>
                     </div>
                 </div>
