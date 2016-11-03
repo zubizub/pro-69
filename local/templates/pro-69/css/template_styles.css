@@ -253,22 +253,21 @@ ul.horizontal-menu {
 
 #ajaxPopups {
     display: none;
-    left: 0 !important;
+    left: 50% !important;
     right: 0 !important;
     top: 50% !important;
-    -webkit-transform: translateY(-50%);
-    -moz-transform: translateY(-50%);
-    -ms-transform: translateY(-50%);
-    -o-transform: translateY(-50%);
-    transform: translateY(-50%);
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
     margin: 0 auto;
     position: fixed;
     bottom: auto;
     color: white;
     background: #ffffff;
-    max-width: 1000px;
+    width: 1000px;
     z-index: 5000;
-    float: left;
 }
 
 .btn-callback {
@@ -324,6 +323,7 @@ ul.gallery2Switch {
         -o-transform: none !important;
         transform: none !important;
         overflow-y: scroll;
+        width: 100%;
     }
 
     #cardLoft > div:first-child,
@@ -343,6 +343,7 @@ ul.gallery2Switch {
     #ajaxPopups {
         top: 0 !important;
         bottom: 0 !important;
+        left: 0 !important;
         -webkit-transform: none !important;
         -moz-transform: none !important;
         -ms-transform: none !important;
@@ -500,4 +501,8 @@ ul.gallery2Switch {
 
 .show-room {
     overflow: visible !important;
+}
+
+.slider .slick-prev, .slider .slick-next, .sliderCard .slick-prev, .sliderCard .slick-next {
+    top: 50% !important;
 }
