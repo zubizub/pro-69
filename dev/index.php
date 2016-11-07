@@ -264,11 +264,11 @@ $APPLICATION->SetTitle("Заглавная страница"); ?>
                 <li class="header-link__item header-link">+7 (495) 229-01-51</li>
                 <li class="header-link__item call header-link-call">
                     <a class="header-link" href="mailto:INFO@PRO-69.RU">INFO@PRO-69.RU</a>
-                    <a class="header-icon header-call-icon" href="mailto:INFO@PRO-69.RU"></a>
+                    <a class="header-icon header-call-icon btn-callback-header" href="#"></a>
                 </li>
                 <li class="header-link__item call header-link-mail">
                     <a class="btn-callback-header" href="#">Обратный звонок</a>
-                    <a class="header-icon header-mail-icon btn-callback-header" href="#"></a>
+                    <a class="header-icon header-mail-icon" href="mailto:INFO@PRO-69.RU"></a>
                 </li>
             </ul>
         </div>
