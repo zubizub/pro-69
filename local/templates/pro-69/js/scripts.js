@@ -32,3 +32,25 @@ $('.btn-callback-header').on('click', function(){
 //        }
 //    }
 //});
+
+(function() {
+    $(".header-link-choose").on("click", function(){
+        var anchor = $(this).attr("href");
+        $("html, body").stop().animate({
+            scrollTop: $(anchor).offset().top
+        }, 300);
+        return false;
+    });
+})();
+
+(function() {
+    var headerHeight = $(".header").outerHeight();
+
+    $(".choose-mobile").on("click", function(){
+        var anchor = $(this).attr("href");
+        $("html, body").stop().animate({
+            scrollTop: $(anchor).offset().top - headerHeight
+        }, 300);
+        return false;
+    });
+})();

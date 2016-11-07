@@ -554,3 +554,165 @@ ul.gallery2Switch {
 .slider .slick-next {
     right: 2rem;
 }
+
+.header {
+    background-color: #ff5400;
+    color: #ffffff !important;
+}
+
+.header a,
+.header-link {
+    color: #ffffff;
+}
+
+.header-link__text {
+    font-size: 32px;
+    vertical-align: middle;
+}
+
+.header-link-middle {
+    position: relative;
+    top: -4px;
+}
+
+.header_link__item_first {
+    color: #4972b4;
+}
+
+.logo-mobile {
+    width: 93px;
+    height: 94px;
+    display: none;
+}
+
+.header-icon {
+    display: none;
+}
+
+.header-call-icon {
+    background: url('../img/header-call-icon.png') no-repeat 0 0;
+    width: 48px;
+    height: 41px;
+}
+
+.header-mail-icon {
+    background: url('../img/header-mail-icon.png') no-repeat 0 0;
+    width: 47px;
+    height: 33px;
+}
+
+.choose-mobile {
+    position: fixed;
+    bottom: -3px;
+    left: 0;
+    right: 0;
+    display: none;
+    max-width: 480px;
+    margin: 0 auto;
+}
+
+@media only screen and (max-width: 1000px) {
+
+    .header_link__item_first {
+        display: none;
+    }
+
+    .header-link__item,
+    .header-link__item a {
+        font-size: 2vw !important;
+    }
+
+    .header-link__item {
+        position: relative;
+        top: 4px;
+    }
+
+    .header-link-middle {
+        top: -5px !important;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+
+    #ajaxPopups {
+        z-index: 100000;
+    }
+
+    #ajaxPopupCallBack {
+        z-index: 200000;
+    }
+
+    #content {
+        padding-top: 94px;
+    }
+
+    .header {
+        height: 94px;
+        position: fixed;
+        left: 0;
+        right: 0;
+        top: 0;
+        z-index: 20000;
+        box-sizing: border-box;
+        padding: 0;
+    }
+
+    .header-link-middle {
+        display: none;
+    }
+
+    .header-column {
+        /*position: relative;*/
+        /*top: 50%;*/
+        /*transform: translateY(-50%);*/
+    }
+
+    .logo {
+        display: none !important;
+    }
+
+    .logo-mobile {
+        display: inline-block;
+        vertical-align: middle;
+    }
+
+    .header-link__list {
+        width: auto;
+    }
+
+    .header-link__item,
+    .header-link__item a {
+        font-size: 28px !important;
+    }
+
+    .header-link__item.call a {
+        display: none;
+    }
+
+    .header-link__item {
+        top: -4px !important;
+    }
+
+    .header-icon {
+        display: block;
+    }
+
+    .header-link-call {
+        position: relative;
+        top: -10px !important;
+    }
+
+    .header-link__item.call {
+        margin: 0 5%;
+    }
+
+    .choose-mobile {
+        display: block;
+        z-index: 5000;
+    }
+
+    #loft-table {
+        position: relative;
+        z-index: 6000;
+    }
+}

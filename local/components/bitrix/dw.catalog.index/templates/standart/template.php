@@ -7,7 +7,7 @@ if (is_array($arResult['ITEMS']) && count($arResult['ITEMS']) > 0):
 
 <div class="section section--lofts is-colored">
               <div class="section__inner">
-                
+
                   <div class="lots">
                     <div class="lots__info">
                       <div class="lots__info-col">
@@ -51,10 +51,10 @@ if (is_array($arResult['ITEMS']) && count($arResult['ITEMS']) > 0):
 
     <div class="lots__hidden">
   <?endif;?>
-  
-					<a 
-          class="lot ajaxLotItem <?=$additionClass;?>" 
-          href="<?=$arItem['DETAIL_URL']?>" 
+
+					<a
+          class="lot ajaxLotItem <?=$additionClass;?>"
+          href="<?=$arItem['DETAIL_URL']?>"
           el="<?=$arItem['ID'];?>"
           lot="<?=$arItem['PROPS']['LOT']['VALUE'];?>"
           object-id="<?=$arItem['PROPS']['SITE_ID']['VALUE'];?>">
@@ -79,7 +79,7 @@ if (is_array($arResult['ITEMS']) && count($arResult['ITEMS']) > 0):
 	endforeach;
 ?>
 				</div>
-			
+
 			<div class="lots__inner">
 				<div class="lots__inner">
 			        <div class="lots__control"><a class="more-items" href="#">Еще <span><?=$count;?></span></a></div>
