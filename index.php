@@ -1,5 +1,8 @@
 <? require_once($_SERVER["DOCUMENT_ROOT"]."/bitrix/modules/main/include/prolog_before.php");
-$APPLICATION->SetTitle("Заглавная страница"); ?>
+$APPLICATION->SetPageProperty("description", "Дом на Профсоюзной, 69 -  это светлые и удобные студии!");
+$APPLICATION->SetPageProperty("keywords", "Дом на Профсоюзной, 69  - это светлые и удобные студии!");
+$APPLICATION->SetPageProperty("title", "Дом на Профсоюзной, 69");
+$APPLICATION->SetTitle("Дом на Профсоюзной, 69"); ?>
 <? if(!defined("B_PROLOG_INCLUDED") || B_PROLOG_INCLUDED!==true) die(); ?>
 
 <!DOCTYPE html>
@@ -7,7 +10,6 @@ $APPLICATION->SetTitle("Заглавная страница"); ?>
 <!DOCTYPE html>
 <html lang="ru-RU">
 <head>
-    <title>Заглавная страница</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes, maximum-scale=3.0">
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <meta http-equiv="cleartype" content="on">
@@ -20,7 +22,7 @@ $APPLICATION->SetTitle("Заглавная страница"); ?>
     <!-- Windows Phone -->
     <meta name="application-name" content="Заглавная страница">
     <!-- End Windows Phone -->
-    <title><?$APPLICATION->ShowTitle()?></title>
+    <title><?=$APPLICATION->ShowTitle()?></title>
     <meta name="author" content="Akado">
     <link rel="stylesheet" type="text/css" href="/local/templates/pro-69/css/select2.min.css" media="all">
     <link rel="stylesheet" type="text/css" href="/local/templates/pro-69/css/vlad_sasha.css" media="all">
@@ -692,9 +694,9 @@ $APPLICATION->SetTitle("Заглавная страница"); ?>
                     "AJAX_OPTION_STYLE" => "Y",
                     "AJAX_OPTION_HISTORY" => "N",
                     "AJAX_OPTION_ADDITIONAL" => "",
-                    "SET_BROWSER_TITLE" => "Y",
-                    "SET_META_KEYWORDS" => "Y",
-                    "SET_META_DESCRIPTION" => "Y",
+                    "SET_BROWSER_TITLE" => "N",
+                    "SET_META_KEYWORDS" => "N",
+                    "SET_META_DESCRIPTION" => "N",
                     "ADD_SECTIONS_CHAIN" => "Y",
                     "PARENT_SECTION" => "",
                     "PARENT_SECTION_CODE" => "",
