@@ -611,6 +611,13 @@ ul.gallery2Switch {
     margin: 0 auto;
 }
 
+@media only screen and (max-width: 1240px) {
+
+    .header_link__item_first {
+        display: none;
+    }
+}
+
 @media only screen and (max-width: 1000px) {
 
     .header_link__item_first {
