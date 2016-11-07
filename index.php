@@ -1,5 +1,5 @@
 <? require_once($_SERVER["DOCUMENT_ROOT"]."/bitrix/modules/main/include/prolog_before.php");
-$APPLICATION->SetTitle("Дом на Профсоюзной, 69"); ?>
+$APPLICATION->SetTitle("Заглавная страница"); ?>
 <? if(!defined("B_PROLOG_INCLUDED") || B_PROLOG_INCLUDED!==true) die(); ?>
 
 <!DOCTYPE html>
@@ -253,51 +253,52 @@ $APPLICATION->SetTitle("Дом на Профсоюзной, 69"); ?>
 <div id="wrapper" class="wrapper">
     <header id="header" class="header">
         <div class="header-column">
+            <img class="logo-mobile" src="/local/templates/pro-69/img/logo-mobile.jpg" alt="PRO-69.RU">
             <ul class="header-link__list">
                 <li class="header-link__item header-link__item_address header_link__item_first">
                     Дом на профсоюзной, 69
                 </li>
-                <li class="header-link__item header-link">+7 (495) 229-01-51</li>
-                <li class="header-link__item call">
-                    <a class="header-link" href="mailto:INFO@PRO-69.RU">INFO@PRO-69.RU</a>
+                <li class="header-link__item header-link header-link-middle">
+                    <a href="#loft-table" class="header-link-choose">Выбрать <span class="fg header-link__text">Студию</span></a>
                 </li>
-                <li class="header-link__item call">
+                <li class="header-link__item header-link">+7 (495) 229-01-51</li>
+                <li class="header-link__item call header-link-call">
+                    <a class="header-link" href="mailto:INFO@PRO-69.RU">INFO@PRO-69.RU</a>
+                    <a class="header-icon header-call-icon btn-callback-header" href="#"></a>
+                </li>
+                <li class="header-link__item call header-link-mail">
                     <a class="btn-callback-header" href="#">Обратный звонок</a>
+                    <a class="header-icon header-mail-icon" href="mailto:INFO@PRO-69.RU"></a>
                 </li>
             </ul>
         </div>
     </header>
     <div role="main" id="content" class="content">
         <div class="logo"><img class="" src="/local/templates/pro-69/distr/www/f/media/logo.jpg" alt="#"></div>
-        <div class="flip-container slider_wrapper content__item">
-            <div class="flipper">
-                <div class="front" style="background: orange;">
-
+        <div class="slider_wrapper content__item">
+            <div class="slider slider--large">
+                <div class="">
+                    <a class="fancybox" rel="gallery1"
+                       href="/local/templates/pro-69/distr/www/f/media/slider1/Pro-69_studio_mini_1.jpg" title="">
+                        <img src="/local/templates/pro-69/distr/www/f/media/slider1/Pro-69_studio_mini_1.jpg"
+                             alt=""/>
+                    </a>
                 </div>
-                <div class="back slider slider--large">
-                    <div class="">
-                        <a class="fancybox" rel="gallery1"
-                           href="/local/templates/pro-69/distr/www/f/media/slider1/Pro-69_studio_mini_1.jpg" title="">
-                            <img src="/local/templates/pro-69/distr/www/f/media/slider1/Pro-69_studio_mini_1.jpg"
-                                 alt=""/>
-                        </a>
-                    </div>
 
-                    <div class="">
-                        <a class="fancybox" rel="gallery1"
-                           href="/local/templates/pro-69/distr/www/f/media/slider1/Pro-69_studio_mini_2.jpg" title="">
-                            <img src="/local/templates/pro-69/distr/www/f/media/slider1/Pro-69_studio_mini_2.jpg"
-                                 alt=""/>
-                        </a>
-                    </div>
+                <div class="">
+                    <a class="fancybox" rel="gallery1"
+                       href="/local/templates/pro-69/distr/www/f/media/slider1/Pro-69_studio_mini_2.jpg" title="">
+                        <img src="/local/templates/pro-69/distr/www/f/media/slider1/Pro-69_studio_mini_2.jpg"
+                             alt=""/>
+                    </a>
+                </div>
 
-                    <div class="">
-                        <a class="fancybox" rel="gallery1"
-                           href="/local/templates/pro-69/distr/www/f/media/slider1/Pro-69_studio_mini_3.jpg" title="">
-                            <img src="/local/templates/pro-69/distr/www/f/media/slider1/Pro-69_studio_mini_3.jpg"
-                                 alt=""/>
-                        </a>
-                    </div>
+                <div class="">
+                    <a class="fancybox" rel="gallery1"
+                       href="/local/templates/pro-69/distr/www/f/media/slider1/Pro-69_studio_mini_3.jpg" title="">
+                        <img src="/local/templates/pro-69/distr/www/f/media/slider1/Pro-69_studio_mini_3.jpg"
+                             alt=""/>
+                    </a>
                 </div>
             </div>
         </div>
@@ -561,37 +562,31 @@ $APPLICATION->SetTitle("Дом на Профсоюзной, 69"); ?>
 
         </div>
 
-        <div class="content__item west flip-container">
-            <div class="flipper">
-                <div class="front" style="background: orange;">
+        <div class="content__item west">
+            <div class="slide block-double">
+                <div class="block">
+                    <div>
+                        <span class="fp fs29smaller">Жить в престижном районе.</span>
+
+                        <p class="fg upper">юго-запад <span>москвы</span></p>
+                    </div>
                 </div>
-                <div class="back">
-                    <div class="slide block-double">
-                        <div class="block">
-                            <div>
-                                <span class="fp fs29smaller">Жить в престижном районе.</span>
+                <div class="block block_white">
+                    <div>
+                        <span class="fp fs28">Вблизи Дома на Профсоюзной<br>находится: </span>
 
-                                <p class="fg upper">юго-запад <span>москвы</span></p>
-                            </div>
-                        </div>
-                        <div class="block block_white">
-                            <div>
-                                <span class="fp fs28">Вблизи Дома на Профсоюзной<br>находится: </span>
-
-                                <div>
-                                    <ul class="fp fs20">
-                                        <li>Три супермаркета</li>
-                                        <li>Два торговых центра</li>
-                                        <li>Кафе и рестораны</li>
-                                        <li>Школы и детские сады</li>
-                                    </ul>
-                                    <ul class="fp fs20">
-                                        <li>Медицинские учреждения</li>
-                                        <li>Институты МГФЮА и РГАИС</li>
-                                        <li>Отделения банков</li>
-                                    </ul>
-                                </div>
-                            </div>
+                        <div>
+                            <ul class="fp fs20">
+                                <li>Три супермаркета</li>
+                                <li>Два торговых центра</li>
+                                <li>Кафе и рестораны</li>
+                                <li>Школы и детские сады</li>
+                            </ul>
+                            <ul class="fp fs20">
+                                <li>Медицинские учреждения</li>
+                                <li>Институты МГФЮА и РГАИС</li>
+                                <li>Отделения банков</li>
+                            </ul>
                         </div>
                     </div>
                 </div>
@@ -780,8 +775,8 @@ $APPLICATION->SetTitle("Дом на Профсоюзной, 69"); ?>
 
                         <div class="clear clearfix"></div>
                         <div class="rel">
-                            <a href="javascript:void(0);" class=""><img
-                                    src="/local/templates/pro-69/distr/www/f/media/plans/plan1.png">
+                            <a href="javascript:void(0);" class="">
+                                <img src="/local/templates/pro-69/distr/www/f/media/plans/plan1.png">
                                 <!--   <span class="fp fs26 blockSelect"></span> -->
                             </a>
                         </div>
@@ -847,14 +842,16 @@ $APPLICATION->SetTitle("Дом на Профсоюзной, 69"); ?>
         </div>
 
     </div>
-    <div id="editor"></div>
 
 </div>
+
+<a href="#loft-table" class="choose-mobile">
+    <img src="/local/templates/pro-69/img/choose-mobile.png">
+</a>
 
 
 <script type="text/javascript" charset="UTF-8" src="/local/templates/pro-69/distr/www/f/min/libs.min.js"></script>
 <script type="text/javascript" charset="UTF-8" src="/local/templates/pro-69/distr/www/f/min/global.min.js"></script>
-<script type="text/javascript" charset="UTF-8" src="vivus.js"></script>
 <script type="text/javascript" charset="UTF-8" src="/local/templates/pro-69/distr/www/f/src/global/gallery2.js"></script>
 <script type="text/javascript" charset="UTF-8" src="/local/templates/pro-69/distr/www/f/src/global/popupLoft.js"></script>
 <script type="text/javascript" charset="UTF-8" src="/local/templates/pro-69/distr/www/f/src/global/callBack.js"></script>
@@ -967,55 +964,5 @@ $APPLICATION->SetTitle("Дом на Профсоюзной, 69"); ?>
     });
 
 </script>
-
-
-<script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-
-  ga('create', 'UA-73821457-4', 'auto');
-  ga('send', 'pageview');
-
-</script>
-
-<script type="text/javascript">
-(function ct_load_script() {
-var ct = document.createElement('script'); ct.type = 'text/javascript';
-ct.src = document.location.protocol+'//cc.calltracking.ru/phone.931ff.3696.async.js?nc='+Math.floor(new Date().getTime()/300000);
-var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ct, s);
-})();
-</script>
-            <!-- Yandex.Metrika counter -->
-<script type="text/javascript">
-    (function (d, w, c) {
-        (w[c] = w[c] || []).push(function() {
-            try {
-                w.yaCounter40652559 = new Ya.Metrika({
-                    id:40652559,
-                    clickmap:true,
-                    trackLinks:true,
-                    accurateTrackBounce:true,
-                    webvisor:true
-                });
-            } catch(e) { }
-        });
-
-        var n = d.getElementsByTagName("script")[0],
-            s = d.createElement("script"),
-            f = function () { n.parentNode.insertBefore(s, n); };
-        s.type = "text/javascript";
-        s.async = true;
-        s.src = "https://mc.yandex.ru/metrika/watch.js";
-
-        if (w.opera == "[object Opera]") {
-            d.addEventListener("DOMContentLoaded", f, false);
-        } else { f(); }
-    })(document, window, "yandex_metrika_callbacks");
-</script>
-<noscript><div><img src="https://mc.yandex.ru/watch/40652559" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
-<!-- /Yandex.Metrika counter -->
-
 </body>
 </html>

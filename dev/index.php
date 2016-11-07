@@ -253,16 +253,22 @@ $APPLICATION->SetTitle("Заглавная страница"); ?>
 <div id="wrapper" class="wrapper">
     <header id="header" class="header">
         <div class="header-column">
+            <img class="logo-mobile" src="/local/templates/pro-69/img/logo-mobile.jpg" alt="PRO-69.RU">
             <ul class="header-link__list">
                 <li class="header-link__item header-link__item_address header_link__item_first">
                     Дом на профсоюзной, 69
                 </li>
-                <li class="header-link__item header-link">+7 (495) 229-01-51</li>
-                <li class="header-link__item call">
-                    <a class="header-link" href="mailto:INFO@PRO-69.RU">INFO@PRO-69.RU</a>
+                <li class="header-link__item header-link header-link-middle">
+                    <a href="#loft-table" class="header-link-choose">Выбрать <span class="fg header-link__text">Студию</span></a>
                 </li>
-                <li class="header-link__item call">
+                <li class="header-link__item header-link">+7 (495) 229-01-51</li>
+                <li class="header-link__item call header-link-call">
+                    <a class="header-link" href="mailto:INFO@PRO-69.RU">INFO@PRO-69.RU</a>
+                    <a class="header-icon header-call-icon btn-callback-header" href="#"></a>
+                </li>
+                <li class="header-link__item call header-link-mail">
                     <a class="btn-callback-header" href="#">Обратный звонок</a>
+                    <a class="header-icon header-mail-icon" href="mailto:INFO@PRO-69.RU"></a>
                 </li>
             </ul>
         </div>
@@ -769,8 +775,8 @@ $APPLICATION->SetTitle("Заглавная страница"); ?>
 
                         <div class="clear clearfix"></div>
                         <div class="rel">
-                            <a href="javascript:void(0);" class=""><img
-                                    src="/local/templates/pro-69/distr/www/f/media/plans/plan1.png">
+                            <a href="javascript:void(0);" class="">
+                                <img src="/local/templates/pro-69/distr/www/f/media/plans/plan1.png">
                                 <!--   <span class="fp fs26 blockSelect"></span> -->
                             </a>
                         </div>
@@ -836,9 +842,12 @@ $APPLICATION->SetTitle("Заглавная страница"); ?>
         </div>
 
     </div>
-    <div id="editor"></div>
 
 </div>
+
+<a href="#loft-table" class="choose-mobile">
+    <img src="/local/templates/pro-69/img/choose-mobile.png">
+</a>
 
 
 <script type="text/javascript" charset="UTF-8" src="/local/templates/pro-69/distr/www/f/min/libs.min.js"></script>
