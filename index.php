@@ -20,7 +20,7 @@ $APPLICATION->SetTitle("Заглавная страница"); ?>
     <!-- Windows Phone -->
     <meta name="application-name" content="Заглавная страница">
     <!-- End Windows Phone -->
-    <title><?=$APPLICATION->SetTitle();?> </title>
+    <title><?$APPLICATION->ShowTitle()?></title>
     <meta name="author" content="Akado">
     <link rel="stylesheet" type="text/css" href="/local/templates/pro-69/css/select2.min.css" media="all">
     <link rel="stylesheet" type="text/css" href="/local/templates/pro-69/css/vlad_sasha.css" media="all">
