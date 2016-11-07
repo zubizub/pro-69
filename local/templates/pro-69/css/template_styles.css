@@ -693,8 +693,8 @@ ul.gallery2Switch {
         top: -4px !important;
     }
 
-    .header-icon {
-        display: block;
+    a.header-icon {
+        display: block !important;
     }
 
     .header-link-call {
