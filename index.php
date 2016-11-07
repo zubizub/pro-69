@@ -20,7 +20,7 @@ $APPLICATION->SetTitle("Дом на Профсоюзной, 69"); ?>
     <!-- Windows Phone -->
     <meta name="application-name" content="Заглавная страница">
     <!-- End Windows Phone -->
-    <title>Заглавная страница — </title>
+    <title><?=$APPLICATION->SetTitle();?> </title>
     <meta name="author" content="Akado">
     <link rel="stylesheet" type="text/css" href="/local/templates/pro-69/css/select2.min.css" media="all">
     <link rel="stylesheet" type="text/css" href="/local/templates/pro-69/css/vlad_sasha.css" media="all">
