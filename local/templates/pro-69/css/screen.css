@@ -1,0 +1,137 @@
+@media only screen and (max-width: 460px) {
+    .mobile {
+        display: block;
+    }
+
+    .five-persent .title {
+        font-size: 5vw;
+    }
+
+    .entry__desc {
+        width: 65%;
+    }
+
+    .entry__num {
+        width: 35%;
+        text-align: center;
+        font-size: 18vw;
+    }
+
+    .registration {
+        padding-top: 43px !important;
+    }
+
+    .registration .title {
+        font-size: 5vw;
+    }
+
+    .registration .text {
+        font-size: 4vw;
+    }
+
+    .registration .brush {
+        font-size: 15vw;
+    }
+
+    .compact .fg.upper.fs37 {
+        font-size: 10vw;
+    }
+
+    .content__item.block_white.ready {
+        display: block;
+    }
+
+    .content__item.ready .fontIcon {
+        left: 5%;
+        top: 35%;
+        font-size: 100vw;
+    }
+
+    .content__item.ready .cardColorWhite {
+        padding-top: 16%;
+    }
+
+    .content__item.ready .cardColorWhite {
+        padding-left: 12%;
+    }
+
+    .content__item.ready .studioPrice {
+        font-size: 42vw;
+        margin-top: 30px;
+    }
+
+    .content__item.block.readyBlock.mobile-show.overflowBlock .fp.fs36 {
+        font-size: 11vw;
+    }
+
+    .content__item.block.readyBlock.mobile-show.overflowBlock .fp.fs20 {
+        font-size: 5vw;
+        margin-top: 5vh;
+    }
+
+    .fg.upper.studioText--ready {
+        font-size: 29vw;
+        margin-top: 10vh;
+    }
+
+    .blockIcon2.fontIcon.orange {
+        position: absolute;
+        top: -31%;
+        left: 13vw;
+        font-size: 24vw;
+    }
+
+    .west {
+        height: 460px !important;
+    }
+
+    .west .block {
+        width: 100%;
+    }
+
+    .west .block_white {
+        margin-left: 0;
+    }
+
+    .west .fp.fs29smaller {
+        font-size: 7vw;
+    }
+
+    .content__item.west .fg span {
+        display: block;
+        font-size: 16.5vw;
+    }
+
+    .content__item.west .fg {
+
+    }
+
+    .content__item.west ul {
+        float: none;
+        width: 100%;
+    }
+
+    .west .block.block_white span.fp.fs28 {
+        font-size: 4vw;
+        display: block;
+    }
+
+    .west .block.block_white ul.fp.fs20 {
+        font-size: 3vw;
+    }
+
+    .content__item.block.area.mobile-show.autoHeight .fp.fs38,
+    .content__item.block_white.area2.mobile-show.autoHeight .fp.fs38 {
+        font-size: 10vw;
+    }
+
+    .content__item.block_white.mobile-show.overflowBlock .fp.fs20.tBlue.mb50i {
+        font-size: 5vw;
+    }
+}
+
+@media only screen and (max-width: 460px) {
+    .wrapper {
+        min-width: 360px !important;
+    }
+}

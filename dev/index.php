@@ -34,6 +34,7 @@ $APPLICATION->SetTitle("Заглавная страница"); ?>
     <link rel="stylesheet" type="text/css" href="/local/templates/pro-69/js/bx/jquery.bxslider.css" media="all">
     <link rel="stylesheet" type="text/css" href="/local/templates/pro-69/js/fancy/jquery.fancybox.css" media="all">
     <link rel="stylesheet" type="text/css" href="/local/templates/pro-69/css/template_styles.css" media="all">
+    <link rel="stylesheet" type="text/css" href="/local/templates/pro-69/css/screen.css" media="all">
     <link rel="start" href="/">
     <script type="text/javascript" charset="UTF-8" src="/local/templates/pro-69/js/jquery-3.1.1.min.js"></script>
 
