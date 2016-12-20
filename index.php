@@ -66,6 +66,13 @@ $APPLICATION->SetTitle("Дом на Профсоюзной, 69"); ?>
 
     </style>
     <?$APPLICATION->ShowHead()?>
+
+    <script type="text/javascript">
+var __cs = __cs || [];
+__cs.push(["setCsAccount", "u0pg8kOvRIvqObWccVyAQDruqDaNgLVL"]);
+__cs.push(["setCsHost", "//server.comagic.ru/comagic"]);
+</script>
+<script type="text/javascript" async src="//app.comagic.ru/static/cs.min.js"></script>
 </head>
 <body id="home_page">
 <?$APPLICATION->ShowPanel()?>
@@ -281,6 +288,14 @@ $APPLICATION->SetTitle("Дом на Профсоюзной, 69"); ?>
             <div class="slider slider--large">
                 <div class="">
                     <a class="fancybox" rel="gallery1"
+                       href="/local/templates/pro-69/distr/www/f/media/slider1/Pro-69_studio_mini_3.jpg" title="">
+                        <img src="/local/templates/pro-69/distr/www/f/media/slider1/Pro-69_studio_mini_3.jpg"
+                             alt=""/>
+                    </a>
+                </div>
+
+                <div class="">
+                    <a class="fancybox" rel="gallery1"
                        href="/local/templates/pro-69/distr/www/f/media/slider1/Pro-69_studio_mini_1.jpg" title="">
                         <img src="/local/templates/pro-69/distr/www/f/media/slider1/Pro-69_studio_mini_1.jpg"
                              alt=""/>
@@ -295,13 +310,6 @@ $APPLICATION->SetTitle("Дом на Профсоюзной, 69"); ?>
                     </a>
                 </div>
 
-                <div class="">
-                    <a class="fancybox" rel="gallery1"
-                       href="/local/templates/pro-69/distr/www/f/media/slider1/Pro-69_studio_mini_3.jpg" title="">
-                        <img src="/local/templates/pro-69/distr/www/f/media/slider1/Pro-69_studio_mini_3.jpg"
-                             alt=""/>
-                    </a>
-                </div>
             </div>
         </div>
 
@@ -334,7 +342,8 @@ $APPLICATION->SetTitle("Дом на Профсоюзной, 69"); ?>
                 <span class="fg upper fs37">миллионов рублей</span>
             </div>
             <div class="slide">
-                <span class="fp fs53">Просторные<br>двухкомнатные<br>студии</span>
+                <!-- <span class="fp fs53">Просторные<br>двухкомнатные<br>студии</span> -->
+                <span class="fp fs53">Просторные<br>студии</span>
                 <span class="fg upper studioPrice">от<span>4,9</span></span>
                 <span class="fg upper fs37">миллионов рублей</span>
             </div>
@@ -513,7 +522,8 @@ $APPLICATION->SetTitle("Дом на Профсоюзной, 69"); ?>
 
         <div class="content__item block_white area2 mobile-show autoHeight">
             <div class="slide blue sblock">
-                <span class="fp fs38 tBlue">Просторные<br>двухкомнатные<br>студии</span>
+               <!--  <span class="fp fs38 tBlue">Просторные<br>двухкомнатные<br>студии</span> -->
+                <span class="fp fs38 tBlue">Просторные<br>студии</span>
 
                 <div class="clear clearfix"></div>
                 <div class="rel area2">
@@ -534,7 +544,8 @@ $APPLICATION->SetTitle("Дом на Профсоюзной, 69"); ?>
                     69
                     </span>
                     <span class="fp fs20 tBlue mb50i">
-                        10:00—19:00<br/>
+                        Вт-сб с 11 до 20<br/>
+                        <!-- Вс и пн – выходной<br/> -->
                         2 этаж, офис 201
                     </span>
 
@@ -548,7 +559,7 @@ $APPLICATION->SetTitle("Дом на Профсоюзной, 69"); ?>
         </div>
         <div class="content__item block readyBlock mobile-show overflowBlock">
             <div class="slide blue sblock ">
-                <span class="fp fs36">Готовая<br/>квартира<br/> с отделкой!</span>
+                <span class="fp fs36">Готовая<br/>студия<br/> с отделкой!</span>
                     <span class="fp fs20">
 
                         Предлагаем качественную<br/>
@@ -787,7 +798,7 @@ $APPLICATION->SetTitle("Дом на Профсоюзной, 69"); ?>
 
                 <div class="content__item block_white area2 autoHeight">
                     <div class="slide blue sblock">
-                        <span class="fp fs38 tBlue">Просторные<br>двухкомнатные<br>студии</span>
+                        <span class="fp fs38 tBlue">Просторные<br>студии</span>
 
                         <div class="clear clearfix"></div>
                         <div class="rel area2">
@@ -803,7 +814,7 @@ $APPLICATION->SetTitle("Дом на Профсоюзной, 69"); ?>
 
                 <div class="content__item block readyBlock mobile overflowBlock">
                     <div class="slide blue sblock ">
-                        <span class="fp fs36">Готовая<br/>квартира<br/> с отделкой!</span>
+                        <span class="fp fs36">Готовая<br/>студия<br/> с отделкой!</span>
                     <span class="fp fs20">
 
                         Предлагаем качественную<br/>
@@ -827,7 +838,8 @@ $APPLICATION->SetTitle("Дом на Профсоюзной, 69"); ?>
                     69
                     </span>
                     <span class="fp fs20 tBlue mb50i">
-                        10:00—19:00<br/>
+                        Вт-сб с 11 до 20<br/>
+                        <!-- Вс и пн – выходной<br/> -->
                         2 этаж, офис 201
                     </span>
 
@@ -977,13 +989,7 @@ $APPLICATION->SetTitle("Дом на Профсоюзной, 69"); ?>
   ga('send', 'pageview');
 
 </script>
-<script type="text/javascript">
-(function ct_load_script() {
-var ct = document.createElement('script'); ct.type = 'text/javascript';
-ct.src = document.location.protocol+'//cc.calltracking.ru/phone.931ff.3696.async.js?nc='+Math.floor(new Date().getTime()/300000);
-var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ct, s);
-})();
-</script>
+
             
             <!-- Yandex.Metrika counter -->
 <script type="text/javascript">

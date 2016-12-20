@@ -21,7 +21,12 @@ IncludeTemplateLangFile(__FILE__);
   <?$APPLICATION->ShowHead()?>
 
 
-
+<script type="text/javascript">
+var cs = cs || [];
+__cs.push(["setCsAccount", "u0pg8kOvRIvqObWccVyAQDruqDaNgLVL"]);
+__cs.push(["setCsHost", "//server.comagic.ru/comagic"]);
+</script>
+<script type="text/javascript" async src="//app.comagic.ru/static/cs.min.js"></script>
 
 </head> 
   <body class="home-page">

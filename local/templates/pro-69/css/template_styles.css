@@ -723,3 +723,66 @@ ul.gallery2Switch {
         z-index: 6000;
     }
 }
+
+@media only screen and (max-width: 767px) and (orientation: landscape) {
+
+
+    .header {
+    height: 80px;
+   
+    }
+
+    .header-link__item, .header-link__item a {
+        font-size: 19px !important;
+    }
+
+    li.header-link__item.call.header-link-call {
+        width: 30px;
+    }
+
+    .header-call-icon {
+        background: url(../img/header-call-icon.png) no-repeat 0 0;
+        width: 48px;
+        height: 48px;
+        background-size: 62%;
+        background-position: 0 18%;
+    }
+
+    .header-mail-icon {
+        background: url(../img/header-mail-icon.png) no-repeat 0 0;
+        width: 48px;
+        height: 33px;
+        background-size: 70%;
+    }
+
+  .choose-mobile {
+    position: fixed;
+    top: 22px;
+    left: 359px;
+    right: 0;
+    display: block;
+    max-width: 480px;
+    margin: 0 auto;
+    width: 230px;
+    height: 45px;
+    z-index: 99999;
+    }
+
+
+.logo-mobile {
+    width: 80px;
+    height: 80px;
+    
+}
+
+
+#content {
+    padding-top: 80px;
+}
+
+
+}
+
+
+
+
