@@ -10,15 +10,33 @@ if (is_array($arResult['ITEMS']) && count($arResult['ITEMS']) > 0):
                     <div class="lots__list">
                       <div class="lots__inner">
                         <div class="lot lot--header">
-                          <div class="lot__value-0">N</div>
-                          <div class="lot__value-1">Кр.</div>
-                          <div class="lot__value-2">Тип</div>
-                          <div class="lot__value-3">Эт.</div>
-                          <div class="lot__value-4">Пл., М2</div>
-                          <div class="lot__value-5">Цена за М2</div>
-                          <div class="lot__value-6">Стоимость</div>
-                          <div class="lot__value-7">Отд.</div>
-                          <div class="lot__value-8">Статус</div>
+                          <div class="lot__value-0">
+                              <a href="#" class="lot-sort" data-sort="number" data-direction="asc">N</a>
+                          </div>
+                          <div class="lot__value-1">
+                              <a href="#" class="lot-sort" data-sort="wing" data-direction="asc">Кр.</a>
+                          </div>
+                          <div class="lot__value-2">
+                              <a href="#" class="lot-sort" data-sort="type" data-direction="asc">Тип</a>
+                          </div>
+                          <div class="lot__value-3">
+                              <a href="#" class="lot-sort" data-sort="stage" data-direction="asc">Эт.</a>
+                          </div>
+                          <div class="lot__value-4">
+                              <a href="#" class="lot-sort" data-sort="area" data-direction="asc">Пл., М2</a>
+                          </div>
+                          <div class="lot__value-5">
+                              <a href="#" class="lot-sort" data-sort="price" data-direction="asc">Цена за М2</a>
+                          </div>
+                          <div class="lot__value-6">
+                              <a href="#" class="lot-sort" data-sort="cost" data-direction="asc">Стоимость</a>
+                          </div>
+                          <div class="lot__value-7">
+                              <a href="#" class="lot-sort" data-sort="decor" data-direction="asc">Отд.</a>
+                          </div>
+                          <div class="lot__value-8">
+                              <a href="#" class="lot-sort" data-sort="status" data-direction="asc">Статус</a>
+                          </div>
                         </div>
 <div class="lotItems">
 

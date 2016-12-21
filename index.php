@@ -323,11 +323,9 @@ __cs.push(["setCsHost", "//server.comagic.ru/comagic"]);
 
         <div class="content__item block studios">
             <div class="slide blue sblock">
-                <span class="fp fs36">Дом<br/>на Профсоюзной<br/>ждет вас!</span>
-                <span class="fp fs29">Профсоюзная, 69 -<br/>это светлые, удобные<br/>квартиры</span>
-
+                <span class="fp fs36">Профсоюзная, 69 -<br/>это светлые, удобные<br/>квартиры</span>
                 <div class="rel">
-                    <span class="fg upper studioText">студии</span>
+                    <span class="fg upper studioText text-doms">Квартиры</span>
                     <span class="blockIcon1 fontIcon orange">e</span>
                 </div>
 
@@ -482,7 +480,7 @@ __cs.push(["setCsHost", "//server.comagic.ru/comagic"]);
         <div class="content__item block_white ready">
             <div class="slide rel">
                 <span class="fp fs53">Готовность — <br>80%</span>
-                <span class="fp fs29" style="margin-top:30px">Сдача проекта — <br>уже в середине 2017</span>
+                <span class="fp fs29" style="margin-top:30px; line-height: 1.3">Готовая квартира — <br>в середине 2017</span>
                 <span class="fg upper studioPrice z1000">2017</span>
             </div>
         </div>

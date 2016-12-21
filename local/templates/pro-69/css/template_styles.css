@@ -17,11 +17,11 @@
     background: -moz-linear-gradient(top, white, black);
     background: -o-linear-gradient(top, white, black);
     background: linear-gradient(to bottom, white, black);
-}* {
-     outline: none;
- }
+}
 
-
+* {
+    outline: none;
+}
 
 div#popupBg {
     position: fixed;
@@ -119,7 +119,7 @@ p.adress {
 }
 
 li {
-//margin-top: 10px;
+/ / margin-top: 10 px;
 }
 
 a {
@@ -137,7 +137,6 @@ a {
     background-image: url('/local/templates/pro-69/distr/www/img/plan.png');
     background-repeat: no-repeat;
 }
-
 
 .preview {
     width: 100%;
@@ -160,7 +159,6 @@ a {
     padding-top: 15px;
     padding-bottom: 30px;
 }
-
 
 /* Галерея */
 
@@ -211,11 +209,10 @@ ul.horizontal-menu {
     left: 0;
     bottom: 0;
     right: 0;
-    background: rgba(0,0,0, 0.4);
+    background: rgba(0, 0, 0, 0.4);
     overflow: hidden;
     z-index: 6000;
 }
-
 
 .popup__title {
     color: #4972b4 !important;
@@ -319,7 +316,6 @@ ul.horizontal-menu {
     -o-object-fit: cover;
     object-fit: cover;
 }
-
 
 /*.galleryGroup {*/
 /*min-height: 500px !important;*/
@@ -508,7 +504,6 @@ ul.gallery2Switch {
     }
 }
 
-
 .detail__line {
     display: inline-block;
     vertical-align: top;
@@ -530,7 +525,7 @@ ul.gallery2Switch {
 }
 
 .slider .slick-prev:before,
-.slider .slick-next:before ,
+.slider .slick-next:before,
 .sliderCard .slick-prev:before,
 .sliderCard .slick-next:before {
     position: static !important;
@@ -613,6 +608,23 @@ ul.gallery2Switch {
     margin: 0 auto;
 }
 
+.lot-sort {
+    font-size: 16px;
+    display: block;
+}
+
+.lot-sort.active {
+    color: #ffffff;
+}
+
+span.blockIcon1 {
+    top: -90% !important;
+}
+
+.text-doms {
+    font-size: 5vw;
+}
+
 @media only screen and (max-width: 1240px) {
 
     .header_link__item_first {
@@ -638,6 +650,12 @@ ul.gallery2Switch {
 
     .header-link-middle {
         top: -5px !important;
+    }
+}
+
+@media only screen and (max-width: 991px) {
+    .text-doms {
+        font-size: 11vw;
     }
 }
 
@@ -728,10 +746,9 @@ ul.gallery2Switch {
 
 @media only screen and (max-width: 767px) and (orientation: landscape) {
 
-
     .header {
-    height: 80px;
-   
+        height: 80px;
+
     }
 
     .header-link__item, .header-link__item a {
@@ -757,31 +774,28 @@ ul.gallery2Switch {
         background-size: 70%;
     }
 
-  .choose-mobile {
-    position: fixed;
-    top: 22px;
-    left: 359px;
-    right: 0;
-    display: block;
-    max-width: 480px;
-    margin: 0 auto;
-    width: 230px;
-    height: 45px;
-    z-index: 99999;
+    .choose-mobile {
+        position: fixed;
+        top: 22px;
+        left: 359px;
+        right: 0;
+        display: block;
+        max-width: 480px;
+        margin: 0 auto;
+        width: 230px;
+        height: 45px;
+        z-index: 99999;
     }
 
+    .logo-mobile {
+        width: 80px;
+        height: 80px;
 
-.logo-mobile {
-    width: 80px;
-    height: 80px;
-    
-}
+    }
 
-
-#content {
-    padding-top: 80px;
-}
-
+    #content {
+        padding-top: 80px;
+    }
 
 }
 
