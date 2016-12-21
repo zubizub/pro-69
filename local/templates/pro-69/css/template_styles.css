@@ -444,7 +444,7 @@ ul.gallery2Switch {
     .detail {
         display: inline-block;
         vertical-align: top;
-        margin-left: 20px;
+        margin-right: 20px;
     }
 
     .plan {
@@ -639,30 +639,28 @@ span.blockIcon1 {
 
 
 @media only screen and (max-width: 1240px) {
-
     .header_link__item_first {
         display: none;
     }
 }
 
 @media only screen and (max-width: 1000px) {
-
     .header_link__item_first {
         display: none;
     }
-
     .header-link__item,
     .header-link__item a {
         font-size: 2vw !important;
     }
-
     .header-link__item {
         position: relative;
         top: 4px;
     }
-
     .header-link-middle {
         top: -5px !important;
+    }
+    .popupContent {
+        padding-top: 60px;
     }
 }
 
@@ -682,13 +680,8 @@ span.blockIcon1 {
         z-index: 200000;
     }
 
-    #content {
-        padding-top: 94px;
-    }
-
     .header {
         height: 94px;
-        position: fixed;
         left: 0;
         right: 0;
         top: 0;
@@ -810,10 +803,6 @@ span.blockIcon1 {
 
     }
 
-    #content {
-        padding-top: 80px;
-    }
-
 }
 
 @media screen and (max-width: 460px) {
@@ -839,10 +828,10 @@ span.blockIcon1 {
     }
     .content__item.metro .fg {
         font-size: 30vw;
-        margin-top: 10%;
+        margin-top: 5%;
     }
     .content__item.metro .slide span:nth-child(2) {
-        margin-top: 15%;
+        margin-top: 7%;
     }
     .text-week {
         font-size: 5vw;
@@ -886,6 +875,46 @@ span.blockIcon1 {
     }
     .header-phone-text {
         font-size: 7.3vw !important;
+    }
+    .content__item.metro .slide,
+    .entry {
+        padding-left: 0.9375rem;
+    }
+    .content__item.block_white.metro {
+        height: auto !important;
+        padding-bottom: 4%;
+    }
+    .autoHeight {
+        height: auto !important;
+    }
+    .content__item.area2 .fp.fs38.tBlue {
+        font-size: 10.9vw;
+    }
+    .content__item.area2 .fl.fs50.lhCond.tBlue {
+        font-size: 10vw;
+    }
+    .content__item.area2 .fl.fs100.mTopMarg10.tBlue {
+        font-size: 22vw
+    }
+    .galleryGroup .slick-next:hover,
+    .galleryGroup .slick-next:focus,
+    .galleryGroup .slick-prev:hover,
+    .galleryGroup .slick-prev:focus,
+    .galleryGroup .slick-prev,
+    .galleryGroup .slick-next {
+        width: 50px;
+        height: 21px;
+        background-size: cover !important;
+    }
+    .btn-def {
+        font-size: 26px;
+    }
+    .header {
+        position: fixed;
+    }
+
+    #content {
+        padding-top: 94px;
     }
 }
 
