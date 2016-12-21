@@ -474,7 +474,7 @@ __cs.push(["setCsHost", "//server.comagic.ru/comagic"]);
             </div>
             <div class="content__item block_dark-blue registration">
                 <div class="fp title">Мечтаете о собственном жилье?</div>
-                <p class="fp text">Комфортные студии<br>
+                <p class="fp text">Комфортные квартиры<br>
                     c пропиской в Москве.</p>
 
                 <p class="fg brush"><span>+П</span>рописка</div>
