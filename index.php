@@ -268,7 +268,7 @@ __cs.push(["setCsHost", "//server.comagic.ru/comagic"]);
                 <li class="header-link__item header-link header-link-middle">
                     <a href="#loft-table" class="header-link-choose">Выбрать <span class="fg header-link__text">Квартиру</span></a>
                 </li>
-                <li class="header-link__item header-link">+7 (495) 229-01-51</li>
+                <li class="header-link__item header-link header-phone-text">+7 (495) 229-01-51</li>
                 <li class="header-link__item call header-link-call">
                     <a class="header-link" href="mailto:INFO@PRO-69.RU">INFO@PRO-69.RU</a>
                     <a class="header-icon header-call-icon btn-callback-header" href="#"></a>

@@ -878,6 +878,12 @@ span.blockIcon1 {
     .content__item.west ul {
         font-size: 3vw;
     }
+    .header-column {
+        white-space: nowrap;
+    }
+    .header-phone-text {
+        font-size: 7.3vw !important;
+    }
 }
 
 
