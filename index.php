@@ -6,11 +6,9 @@ $APPLICATION->SetTitle("Дом на Профсоюзной, 69"); ?>
 <? if(!defined("B_PROLOG_INCLUDED") || B_PROLOG_INCLUDED!==true) die(); ?>
 
 <!DOCTYPE html>
-
-<!DOCTYPE html>
 <html lang="ru-RU">
 <head>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes, maximum-scale=3.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <meta http-equiv="cleartype" content="on">
     <!-- IE -->
@@ -324,7 +322,7 @@ __cs.push(["setCsHost", "//server.comagic.ru/comagic"]);
         <div class="content__item block studios">
             <div class="slide blue sblock">
                 <span class="fp fs53" style="line-height: 1.1">Дом на <br/>Профсоюзной<br/>ждет вас!</span>
-                <span class="fp fs29">Профсоюзная, 69 -<br/>это светлые, удобные<br/>квартиры</span>
+                <span class="fp fs29">Профсоюзная, 69 -<br/>это светлые, удобные</span>
 
                 <div class="rel">
                     <span class="fg upper studioText text-doms">Квартиры</span>
