@@ -566,13 +566,15 @@ ul.gallery2Switch {
 }
 
 .header-link__text {
-    font-size: 32px;
+    font-size: 28px;
     vertical-align: middle;
+    position: relative;
+    bottom: -1px;
 }
 
 .header-link-middle {
     position: relative;
-    top: -4px;
+    top: -3px;
 }
 
 .header_link__item_first {
@@ -782,7 +784,6 @@ ul.gallery2Switch {
 
 
 }
-
 
 
 

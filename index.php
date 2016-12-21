@@ -268,7 +268,7 @@ __cs.push(["setCsHost", "//server.comagic.ru/comagic"]);
                     Дом на профсоюзной, 69
                 </li>
                 <li class="header-link__item header-link header-link-middle">
-                    <a href="#loft-table" class="header-link-choose">Выбрать <span class="fg header-link__text">Студию</span></a>
+                    <a href="#loft-table" class="header-link-choose">Выбрать <span class="fg header-link__text">Квартиру</span></a>
                 </li>
                 <li class="header-link__item header-link">+7 (495) 229-01-51</li>
                 <li class="header-link__item call header-link-call">
@@ -324,7 +324,7 @@ __cs.push(["setCsHost", "//server.comagic.ru/comagic"]);
         <div class="content__item block studios">
             <div class="slide blue sblock">
                 <span class="fp fs36">Дом<br/>на Профсоюзной<br/>ждет вас!</span>
-                <span class="fp fs29">Профсоюзная, 69 -<br/>это светлые, удобные<br/>студии</span>
+                <span class="fp fs29">Профсоюзная, 69 -<br/>это светлые, удобные<br/>квартиры</span>
 
                 <div class="rel">
                     <span class="fg upper studioText">студии</span>
@@ -335,15 +335,11 @@ __cs.push(["setCsHost", "//server.comagic.ru/comagic"]);
 
         </div>
         <!-- <div class="clear clearfix"></div> -->
-        <div class="content__item block compact dotSlider hide-for-4">
-            <div class="slide">
-                <span class="fp fs53">Компактные<br> и светлые <br/>студии</span>
-                <span class="fg upper studioPrice">от<span>2,9</span></span>
-                <span class="fg upper fs37">миллионов рублей</span>
-            </div>
+        <div class="content__item block compact hide-for-4">
             <div class="slide">
                 <!-- <span class="fp fs53">Просторные<br>двухкомнатные<br>студии</span> -->
-                <span class="fp fs53">Просторные<br>студии</span>
+
+                <span class="fp fs53">1-комнатная квартира<br>с отделкой</span>
                 <span class="fg upper studioPrice">от<span>4,9</span></span>
                 <span class="fg upper fs37">миллионов рублей</span>
             </div>
@@ -486,8 +482,7 @@ __cs.push(["setCsHost", "//server.comagic.ru/comagic"]);
         <div class="content__item block_white ready">
             <div class="slide rel">
                 <span class="fp fs53">Готовность — <br>80%</span>
-                <span class="fontIcon">b</span>
-                <span class="fp fs29 cardColorWhite">Сдача проекта — <br>уже в середине 2017</span>
+                <span class="fp fs29" style="margin-top:30px">Сдача проекта — <br>уже в середине 2017</span>
                 <span class="fg upper studioPrice z1000">2017</span>
             </div>
         </div>
@@ -559,7 +554,7 @@ __cs.push(["setCsHost", "//server.comagic.ru/comagic"]);
         </div>
         <div class="content__item block readyBlock mobile-show overflowBlock">
             <div class="slide blue sblock ">
-                <span class="fp fs36">Готовая<br/>студия<br/> с отделкой!</span>
+                <span class="fp fs36">Готовая<br/>квартира<br/> с отделкой!</span>
                     <span class="fp fs20">
 
                         Предлагаем качественную<br/>

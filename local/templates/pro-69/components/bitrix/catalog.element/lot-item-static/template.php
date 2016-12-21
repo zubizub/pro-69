@@ -18,7 +18,7 @@ $this->setFrameMode(true);?>
 
 <div style="width:40%;position:relatative;display:inline-block;float:left;">
     <div class="popupContent">
-        <h2>Компактная <br>и светлая <p class="studio">студия</p></h2>
+        <h2>Компактная <br>и светлая <p class="studio">Квартира</p></h2>
         <div class="popupInfo">
 
             <div class="detail-wrap">
