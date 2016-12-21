@@ -809,7 +809,7 @@ __cs.push(["setCsHost", "//server.comagic.ru/comagic"]);
 
                 <div class="content__item block readyBlock mobile overflowBlock">
                     <div class="slide blue sblock ">
-                        <span class="fp fs36">Готовая<br/>студия<br/> с отделкой!</span>
+                        <span class="fp fs36">Готовая<br/>квартира<br/> с отделкой!</span>
                     <span class="fp fs20">
 
                         Предлагаем качественную<br/>
