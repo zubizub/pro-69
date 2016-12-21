@@ -323,7 +323,7 @@ __cs.push(["setCsHost", "//server.comagic.ru/comagic"]);
 
         <div class="content__item block studios">
             <div class="slide blue sblock">
-                <span class="fp fs36">Дом<br/>на Профсоюзной<br/>ждет вас!</span>
+                <span class="fp fs53" style="line-height: 1.1">Дом на <br/>Профсоюзной<br/>ждет вас!</span>
                 <span class="fp fs29">Профсоюзная, 69 -<br/>это светлые, удобные<br/>квартиры</span>
 
                 <div class="rel">
