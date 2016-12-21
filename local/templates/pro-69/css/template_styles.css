@@ -353,7 +353,7 @@ ul.gallery2Switch {
     }
 }
 
-@media screen and (max-height: 700px) {
+@media screen and (max-height: 820px) {
 
     #ajaxPopups {
         top: 0 !important;
