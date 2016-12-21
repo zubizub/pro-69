@@ -912,9 +912,11 @@ span.blockIcon1 {
     .header {
         position: fixed;
     }
-
     #content {
         padding-top: 94px;
+    }
+    .compact {
+        background-color: #345385;
     }
 }
 
