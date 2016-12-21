@@ -627,7 +627,7 @@ span.blockIcon1 {
 }
 
 .wrapper {
-    min-width: 320px !important;
+    width: 100%;
 }
 
 @media only screen and (max-width: 1300px) {
@@ -817,9 +817,6 @@ span.blockIcon1 {
 }
 
 @media screen and (max-width: 460px) {
-    .wrapper {
-        min-width: 320px !important;
-    }
     .entry__desc {
         line-height: 1.1 !important;
         width: 50%;
