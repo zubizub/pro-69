@@ -627,7 +627,7 @@ span.blockIcon1 {
 }
 
 .wrapper {
-    min-width: 320px !important;
+    width: 100%;
 }
 
 @media only screen and (max-width: 1300px) {
@@ -816,10 +816,7 @@ span.blockIcon1 {
 
 }
 
-@media only screen and (max-width: 460px) {
-    .wrapper {
-        min-width: 320px !important;
-    }
+@media screen and (max-width: 460px) {
     .entry__desc {
         line-height: 1.1 !important;
         width: 50%;
@@ -849,6 +846,9 @@ span.blockIcon1 {
     }
     .text-week {
         font-size: 5vw;
+    }
+    .text-doms {
+        font-size: 23vw;
     }
     .readyBlock .fp.fs20 {
         font-size: 5vw;
@@ -880,6 +880,12 @@ span.blockIcon1 {
     }
     .content__item.west ul {
         font-size: 3vw;
+    }
+    .header-column {
+        white-space: nowrap;
+    }
+    .header-phone-text {
+        font-size: 7.3vw !important;
     }
 }
 
