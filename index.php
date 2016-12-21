@@ -358,7 +358,7 @@ __cs.push(["setCsHost", "//server.comagic.ru/comagic"]);
 
                         </div>
                     </div> -->
-        <div class="content__item block block-double mobile">
+        <div class="content__item block block-double">
             <div class="content__item five-persent">
                 <?$APPLICATION->IncludeComponent(
                 "bitrix:news",
@@ -538,7 +538,7 @@ __cs.push(["setCsHost", "//server.comagic.ru/comagic"]);
                     на Профсоюзной,<br>
                     69
                     </span>
-                    <span class="fp fs20 tBlue mb50i">
+                    <span class="fp fs20 tBlue mb50i text-week">
                         Вт-сб с 11 до 20<br/>
                         <!-- Вс и пн – выходной<br/> -->
                         2 этаж, офис 201
@@ -854,9 +854,9 @@ __cs.push(["setCsHost", "//server.comagic.ru/comagic"]);
 
 </div>
 
-<a href="#loft-table" class="choose-mobile">
-    <img src="/local/templates/pro-69/img/choose-mobile.png">
-</a>
+<!--<a href="#loft-table" class="choose-mobile">-->
+    <!--<img src="/local/templates/pro-69/img/choose-mobile.png">-->
+<!--</a>-->
 
 
 <script type="text/javascript" charset="UTF-8" src="/local/templates/pro-69/distr/www/f/min/libs.min.js"></script>
