@@ -128,4 +128,42 @@ $(document).ready(function () {
     });
 
 
+  $('.lots__list .lot-sort').click(function(event) {
+    
+    console.log ('fire1');
+        event.preventDefault();
+        var action = 'loft-sort';
+        var sortBy = $(this).attr('data-sort');
+        var direction = $(this).attr('data-direction');
+
+        $(this).attr('data-direction','asc');
+
+        if (direction == 'desc') { 
+            $(this).attr('data-direction','asc');
+        } else { 
+            $(this).attr('data-direction','desc');
+        }
+        
+        $(this).removeClass('active');
+        $(this).addClass('active');
+
+         $.post("/quarters/ajax.php?AJAX=1", {
+
+                sortBy: sortBy,
+                direction: direction,
+                action: action,
+                AJAX: 1
+
+            })
+            .done(function (data) {
+               $('.lotItems').html(data);
+             
+            });
+
+        return false;
+
+    });
+
+
+
 });
