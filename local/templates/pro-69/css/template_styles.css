@@ -847,6 +847,9 @@ span.blockIcon1 {
     .text-week {
         font-size: 5vw;
     }
+    .text-doms {
+        font-size: 23vw;
+    }
     .readyBlock .fp.fs20 {
         font-size: 5vw;
     }
