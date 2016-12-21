@@ -144,7 +144,7 @@ $(document).ready(function () {
             $(this).attr('data-direction','desc');
         }
         
-        $(this).removeClass('active');
+        $('.lots__list .lot-sort').removeClass('active');
         $(this).addClass('active');
 
          $.post("/quarters/ajax.php?AJAX=1", {
