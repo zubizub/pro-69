@@ -521,7 +521,14 @@ ul.gallery2Switch {
 .slider .slick-arrow {
     width: 100px !important;
     height: 50px !important;
+    -webkit-background-size: contain !important;
+    -moz-background-size: contain !important;
+    -o-background-size: contain !important;
     background-size: contain !important;
+    -webkit-transform: translateY(-50%) !important;
+    -moz-transform: translateY(-50%) !important;
+    -ms-transform: translateY(-50%) !important;
+    -o-transform: translateY(-50%) !important;
     transform: translateY(-50%) !important;
     margin: 0 !important;
     top: 55% !important;
@@ -700,6 +707,8 @@ div#ajaxPopups .plan>div img {
         right: 0;
         top: 0;
         z-index: 20000;
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
         box-sizing: border-box;
         padding: 0;
     }
@@ -771,6 +780,10 @@ div#ajaxPopups .plan>div img {
         bottom: 0 !important;
         height: 100%;
         overflow-y: scroll;
+        -webkit-transform: none !important;
+        -moz-transform: none !important;
+        -ms-transform: none !important;
+        -o-transform: none !important;
         transform: none !important;
     }
     div#ajaxPopups .plan {
@@ -789,6 +802,10 @@ div#ajaxPopups .plan>div img {
         bottom: 0 !important;
         height: 100%;
         overflow-y: scroll;
+        -webkit-transform: none !important;
+        -moz-transform: none !important;
+        -ms-transform: none !important;
+        -o-transform: none !important;
         transform: none !important;
     }
     .header-link__item, .header-link__item a {
@@ -803,6 +820,9 @@ div#ajaxPopups .plan>div img {
         background: url(../img/header-call-icon.png) no-repeat 0 0;
         width: 48px;
         height: 48px;
+        -webkit-background-size: 62% 62%;
+        -moz-background-size: 62%;
+        -o-background-size: 62%;
         background-size: 62%;
         background-position: 0 18%;
     }
@@ -811,6 +831,9 @@ div#ajaxPopups .plan>div img {
         background: url(../img/header-mail-icon.png) no-repeat 0 0;
         width: 48px;
         height: 33px;
+        -webkit-background-size: 70% 70%;
+        -moz-background-size: 70%;
+        -o-background-size: 70%;
         background-size: 70%;
     }
 
@@ -932,6 +955,9 @@ div#ajaxPopups .plan>div img {
     .galleryGroup .slick-next {
         width: 50px;
         height: 21px;
+        -webkit-background-size: cover !important;
+        -moz-background-size: cover !important;
+        -o-background-size: cover !important;
         background-size: cover !important;
     }
     .btn-def {
@@ -974,6 +1000,10 @@ div#ajaxPopups .plan>div img {
         bottom: 0 !important;
         height: 100%;
         overflow-y: scroll;
+        -webkit-transform: none !important;
+        -moz-transform: none !important;
+        -ms-transform: none !important;
+        -o-transform: none !important;
         transform: none !important;
     }
     p.phone {
@@ -986,6 +1016,4 @@ div#ajaxPopups .plan>div img {
         font-size: 36px;
     }
 }
-
-
 
