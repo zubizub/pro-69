@@ -536,8 +536,8 @@ ul.gallery2Switch {
 .slider .slick-next,
 .sliderCard .slick-prev,
 .sliderCard .slick-next {
-    height: 50px !important;
-    overflow: hidden;
+    /*height: 50px !important;*/
+    /*overflow: hidden;*/
 }
 
 .sliderCard .slick-prev,
@@ -624,6 +624,10 @@ span.blockIcon1 {
 .text-doms {
     font-size: 5vw;
     letter-spacing: -4px;
+}
+
+.wrapper {
+    min-width: 320px !important;
 }
 
 @media only screen and (max-width: 1300px) {
@@ -751,6 +755,10 @@ span.blockIcon1 {
         position: relative;
         z-index: 6000;
     }
+
+    .text-week {
+        font-size: 3vw;
+    }
 }
 
 @media only screen and (max-width: 767px) and (orientation: landscape) {
@@ -806,6 +814,70 @@ span.blockIcon1 {
         padding-top: 80px;
     }
 
+}
+
+@media only screen and (max-width: 460px) {
+    .entry__desc {
+        line-height: 1.1 !important;
+        width: 50%;
+        font-size: 5vw !important;
+    }
+    .entry__num {
+        font-size: 34vw;
+        width: 50%;
+    }
+    .registration .title {
+        font-size: 6vw;
+    }
+    .registration .text {
+        font-size: 4vw;
+    }
+    .registration .brush,
+    .registration .brush span {
+        font-size: 16vw;
+        margin-top: 5%;
+    }
+    .content__item.metro .fg {
+        font-size: 30vw;
+        margin-top: 10%;
+    }
+    .content__item.metro .slide span:nth-child(2) {
+        margin-top: 15%;
+    }
+    .text-week {
+        font-size: 5vw;
+    }
+    .readyBlock .fp.fs20 {
+        font-size: 5vw;
+    }
+    .readyBlock .blockIcon2.fontIcon.orange {
+        display: none;
+    }
+    .studioText--ready {
+        font-size: 25vw;
+        margin-top: 14%;
+    }
+    .content__item.west {
+        height: auto !important;
+    }
+    .west .block {
+        width: 100%;
+        margin-left: 0;
+        margin-right: 0;
+    }
+    .west .fp.fs29smaller {
+        font-size: 7.6vw;
+    }
+    .west .fp.fs28 {
+        font-size: 5vw;
+    }
+    .content__item.west .fg {
+        font-size: 13vw;
+        padding-top: 5%;
+    }
+    .content__item.west ul {
+        font-size: 3vw;
+    }
 }
 
 
