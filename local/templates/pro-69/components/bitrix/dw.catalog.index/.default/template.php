@@ -4,7 +4,7 @@ if(!defined("B_PROLOG_INCLUDED") || B_PROLOG_INCLUDED!==true) die();
 <?
 if (is_array($arResult['ITEMS']) && count($arResult['ITEMS']) > 0):
 ?>
-
+<? if (!$arResult['AJAX']) : ?>
 <div class="section section--lofts is-colored">
  <!-- <img src="/local/templates/pro-69/distr/www/f/media/reserve.jpg" style="width:100%;"> -->
                     <div class="lots__list">
@@ -21,6 +21,7 @@ if (is_array($arResult['ITEMS']) && count($arResult['ITEMS']) > 0):
                           <div class="lot__value-8">Статус</div>
                         </div>
 <div class="lotItems">
+<? endif; ?>
 
 <?
   $i = 0;
@@ -73,6 +74,7 @@ if (is_array($arResult['ITEMS']) && count($arResult['ITEMS']) > 0):
 <?
 	endforeach;
 ?>
+<? if (!$arResult['AJAX']) : ?>
         </div>
 <div class="lots__inner">
               <!-- <div class="lots__control"><a class="more-items" href="#">Еще <span><?=$count;?></span></a></div> -->
@@ -120,3 +122,4 @@ $('.pagination li a').click(function(){
 
 </script>
 </div>
+<? endif; ?>
