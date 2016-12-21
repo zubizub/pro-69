@@ -71,6 +71,7 @@ __cs.push(["setCsAccount", "u0pg8kOvRIvqObWccVyAQDruqDaNgLVL"]);
 __cs.push(["setCsHost", "//server.comagic.ru/comagic"]);
 </script>
 <script type="text/javascript" async src="//app.comagic.ru/static/cs.min.js"></script>
+<script type="text/javascript" async src="//smartcallback.ru/api/SmartCallBack.js?t=T8ql5x2sti3y4XPWXXh1" charset="utf-8"></script>
 </head>
 <body id="home_page">
 <?$APPLICATION->ShowPanel()?>
