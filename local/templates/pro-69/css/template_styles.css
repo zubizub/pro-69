@@ -623,7 +623,16 @@ span.blockIcon1 {
 
 .text-doms {
     font-size: 5vw;
+    letter-spacing: -4px;
 }
+
+@media only screen and (max-width: 1300px) {
+
+    .text-doms {
+        font-size: 7vw;
+    }
+}
+
 
 @media only screen and (max-width: 1240px) {
 
