@@ -916,7 +916,7 @@ __cs.push(["setCsHost", "//server.comagic.ru/comagic"]);
             $('.slider img').height($('.content__item').height());
             $('.slider').height($('.content__item').height());
             $('.block-double .content__item').height($('.content__item').height() / 2 - 30);
-            $('.west').height($('.content__item').height() / 2);
+            $('.west').height($('.content__item').height());
             $('.west .block').height($('.content__item').height() / 2);
             $('.west .white_block').height($('.content__item').height() / 2);
         }
@@ -925,7 +925,7 @@ __cs.push(["setCsHost", "//server.comagic.ru/comagic"]);
             $('.slider img').height($('.content__item').height());
             $('.slider').height($('.content__item').height());
             $('.block-double .content__item').height($('.content__item').height() / 2 - 60);
-            $('.west').height($('.content__item').height() / 2);
+            $('.west').height($('.content__item').height());
             $('.west .block').height($('.content__item').height() / 2);
             $('.west .white_block').height($('.content__item').height() / 2);
 
@@ -948,7 +948,7 @@ __cs.push(["setCsHost", "//server.comagic.ru/comagic"]);
                 $('.slider img').height($('.content__item').height());
                 $('.slider').height($('.content__item').height());
                 $('.block-double .content__item').height($('.content__item').height() / 2 - 30);
-                $('.west').height($('.content__item').height() / 2);
+                $('.west').height($('.content__item').height());
                 $('.west .block').height($('.content__item').height() / 2);
                 $('.west .white_block').height($('.content__item').height() / 2);
             } else if (width < 991) {
@@ -956,7 +956,7 @@ __cs.push(["setCsHost", "//server.comagic.ru/comagic"]);
                 $('.slider img').height($('.content__item').height());
                 $('.slider').height($('.content__item').height());
                 $('.block-double .content__item').height($('.content__item').height() / 2 - 60);
-                $('.west').height($('.content__item').height() / 2);
+                $('.west').height($('.content__item').height());
                 $('.west .block').height($('.content__item').height() / 2);
                 $('.west .white_block').height($('.content__item').height() / 2);
             } else {

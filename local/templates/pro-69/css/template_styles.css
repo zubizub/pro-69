@@ -629,6 +629,12 @@ span.blockIcon1 {
 div#ajaxPopups .plan>div img {
     max-width: 100% !important;
 }
+.plan {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 20px 30px;
+}
 
 @media only screen and (max-width: 1300px) {
 
@@ -667,6 +673,14 @@ div#ajaxPopups .plan>div img {
 @media only screen and (max-width: 991px) {
     .text-doms {
         font-size: 11vw;
+    }
+    .west {
+        width: 50%;
+    }
+    .west .block {
+        width: 100%;
+        margin-left: 0;
+        margin-right: 0;
     }
 }
 
@@ -751,6 +765,16 @@ div#ajaxPopups .plan>div img {
 
     .text-week {
         font-size: 3vw;
+    }
+    .popup {
+        top: 0 !important;
+        bottom: 0 !important;
+        height: 100%;
+        overflow-y: scroll;
+        transform: none !important;
+    }
+    div#ajaxPopups .plan {
+
     }
 }
 
@@ -858,10 +882,8 @@ div#ajaxPopups .plan>div img {
     .content__item.west {
         height: auto !important;
     }
-    .west .block {
+    .west {
         width: 100%;
-        margin-left: 0;
-        margin-right: 0;
     }
     .west .fp.fs29smaller {
         font-size: 7.6vw;
@@ -947,13 +969,21 @@ div#ajaxPopups .plan>div img {
     .studios {
         height: auto !important;
     }
-
     .popup {
         top: 0 !important;
         bottom: 0 !important;
         height: 100%;
         overflow-y: scroll;
         transform: none !important;
+    }
+    p.phone {
+        font-size: 28px !important;
+    }
+    .popup--callback .popup__inner {
+        padding-top: 65px;
+    }
+    .popup--callback .popup__title {
+        font-size: 36px;
     }
 }
 
