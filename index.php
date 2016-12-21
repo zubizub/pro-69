@@ -340,7 +340,7 @@ __cs.push(["setCsHost", "//server.comagic.ru/comagic"]);
                 <!-- <span class="fp fs53">Просторные<br>двухкомнатные<br>студии</span> -->
 
                 <span class="fp fs53">1-комнатная квартира<br>с отделкой</span>
-                <span class="fg upper studioPrice">от<span>4,9</span></span>
+                <span class="fg upper studioPrice">от<span>5,9</span></span>
                 <span class="fg upper fs37">миллионов рублей</span>
             </div>
         </div>
@@ -498,27 +498,27 @@ __cs.push(["setCsHost", "//server.comagic.ru/comagic"]);
                 <img src="/local/templates/pro-69/distr/www/f/media/69_map.jpg" alt="#">
             </div>
         </div>
-        <div class="content__item block area mobile-show autoHeight">
-            <div class="slide blue sblock">
-                <span class="fp fs38">Компактные<br> и светлые <br/>студии</span>
-                            <span class="fg upper studioText area">
-                                <span class="fl lhCond fs77">от<br/>м<sup>2</sup></span>
-                                <span class="fl fs177 mTopMarg10">17</span></span>
+        <!--<div class="content__item block area mobile-show autoHeight">-->
+            <!--<div class="slide blue sblock">-->
+                <!--<span class="fp fs38">Компактные<br> и светлые <br/>студии</span>-->
+                            <!--<span class="fg upper studioText area">-->
+                                <!--<span class="fl lhCond fs77">от<br/>м<sup>2</sup></span>-->
+                                <!--<span class="fl fs177 mTopMarg10">17</span></span>-->
 
-                <div class="clear clearfix"></div>
-                <div class="rel">
-                    <a href="javascript:void(0);" class=""><img
-                            src="/local/templates/pro-69/distr/www/f/media/plans/plan1.png">
-                        <!--   <span class="fp fs26 blockSelect"></span> -->
-                    </a>
-                </div>
-            </div>
-        </div>
+                <!--<div class="clear clearfix"></div>-->
+                <!--<div class="rel">-->
+                    <!--<a href="javascript:void(0);" class=""><img-->
+                            <!--src="/local/templates/pro-69/distr/www/f/media/plans/plan1.png">-->
+                        <!--&lt;!&ndash;   <span class="fp fs26 blockSelect"></span> &ndash;&gt;-->
+                    <!--</a>-->
+                <!--</div>-->
+            <!--</div>-->
+        <!--</div>-->
 
         <div class="content__item block_white area2 mobile-show autoHeight">
             <div class="slide blue sblock">
                <!--  <span class="fp fs38 tBlue">Просторные<br>двухкомнатные<br>студии</span> -->
-                <span class="fp fs38 tBlue">Просторные<br>студии</span>
+                <span class="fp fs38 tBlue" style="line-height: 1.1;">1-комнатная квартира<br>с отделкой</span>
 
                 <div class="clear clearfix"></div>
                 <div class="rel area2">
@@ -773,27 +773,27 @@ __cs.push(["setCsHost", "//server.comagic.ru/comagic"]);
             <div class="content-block__col_right">
 
 
-                <!--- ИДИ ТЫ НА ХУЙ СО СВОИМ content__item с фиксированной высотой -->
-                <div class="content__item block area autoHeight">
-                    <div class="slide blue sblock">
-                        <span class="fp fs38">Компактные<br> и светлые <br/>студии</span>
-                            <span class="fg upper studioText area">
-                                <span class="fl lhCond fs77">от<br/>м2</span>
-                                <span class="fl fs177 mTopMarg10">17</span></span>
+                <!--&lt;!&ndash;- ИДИ ТЫ НА ХУЙ СО СВОИМ content__item с фиксированной высотой &ndash;&gt;-->
+                <!--<div class="content__item block area autoHeight">-->
+                    <!--<div class="slide blue sblock">-->
+                        <!--<span class="fp fs38">Компактные<br> и светлые <br/>студии</span>-->
+                            <!--<span class="fg upper studioText area">-->
+                                <!--<span class="fl lhCond fs77">от<br/>м2</span>-->
+                                <!--<span class="fl fs177 mTopMarg10">17</span></span>-->
 
-                        <div class="clear clearfix"></div>
-                        <div class="rel">
-                            <a href="javascript:void(0);" class="">
-                                <img src="/local/templates/pro-69/distr/www/f/media/plans/plan1.png">
-                                <!--   <span class="fp fs26 blockSelect"></span> -->
-                            </a>
-                        </div>
-                    </div>
-                </div>
+                        <!--<div class="clear clearfix"></div>-->
+                        <!--<div class="rel">-->
+                            <!--<a href="javascript:void(0);" class="">-->
+                                <!--<img src="/local/templates/pro-69/distr/www/f/media/plans/plan1.png">-->
+                                <!--&lt;!&ndash;   <span class="fp fs26 blockSelect"></span> &ndash;&gt;-->
+                            <!--</a>-->
+                        <!--</div>-->
+                    <!--</div>-->
+                <!--</div>-->
 
                 <div class="content__item block_white area2 autoHeight">
                     <div class="slide blue sblock">
-                        <span class="fp fs38 tBlue">Просторные<br>студии</span>
+                        <span class="fp fs38 tBlue" style="line-height: 1;">1-комнатная квартира<br>с отделкой</span>
 
                         <div class="clear clearfix"></div>
                         <div class="rel area2">
