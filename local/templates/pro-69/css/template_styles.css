@@ -1017,3 +1017,71 @@ div#ajaxPopups .plan>div img {
     }
 }
 
+
+
+
+
+
+.not-page-logo {
+    width: 190px;
+    height: 190px;
+}
+@media only screen and (max-width: 767px) {
+    .not-page-logo {
+        width: 120px;
+        height: 120px;
+    }
+}
+
+.not-page {
+    display: table;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 90px;
+    color: #4972b4;
+}
+
+.not-page__title {
+    font-size: 302px;
+    line-height: 1;
+    font-family: 'sprite_graffiti', sans-serif;
+    letter-spacing: -30px;
+}
+
+@media only screen and (max-width: 767px) {
+    .not-page__title {
+        font-size: 140px;
+        letter-spacing: -10px;
+    }
+}
+
+.not-page__desc {
+    font-size: 28px;
+    line-height: 1;
+    font-family: 'posterizerkgrough', sans-serif;
+    margin-top: -45px;
+    margin-left: 20px;
+}
+
+@media only screen and (max-width: 767px) {
+    .not-page__desc {
+        font-size: 24px;
+        margin-top: -20px;
+        margin-left: 10px;
+    }
+}
+
+.not-page__desc br {
+    display: none;
+}
+
+@media only screen and (max-width: 767px) {
+    .not-page__desc br {
+        display: block;
+    }
+}
+
+.not-page__desc a {
+    text-transform: none;
+    font-size: inherit;
+}
