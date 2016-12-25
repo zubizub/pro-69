@@ -78,14 +78,14 @@ if (is_array($arResult['ITEMS']) && count($arResult['ITEMS']) > 0):
           object-id="<?=$arItem['PROPS']['SITE_ID']['VALUE'];?>">
                           <div class="lot__value-0" data-lot-value="Лот" ><?=$arItem['PROPS']['LOT']['VALUE'];?></div>
                           <!-- <div class="lot__value-1" data-lot-value="Кр" ><?=$arItem['PROPS']['LOT']['VALUE'];?></div> -->
-                          <div class="lot__value-1" data-lot-value="Кр" >Бол.</div>
+                          <div class="lot__value-1" data-lot-value="Крыло" >Бол.</div>
                           <!-- <div class="lot__value-2" data-lot-value="Тип"><?=$arItem['PROPS']['TYPE']['VALUE'];?></div> -->
                           <div class="lot__value-2" data-lot-value="Тип">1-комн.</div>
                           <div class="lot__value-3" data-lot-value="Этаж"><?=$arItem['PROPS']['STAGE']['VALUE'];?></div>
                           <div class="lot__value-4" data-lot-value="Площадь, М2"><?=$arItem['PROPS']['AREA']['VALUE'];?></div>
                           <div class="lot__value-5" data-lot-value="Цена за М2"><?=$arItem['PROPS']['RATE']['VALUE'];?></div>
                           <div class="lot__value-6" data-lot-value="Стоимость"><?=$arItem['PROPS']['PRICE']['VALUE'];?></div>
-                          <div class="lot__value-7" data-lot-value="Отд."><?=$arItem['PROPS']['DECORATION']['VALUE'];?></div>
+                          <div class="lot__value-7" data-lot-value="Отделка"><?=$arItem['PROPS']['DECORATION']['VALUE'];?></div>
                           <div class="lot__value-8" data-lot-value="Статус"><?=$arItem['PROPS']['STATUS']['VALUE'];?></div>
                           
 					</a>

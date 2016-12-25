@@ -805,6 +805,49 @@ div#ajaxPopups .plan>div img {
     div#ajaxPopups .plan {
 
     }
+    .lots__inner {
+        background-color: #345385;
+    }
+    .lot {
+        position: relative;
+        padding-top: 20px !important;
+        padding-bottom: 20px !important;
+    }
+    .lot:after,
+    .lot:before {
+        display: block;
+        content: '';
+        position: absolute;
+        width: 50%;
+        height: 100%;
+        top: 0;
+        bottom: 0;
+    }
+    .lot:after {
+        background-color: #4972b4;
+        left: 0;
+    }
+    .lot:before {
+        background-color: #ffffff;
+        right: 0;
+    }
+    .lot [class^="lot__value-"] {
+        overflow: hidden;
+        z-index: 10;
+        position: relative;
+        color: #4972b4;
+    }
+    .lot [class^="lot__value-"]:before {
+        color: #ffffff;
+        padding-left: 15px;
+    }
+    .lotItems {
+        padding: 0.8rem;
+    }
+    .lot__value-4,
+    .lot__value-6 {
+        color: #ff5400 !important;
+    }
 }
 
 @media only screen and (max-width: 767px) and (orientation: landscape) {
