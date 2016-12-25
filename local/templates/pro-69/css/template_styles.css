@@ -835,7 +835,7 @@ div#ajaxPopups .plan>div img {
         overflow: hidden;
         z-index: 10;
         position: relative;
-        color: #4972b4;
+        color: #ff5400;
     }
     .lot [class^="lot__value-"]:before {
         color: #ffffff;
@@ -843,10 +843,6 @@ div#ajaxPopups .plan>div img {
     }
     .lotItems {
         padding: 0.8rem;
-    }
-    .lot__value-4,
-    .lot__value-6 {
-        color: #ff5400 !important;
     }
 }
 
