@@ -46,9 +46,9 @@ if (is_array($arResult['ITEMS']) && count($arResult['ITEMS']) > 0):
   <? endif; ?>
   <? $count++; ?>
 					<!-- href="<?=$arItem['DETAIL_URL']?>" -->
-          <a 
-          class="lot ajaxLotItem___ <?=$additionClass;?>" 
-          href="javascript:void(0);" 
+          <a
+          class="lot ajaxLotItem <?=$additionClass;?>"
+          href="javascript:void(0);"
           el="<?=$arItem['ID'];?>"
           lot="<?=$arItem['PROPS']['LOT']['VALUE'];?>"
           object-id="<?=$arItem['PROPS']['SITE_ID']['VALUE'];?>">
@@ -63,14 +63,14 @@ if (is_array($arResult['ITEMS']) && count($arResult['ITEMS']) > 0):
                           <div class="lot__value-6" data-lot-value="Стоимость"><?=$arItem['PROPS']['PRICE']['VALUE'];?></div>
                           <div class="lot__value-7" data-lot-value="Отд."><?=$arItem['PROPS']['DECORATION']['VALUE'];?></div>
                           <div class="lot__value-8" data-lot-value="Статус"><?=$arItem['PROPS']['STATUS']['VALUE'];?></div>
-                          
+
 					</a>
 <? if ($count >= $limit || $count ==0) :?>
 
  <? $count=0;?>
     </div>
-  <?endif;?> 
- 
+  <?endif;?>
+
 <?
 	endforeach;
 ?>
@@ -80,13 +80,13 @@ if (is_array($arResult['ITEMS']) && count($arResult['ITEMS']) > 0):
               <!-- <div class="lots__control"><a class="more-items" href="#">Еще <span><?=$count;?></span></a></div> -->
 
               <ul class="pagination">
-              <? 
-             
+              <?
+
               for ($pager=1; $pager < $totalPages; $pager++) { ?>
 
               <li class="active"><a href="javascript:void(0);" page="<?=$pager;?>"><?=$pager;?></a></li>
 
-              <? } ?> 
+              <? } ?>
 
               <? /*echo $pager;  } <? if ($pager=1) :?>
 
@@ -103,7 +103,7 @@ if (is_array($arResult['ITEMS']) && count($arResult['ITEMS']) > 0):
       </div>
 		</div>
 </div>
-<? 
+<?
 endif;?>
 
 <script type="text/javascript">

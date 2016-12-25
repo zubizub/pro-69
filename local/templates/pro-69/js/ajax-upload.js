@@ -86,7 +86,7 @@ $(document).ready(function () {
         $('#popupBg').fadeOut(200);
     });
 
-    $('.ajaxLotItem').on('click', function () {
+    $(document).on('click','.ajaxLotItem', function () {
         var el = $(this).attr('el');
         var lot = $(this).attr('lot');
         //console.log(el);

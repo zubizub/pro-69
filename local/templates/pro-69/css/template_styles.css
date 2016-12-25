@@ -651,6 +651,13 @@ div#ajaxPopups .plan>div img {
     margin-top: 20px;
     font-family: 'posterizerkgrough', sans-serif;
 }
+.lotItems {
+    padding-bottom: 0;
+}
+.pagintaion-wrap {
+    padding-left: 38px;
+    padding-bottom: 30px;
+}
 
 @media only screen and (max-width: 1300px) {
 
@@ -701,6 +708,9 @@ div#ajaxPopups .plan>div img {
 }
 
 @media only screen and (max-width: 767px) {
+    .pagintaion-wrap {
+        padding-left: 15px;
+    }
     .lot-sort-mobile {
         display: block;
         margin-left: 1.25rem;

@@ -99,17 +99,18 @@ if (is_array($arResult['ITEMS']) && count($arResult['ITEMS']) > 0):
 	endforeach;
 ?>
         </div>
-<div class="lots__inner">
+                      </div>
+<div class="lots__inner pagintaion-wrap">
               <!-- <div class="lots__control"><a class="more-items" href="#">Еще <span><?=$count;?></span></a></div> -->
 
               <ul class="pagination">
-              <? 
-             
+              <?
+
               for ($pager=1; $pager < $totalPages; $pager++) { ?>
 
               <li class="active"><a href="javascript:void(0);" page="<?=$pager;?>"><?=$pager;?></a></li>
 
-              <? } ?> 
+              <? } ?>
 
               <? /*echo $pager;  } <? if ($pager=1) :?>
 
@@ -125,7 +126,7 @@ if (is_array($arResult['ITEMS']) && count($arResult['ITEMS']) > 0):
           </div>
       </div>
 		</div>
-</div>
+
 <? 
 endif;?>
 
