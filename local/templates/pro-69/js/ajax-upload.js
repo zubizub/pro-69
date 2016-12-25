@@ -164,6 +164,37 @@ $(document).ready(function () {
 
     });
 
+    $('.lot-sort-mobile').change(function(event) {
 
+
+        event.preventDefault();
+        var action = 'loft-sort';
+
+        var sortBy = $(this).find('option:selected').attr('data-sort');
+        var direction = $(this).find('option:selected').attr('data-direction');
+
+        if (direction == 'desc') {
+            $(this).find('option:selected').attr('data-direction','asc');
+        } else {
+            $(this).find('option:selected').attr('data-direction','desc');
+        }
+
+
+        $.post("/quarters/ajax.php?AJAX=1", {
+
+                sortBy: sortBy,
+                direction: direction,
+                action: action,
+                AJAX: 1
+
+            })
+            .done(function (data) {
+                $('.lotItems').html(data);
+
+            });
+
+        return false;
+
+    });
 
 });
