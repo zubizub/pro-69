@@ -538,7 +538,7 @@ __cs.push(["setCsHost", "//server.comagic.ru/comagic"]);
                     69
                     </span>
                     <span class="fp fs20 tBlue mb50i text-week">
-                        Вт-сб с 11 до 20<br/>
+                        Пн-Вс с 11 до 20<br/>
                         <!-- Вс и пн – выходной<br/> -->
                         2 этаж, офис 201
                     </span>
@@ -832,7 +832,7 @@ __cs.push(["setCsHost", "//server.comagic.ru/comagic"]);
                     69
                     </span>
                     <span class="fp fs20 tBlue mb50i">
-                        Вт-сб с 11 до 20<br/>
+                        Пн-Вс с 11 до 20<br/>
                         <!-- Вс и пн – выходной<br/> -->
                         2 этаж, офис 201
                     </span>
