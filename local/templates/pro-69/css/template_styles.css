@@ -739,10 +739,6 @@ div#ajaxPopups .plan>div img {
         padding: 0;
     }
 
-    .header-link-middle {
-        display: none;
-    }
-
     .header-column {
         /*position: relative;*/
         /*top: 50%;*/
@@ -922,7 +918,11 @@ div#ajaxPopups .plan>div img {
     }
 
 }
-
+@media screen and (max-width: 560px) {
+    .header-link-middle {
+        display: none;
+    }
+}
 @media screen and (max-width: 460px) {
     .entry__desc {
         line-height: 1.1 !important;
