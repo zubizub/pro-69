@@ -780,8 +780,8 @@ div#ajaxPopups .plan>div img {
         top: -10px !important;
     }
 
-    .header-link__item.call {
-        margin: 0 5%;
+    .header-link__item.call + .header-link__item.call {
+        margin-left: 2%;
     }
 
     .choose-mobile {
@@ -849,6 +849,9 @@ div#ajaxPopups .plan>div img {
     }
     .lotItems {
         padding: 0.8rem;
+    }
+    .header-link__item a.header-link-choose {
+        font-size: 16px !important;
     }
 }
 
