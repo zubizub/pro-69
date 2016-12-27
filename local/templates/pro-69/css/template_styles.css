@@ -918,7 +918,7 @@ div#ajaxPopups .plan>div img {
     }
 
 }
-@media screen and (max-width: 560px) {
+@media screen and (max-width: 500px) {
     .header-link-middle {
         display: none;
     }
